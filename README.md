@@ -17,4 +17,4 @@ pnpm dev
 
 GitHub Pages deployment is configured in the root `.github/workflows/update-news.yml`. Select **GitHub Actions** in Pages settings, then dispatch **Update news and publish** on the default branch. The workflow also runs at approximately 08:00 and 20:00 Europe/Stockholm with daylight saving time handling.
 
-Live ingestion and a local production build were verified. A remote GitHub Actions run and Pages deployment have not yet been verified.
+The [live site](https://soucianceeqdamrashti.github.io/AzureDotnetNewsAggregator/) is deployed and verified. The [initial GitHub Actions deployment](https://github.com/SoucianceEqdamRashti/AzureDotnetNewsAggregator/actions/runs/43848910416) passed its tests, ingestion, build, data persistence, and Pages publishing steps.

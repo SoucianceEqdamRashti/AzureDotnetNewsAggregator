@@ -1,6 +1,6 @@
 # Implementation checkpoints
 
-Updated: 2026-11-16. No commits or remote deployment have been performed by the implementation agent.
+Updated: 2026-11-16. Implementation committed and pushed to `main`; GitHub Pages and Actions configured. The initial deployment completed successfully and the public site was verified over HTTPS and in a browser.
 
 ## Completed
 
@@ -35,7 +35,15 @@ Final backend checks passed on SDK **10.0.404**: locked restore, Release build w
 
 Frontend checks passed: 9 Vitest/RTL tests, TypeScript, ESLint, frozen dependency install, production builds at both `/` and `/AzureDotnetNewsAggregator/`, matching packaged JSON, and asset-path verification. Production dependency audit reported no known vulnerabilities. Actionlint 1.7.12 passed both workflow files (shellcheck/pyflakes integrations unavailable and disabled). Local browser loaded the production subpath and displayed articles; the mobile layout stacked filters without horizontal overflow.
 
-Live ingestion was verified: the latest run produced 206 articles from 20 successful sources after current topic rules were reapplied. All eight enabled GitHub release sources were temporarily rate-limited in that run. Individual release API parsing was verified earlier, including paginated Azure SDK responses. All 34 source definitions are present: 28 enabled and 6 disabled. CI supplies its token; authenticated GitHub Actions execution remains unverified.
+Authenticated GitHub Actions ingestion was verified: the first deployment produced 325 articles from 27 successful sources. Aspire followed a repository redirect and hit the unauthenticated rate limit; its configuration now uses the verified canonical `microsoft/aspire` endpoint. All 34 source definitions are present: 28 enabled and 6 disabled. Current run results are recorded in `data/metadata.json`.
+
+The follow-up deployment succeeded with **329 articles, all 28 enabled sources successful, and no failed sources**. Its build and deploy jobs both passed: https://github.com/SoucianceEqdamRashti/AzureDotnetNewsAggregator/actions/runs/43849732988. The final public JSON was checked over HTTPS and the generated data commit synchronized locally.
+
+Live site: https://soucianceeqdamrashti.github.io/AzureDotnetNewsAggregator/
+
+Initial successful build/deployment: https://github.com/SoucianceEqdamRashti/AzureDotnetNewsAggregator/actions/runs/43848910416
+
+Live browser verification confirmed 325 rendered articles and combined category/source/keyword filtering (Azure + Azure Updates + Front Door returned nine matching articles). GitHub's data-only commit was fast-forwarded into the local checkout. Actions retains read-only default permissions, with write permissions granted only to the jobs requiring them. Twice-daily scheduling and manual dispatch are active.
 
 Recovery sequence:
 
@@ -44,6 +52,6 @@ Recovery sequence:
 3. Run README checks. For a failed behavior, reproduce it with an offline fixture and continue Red → Green → Refactor.
 4. Run `validate-sources data`; for rate limits use an environment token or wait for reset. Disable a persistently broken source with a precise reason; do not replace it with guessed URLs or scraping.
 5. Run ingestion and review its metadata, then rebuild. For interrupted writes, rerun before publishing. For concurrent branch changes, rerun from the latest default branch rather than force pushing.
-6. Push/merge through the normal repository process, configure Pages, and dispatch the update workflow. Check that the data commit and deployed artifact match. This is the outstanding external acceptance checkpoint.
+6. Push/merge through the normal repository process and dispatch the update workflow. Check that the data commit and deployed artifact match. Initial external acceptance passed on 2026-11-16; repeat these checks after deployment changes.
 
 Known deliberate limits: no title similarity, no fragile Customer Stories scraping, no guarantee of complete historical backfill, and no cross-device preference sync. Metadata-only commits are expected when a successful check advances the timestamp.

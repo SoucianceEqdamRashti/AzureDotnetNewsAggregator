@@ -1,15 +1,8 @@
 {
-  "lastSuccessfulIngestion": "2026-11-16T09:22:42.159031+00:00",
-  "articleCount": 206,
-  "successfulSources": 20,
+  "lastSuccessfulIngestion": "2026-11-16T10:27:48.5472019+00:00",
+  "articleCount": 325,
+  "successfulSources": 27,
   "failedSources": [
-    "agent-framework",
-    "aspire",
-    "aspnetcore",
-    "azure-sdk-net",
-    "bicep",
-    "efcore",
-    "orleans",
-    "runtime"
+    "aspire"
   ]
 }

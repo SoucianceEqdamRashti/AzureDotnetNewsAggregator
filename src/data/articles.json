@@ -23,6 +23,45 @@
     ]
   },
   {
+    "id": "d9dfa7c69323c2e1668031c08e835e41862637ae9e98258f5b4aafcd286869da",
+    "title": "Azure.ResourceManager.ContainerServiceFleet_1.3.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerServiceFleet_1.3.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-16T05:46:48+00:00",
+    "summary": "## 1.3.0 (2026-11-16) ### Features Added - Upgraded the service API version to \u00602026-11-01\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "7929f5e383f89c51a3d01a117d7ff922dd1635c474d192206e7f8130b17bff54",
+    "title": "Azure.ResourceManager.IotHub_1.2.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.IotHub_1.2.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-16T05:45:22+00:00",
+    "summary": "## 1.2.0 (2026-11-12) ### Features Added - Upgraded API version from \u00602023-06-30\u0060 to \u00602026-11-01\u0060. - Added Azure Device Registry (ADR) integration: \u0060IotHubProperties.DeviceRegistry\u0060 (\u0060IotHubDeviceRegistry\u0060) with \u0060DeviceRegistryIdentity\u0060, \u0060DeviceRegistryLinkingProperties\u0060 and \u0060DeviceRegistryLinkingErrorDetails\u0060. - Added routing to event streams: \u0060RoutingEndpoints.EventStreams\u0060 (\u0060RoutingEventStreamProperties\u0060) and the \u0060EventStreamAuthenticationType\u0060 enum. - Added \u0060IotHubProperties.DeviceHostName\u0060 and \u0060IotHubProperties.ServiceHostName\u0060, which support secure connections over TLS 1.3. - Added \u0060IotHubProperties.IotHubDetailsGatewayVersion\u0060 (\u0060IotHubGatewayVersion\u0060). - Added \u0060CertificateAuthorityResourceId\u0060 to \u0060IotHubCertificateProperties\u0060 and \u0060IotHubCertificatePropertiesWithNonce\u0060. - Added \u0060CreateOrUpdate\u0060/\u0060Update\u0060 overloads that accept an \u0060ETag?\u0060 for \u0060ifMatch\u0060. The existing \u0060string ifMatch\u0060 overloads are retained. - Enabled the new model serialization by using the System.ClientModel, refer t",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "680b26bf94c533c4c9383022026b3add123718ab49985119241d2cb0811a73ad",
+    "title": "Azure.Data.AI_1.1.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Data.AI_1.1.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-14T02:39:16+00:00",
+    "summary": "## 1.1.0-beta.1 (2026-11-13) ### Features Added - Added multimodal embedding operations for text, queries, and document images, with dense, multi-vector, and combined results. - Added inline and link delivery, output encoding and numeric precision selection, and embedding usage and warnings. - Added flattened \u0060GetEmbeddings\u0060 and \u0060GetEmbeddingsAsync\u0060 methods; callers pass request settings directly rather than creating a request options object. - Added .NET overloads that accept anonymous objects or dictionaries as embedding inputs and return typed results, without requiring \u0060EmbeddingInput\u0060 instances. Omitted input kinds default to text; PascalCase members and SDK content kinds are supported, and unknown or duplicate properties are rejected. - Added generic embedding result and usage models, with specialized multimodal implementations. ### Breaking Changes - The default service API version is now \u00602026-11-01-preview\u0060. Select \u0060InferenceClientOptions.ServiceVersion.V2026_10_30\u0060 explicitly",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "622a2de020d20261e1d1866804ba61a5d65bd35a3905b243efc6696c2128a0bf",
     "title": "EF 11 Drops a Redundant Join From Split Queries",
     "url": "https://milanjovanovic.tech/blog/ef-core-11-split-query-redundant-join",
@@ -129,6 +168,30 @@
     ]
   },
   {
+    "id": "cc868e3ee4201aef720133a65a0526724e7ed9946314c7585cb53f3f14c63ab7",
+    "title": "python-1.26.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.26.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-11-13T08:28:16+00:00",
+    "summary": "### Added - **agent-framework-core**: Expose \u0060loop_return_final_only\u0060 on \u0060create_harness_agent()\u0060 so non-streaming callers can request only the final loop response without changing the existing default or streaming behavior ([#10214](https://github.com/microsoft/agent-framework/pull/10214)) - **agent-framework-core**: Add the optional experimental \u0060SecureAgentConfig.message_labeler\u0060 callback for application-owned classification of context-provider messages ([#9876](https://github.com/microsoft/agent-framework/pull/9876)) - **agent-framework-github-copilot**: Support Pydantic models and JSON Schema mappings through \u0060response_format\u0060, including parsed response values in streaming and non-streaming runs ([#9810](https://github.com/microsoft/agent-framework/pull/9810)) - **samples**: Add task-scoped authority middleware guidance and an executable example ([#10215](https://github.com/microsoft/agent-framework/pull/10215)) ### Changed - **agent-framework-github-copilot**: [BREAKING] Require ",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "5b78bf9803f8fd919df202399f365cea618c2bb85d02c8c4f81a9d0e550eb431",
+    "title": "Azure.AI.Extensions.OpenAI_3.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Extensions.OpenAI_3.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-13T00:20:39+00:00",
+    "summary": "## 3.0.0 (2026-11-12) ### Breaking Changes - Removed the synchronous \u0060ProjectResponsesClient.CreateResponseStreaming\u0060 overloads. Use \u0060CreateResponseStreamingAsync\u0060 and asynchronous enumeration. - \u0060ProjectResponsesClient.CreateResponseStreamingAsync\u0060 overloads now return \u0060Task \u003E\u0060 instead of \u0060AsyncCollectionResult \u0060. Await stream creation before enumerating updates. - The \u0060ProjectConversationsClient\u0060 constructor now accepts \u0060ConversationClientOptions\u0060 instead of \u0060OpenAIClientOptions\u0060. - \u0060ProjectResponsesClient.GetResponseStreamingAsync\u0060 now yields strongly typed response items. - \u0060ProjectResponsesClient\u0060\u0027s experimental diagnostic changed from \u0060OPENAI001\u0060 to \u0060AAIP002\u0060. ### Other Changes - Updated the \u0060OpenAI\u0060 package dependency to \u00602.15.0\u0060. See the [OpenAI 2.15.0 release notes](https://github.com/openai/openai-dotnet/blob/OpenAI_2.15.0/CHANGELOG.md#2150-2026-11-04) for the upstream breaking changes to experimental APIs, including the async-only streaming methods that \u0060ProjectResponsesClie",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "8bc9138e516754eb547890fcfbd82c60d3b441587d1cb1c254daf0fc8f619093",
     "title": "Build once, run on any agent: A practical guide to agent skills",
     "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
@@ -224,6 +287,19 @@
     ]
   },
   {
+    "id": "dadb9fb90b7c5ef62fe5687f348c7a5fb3f29f53068fd94948c93a490dfaf486",
+    "title": "Azure.Provisioning.AppContainers_1.3.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.AppContainers_1.3.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T16:44:57+00:00",
+    "summary": "## 1.3.0 (2026-11-11) ### Features Added - Upgraded api-version to 2026-07-01. - Added support for Container App private endpoint connections, Azure Functions, Dapr component resiliency policies, .NET components, label history, sandbox groups, and sandbox group virtual network connections. - Added support for managed environment migration eligibility checks and OpenTelemetry configuration. ### Bugs Fixed - Corrected default names for Container Apps managed environments to use 2\u201360 lowercase letters, numbers, or hyphens. Expect automatically generated managed environment names to change when upgrading if explicit names are not set. ### Other Changes - Migrated library generation to the TypeSpec provisioning emitter.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "7413723cda8385ccfb1d2dd8a53a655c975111b1ff0ac6319cfe15fd7f4d9225",
     "title": "Microsoft has an image problem with November\u0027s Windows security update",
     "url": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
@@ -280,6 +356,127 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "b56dbebbf96cba9a0e247bd1cd9b2007a6cb60f8c54890a8a5d0f80e43de0c33",
+    "title": "Azure.Security.KeyVault.Secrets_4.13.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Secrets_4.13.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T08:04:41+00:00",
+    "summary": "## 4.13.0-beta.1 (2026-11-11) ### Other Changes - Updated the \u0060Azure.Core\u0060 dependency to \u00601.65.0\u0060, which includes the MSAL \u00604.92.0\u0060 update.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "49bf192c99fe16f025ba96992a4db8f76f2fdcb3a3b3824c320db6c761ebc916",
+    "title": "Azure.Security.KeyVault.Certificates_4.11.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Certificates_4.11.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T08:02:34+00:00",
+    "summary": "## 4.11.0-beta.1 (2026-11-11) ### Breaking Changes - Removed \u0060CertificateClientOptions.ServiceVersion.V2026_03_01_Preview\u0060. Use \u0060V2026_04_01\u0060 instead. ### Bugs Fixed - Preserved the service version value shipped for \u00602026-04-01\u0060 in version \u00604.10.0\u0060. ### Other Changes - Updated the \u0060Azure.Core\u0060 dependency to \u00601.65.0\u0060, which includes the MSAL \u00604.92.0\u0060 update.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "1fcef153a7bd5db7f75580422f0e99309234673dddf8c4e69a42f35547e3f41c",
+    "title": "Azure.Security.KeyVault.Keys_4.11.0-beta.6",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Keys_4.11.0-beta.6",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T08:01:45+00:00",
+    "summary": "## 4.11.0-beta.6 (2026-11-11) ### Other Changes - Updated the \u0060Azure.Core\u0060 dependency to \u00601.65.0\u0060, which includes the MSAL \u00604.92.0\u0060 update.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "8e5e235c92f2b6e8aaf947ce92e6847a94c58838ca9bb5435686ec2e9c3e27c9",
+    "title": "Azure.Security.KeyVault.Administration_4.9.0-beta.5",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Administration_4.9.0-beta.5",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T08:01:40+00:00",
+    "summary": "## 4.9.0-beta.5 (2026-11-11) ### Other Changes - Updated the \u0060Azure.Core\u0060 dependency to \u00601.65.0\u0060, which includes the MSAL \u00604.92.0\u0060 update.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "925ac3e3e1735d76695679d16760a05f82868e6cd7779f0448520647c2d0f251",
+    "title": "Azure.ResourceManager.Compute.Recommender_1.1.0-beta.3",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Compute.Recommender_1.1.0-beta.3",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T07:59:39+00:00",
+    "summary": "## 1.1.0-beta.3 (2026-11-12) ### Features Added - Upgraded API version to \u00602026-10-05-preview\u0060. - Added regular compute placement scoring through \u0060GetComputePlacementScores(AzureLocation)\u0060, which requires the scoring location. The new request and result models expose zonal scope as \u0060IsZonal\u0060. - Added \u0060ComputeRecommenderPlacementScore.PlacementPreference\u0060. ### Other Changes - Upgraded Azure.Core from 1.62.0 to 1.64.0.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "756bd8c444457dd771d6e24fc38427273db36b1f5596cff767000e31e70fc37c",
+    "title": "Azure.ResourceManager.RedisEnterprise_1.5.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.RedisEnterprise_1.5.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T04:39:57+00:00",
+    "summary": "## 1.5.0-beta.1 (2026-11-11) ### Features Added - Updated the default service API version to \u00602026-10-01-preview\u0060. - Added cluster firewall rules for Azure Managed Redis. Use an empty array to clear rules; omit \u0060firewallRules\u0060 on PATCH to leave them unchanged unless public network access is disabled. - Reintroduced custom Redis ACL access strings and provisioning error details to access policy assignments, previously available in \u00601.4.0-beta.2\u0060 but not in \u00601.4.0\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "16345000b08504ca2c7f909940304a077cbe9c8b5bdd6986e876b5f968bea7bf",
+    "title": "Azure.ResourceManager.Sovereign_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Sovereign_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T03:51:32+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-11) ### Features Added This is the first preview release of the Microsoft Azure Sovereign management client library for .NET, generated from TypeSpec with API version \u00602026-10-31-preview\u0060. - Added \u0060SovereignViewResource\u0060 and \u0060SovereignViewCollection\u0060 to manage Sovereign views. - Added the \u0060CheckSovereignNameAvailability\u0060 and \u0060CheckSovereignNameAvailabilityLocal\u0060 operations. ### Bugs Fixed - Expose \u0060RemediationId\u0060 when a successful remediation long-running operation returns its action result in the ARM \u0060properties\u0060 envelope. Flat responses and standard ARM polling, cancellation, and failure handling are unchanged.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "5902ca34b4a35d668585d3528589f74b5e294bab8f6901bdb02108bb082688b6",
+    "title": "Azure.Provisioning.PrivateDns_1.1.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.PrivateDns_1.1.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T01:57:44+00:00",
+    "summary": "## 1.1.0-beta.1 (2026-09-03) ### Other Changes - Migrated generation to the TypeSpec-based provisioning generator.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "2558220d4bb8a58c01af0a3b0a925e5eca482ef244b45c2b1ab903ea07e44f5e",
+    "title": "Azure.ResourceManager.PrivateDns_1.3.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.PrivateDns_1.3.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-12T00:26:04+00:00",
+    "summary": "## 1.3.0-beta.1 (2026-10-19) ### Features Added - Added support for API version \u00602026-06-01-preview\u0060, including querying Private DNS resource references. - Added \u0060TrafficManagementProfileId\u0060 and read-only \u0060ProvisioningState\u0060 to record data models. ### Other Changes - Migrated the library generation from AutoRest to TypeSpec.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -390,6 +587,20 @@
     ]
   },
   {
+    "id": "d1093c856246e4097d69a3f961f2aea47fa5604aadaec7eb2460c4ce959d893d",
+    "title": "Azure.ResourceManager.Monitor_1.4.0-beta.6",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Monitor_1.4.0-beta.6",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-11T10:38:57+00:00",
+    "summary": "## 1.4.0-beta.6 (2026-11-10) ### Features Added - Added managed identity support to autoscale settings. - Added tenant action group management and test notification operations. ### Breaking Changes - VM Insights onboarding status JSON now uses generated serialization for the required \u0060resourceId\u0060, \u0060onboardingStatus\u0060, and \u0060dataStatus\u0060 fields instead of the legacy omission and null-tolerant customization. ### Bugs Fixed - Restored generated diagnostic setting operations, model serialization, and model factory support instead of throwing compatibility stubs.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
     "id": "98cdae1f7442dea17c20417a683385b559e2c73195b6a1bd36ff2fc52f4ae40a",
     "title": "AMD: Where we\u0027re going we don\u0027t need (as much) DRAM",
     "url": "https://www.theregister.com/systems/2026/11/11/amd-where-were-going-we-dont-need-as-much-dram/5308953",
@@ -423,6 +634,19 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "e2794719e28f800af5619888d9142da7117db54c5a74c63589ecee4e2239a221",
+    "title": "Azure.Data.AI_1.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Data.AI_1.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-11T02:11:35+00:00",
+    "summary": "## 1.0.0 (2026-11-10) ### Features Added - First stable release of the Azure.Data.AI client library for semantic reranking. - Supports the generally available service API version \u00602026-10-30\u0060. ### Breaking Changes - Renamed \u0060SemanticRerankingInferenceContent\u0060 to \u0060SemanticRerankingContent\u0060, \u0060SemanticRerankingInferenceResult\u0060 to \u0060SemanticRerankingResult\u0060, and \u0060SemanticRerankingMetaResult\u0060 to \u0060SemanticRerankingMetadata\u0060, including the corresponding model factory methods. - Renamed the result\u0027s \u0060Meta\u0060 property to \u0060Metadata\u0060; the JSON property remains \u0060meta\u0060. - Changed \u0060TargetPaths\u0060 from a settable string to an \u0060IList \u0060 collection with an API contract limit of 100 paths.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -567,6 +791,218 @@
     ]
   },
   {
+    "id": "a97b231a5b934d7da9ef0bbef7f87e89822f22ef40d7de43f2ebecb1addf4ba2",
+    "title": ".NET 10.0.15",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v10.0.15",
+    "source": "runtime",
+    "publishedAt": "2026-11-10T17:15:38+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v10.0.15) ## What\u0027s Changed * [release/10.0] Unify native API availability probes by @akoeplinger in https://github.com/dotnet/runtime/pull/134329 * [release/10.0][browser][mono] Make sure we treat the 4GB ptrs as unsigned by @lewing in https://github.com/dotnet/runtime/pull/131361 * [release/10.0] Ensure type loader templates for interface dispatch cells by @github-actions[bot] in https://github.com/dotnet/runtime/pull/134821 * [release/10.0] Fix NoopLimiter disposal in DefaultPartitionedRateLimiter Heartbeat by @github-actions[bot] in https://github.com/dotnet/runtime/pull/133647 * [release/10.0] Fix NativeAOT EventPipe use-after-free by waiting for active writers by @MichalStrehovsky with @Copilot in https://github.com/dotnet/runtime/pull/134999 * [release/10.0] Allow variable page sizes in codesign output in Microsoft.NET.HostModel.Tests by @github-actions[bot] in https://github.com/dotnet/runtime/pull/134599 * [release/10.0] Fi",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "6cae9c28848b04bd9bfcfc8ab4cd26d7646b461cfe7f3a41aa170f1046bd66e4",
+    "title": ".NET 10.0.15",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v10.0.15",
+    "source": "efcore",
+    "publishedAt": "2026-11-10T17:15:35+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v10.0.15) ## What\u0027s Changed * [release/9.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/38980 * [release/9.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/39046 * [release/9.0]: Bump Microsoft.Azure.Cosmos from 3.63.0 to 3.63.1 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/39032 * [release/8.0]: Bump Microsoft.AspNetCore.Identity.EntityFrameworkCore from 8.0.30 to 8.0.31 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/38998 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/39058 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/39071 * [release/10.0]: Bump OpenTelemetry.Exporter.InMemory from 1.18.0 to 1.19.0 by @dependabot[bot] in https://github.co",
+    "categories": [
+      "azure",
+      "dotnet-csharp",
+      "ef-data",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d1e59db31068e44d5f2d0e8dc62a0bca7cd7749268604af4b2e14e123a0e223b",
+    "title": ".NET 10.0.15",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v10.0.15",
+    "source": "aspnetcore",
+    "publishedAt": "2026-11-10T17:15:30+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v10.0.15) ## What\u0027s Changed * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/69430 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/69446 * [release/10.0] (deps): Bump src/submodules/MessagePack-CSharp from \u0060365965f\u0060 to \u0060be938cd\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/69541 * [release/10.0] (deps): Bump src/submodules/googletest from \u00608eff9e3\u0060 to \u00604267679\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/69540 * [release/10.0] Update npm dependencies by @wtgodbe in https://github.com/dotnet/aspnetcore/pull/69615 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/69648 * [release/10.0] Quarantine flaky HttpSys delegation test by @wtgodbe in https://github.com/dotnet/aspn",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "fe1ce6317846e6dbaf72470ae1352a5a8809acd3eea23ca1fef9eba025ed7aad",
+    "title": ".NET 9.0.23",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v9.0.23",
+    "source": "runtime",
+    "publishedAt": "2026-11-10T17:12:01+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v9.0.23) ## What\u0027s Changed * [release/9.0-staging] Disable RSA SHA1/384 signature tests on Android by @github-actions[bot] in https://github.com/dotnet/runtime/pull/134096 * [release/9.0-staging] Fix assembly labels on MacOS X64 to be LOCAL_LABEL by @davidwrighton in https://github.com/dotnet/runtime/pull/129535 * [release/9.0-staging] Update dependencies from dotnet/icu by @dotnet-maestro[bot] in https://github.com/dotnet/runtime/pull/133772 * [release/9.0-staging] Avoid publishing additional files from IntermediateArtifacts by @akoeplinger in https://github.com/dotnet/runtime/pull/134404 * [release/9.0-staging] Fix Linux FileSystemWatcher silent stop after unpaired IN_MOVED_FROM by @adamsitnik with @Copilot in https://github.com/dotnet/runtime/pull/134335 * [release/9.0] Update branding to 9.0.22 by @dotnet-release-bot[bot] in https://github.com/dotnet/runtime/pull/135303 * [release/9.0-staging] Fix Duplicate ownership state machi",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "bf4864e642174305b19bbf40f7c6b2b289f129180eaffd11ebf892b0183eba9e",
+    "title": ".NET 9.0.23",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v9.0.23",
+    "source": "efcore",
+    "publishedAt": "2026-11-10T17:11:55+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v9.0.23) ## What\u0027s Changed * [release/8.0]: Bump Microsoft.AspNetCore.Identity.EntityFrameworkCore from 8.0.30 to 8.0.31 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/38998 * [release/9.0] Update branding to 9.0.22 by @dotnet-release-bot[bot] in https://github.com/dotnet/efcore/pull/39184 * [release/9.0]: Bump OpenTelemetry.Exporter.InMemory from 1.18.0 to 1.19.1 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/39134 * [release/9.0]: Bump Microsoft.Azure.Cosmos from 3.63.1 to 3.63.2 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/39133 * [release/9.0]: Bump Grpc.AspNetCore from 2.83.0 to 2.84.0 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/39132 * [release/9.0] Avoid artifact name collisions on job retries by @wtgodbe in https://github.com/dotnet/efcore/pull/39051 * [automated] Merge branch \u0027release/8.0\u0027 =\u003E \u0027release/9.0\u0027 by @github-actions[bot] in https://github.com/dotnet/efcor",
+    "categories": [
+      "azure",
+      "dotnet-csharp",
+      "ef-data",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "1cce43d3676ad8073fd2c97bc5826a1eb651e26ab16f544e7d40ca8b3fa041a1",
+    "title": ".NET 9.0.23",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.23",
+    "source": "aspnetcore",
+    "publishedAt": "2026-11-10T17:11:52+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v9.0.23) ## What\u0027s Changed * [release/9.0] Update branding to 9.0.22 by @dotnet-release-bot[bot] in https://github.com/dotnet/aspnetcore/pull/69688 * [release/9.0] Update npm dependencies by @wtgodbe in https://github.com/dotnet/aspnetcore/pull/69616 * [release/9.0] Scope WebSocket request-body assertion to in-process hosting by @wtgodbe in https://github.com/dotnet/aspnetcore/pull/69326 * [release/9.0] Update dependencies from dotnet/source-build-assets by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/69638 * [release/9.0] (deps): Bump src/submodules/googletest from \u006036ba75f\u0060 to \u0060bc548fd\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/69626 * [release/9.0] (deps): Bump src/submodules/MessagePack-CSharp from \u0060365965f\u0060 to \u0060be938cd\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/69536 * [release/9.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "20068edcb5310f7945f9f0c3b7f176d1100e065c2470d21c41568e2849be406e",
+    "title": ".NET 8.0.34",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v8.0.34",
+    "source": "runtime",
+    "publishedAt": "2026-11-10T17:01:35+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v8.0.34) ## What\u0027s Changed * [release/8.0-staging] Disable RSA SHA1/384 signature tests on Android by @vcsjones with @Copilot in https://github.com/dotnet/runtime/pull/134070 * [release/8.0-staging] Fix assembly labels on MacOS X64 to be LOCAL_LABEL by @davidwrighton in https://github.com/dotnet/runtime/pull/129534 * [release/8.0-staging] Update dependencies from dotnet/xharness by @dotnet-maestro[bot] in https://github.com/dotnet/runtime/pull/134320 * [release/8.0-staging] Avoid publishing additional files from IntermediateArtifacts by @akoeplinger in https://github.com/dotnet/runtime/pull/134405 * [release/8.0] Remove mobile queues from runtime-extra-platforms CI test runs by @rzikm in https://github.com/dotnet/runtime/pull/134046 * [release/8.0-staging] Update dependencies from dotnet/runtime-assets by @dotnet-maestro[bot] in https://github.com/dotnet/runtime/pull/133839 * [release/8.0-staging] Fix flaky TestWindowStyle: check on",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "0a5ffbc71cabecdbd6276f0581b1f2b7cbdc3e186c440a20448d42624b823bb0",
+    "title": ".NET 8.0.34",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v8.0.34",
+    "source": "efcore",
+    "publishedAt": "2026-11-10T17:01:24+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v8.0.34) ## What\u0027s Changed * [release/8.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/39137 * [release/8.0] Update branding to 8.0.33 by @dotnet-release-bot[bot] in https://github.com/dotnet/efcore/pull/39185 * [release/8.0]: Bump Grpc.AspNetCore from 2.83.0 to 2.84.0 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/39125 * [release/8.0] Avoid artifact name collisions on job retries by @wtgodbe in https://github.com/dotnet/efcore/pull/39050 * Merging internal commits for release/8.0 by @dotnet-release-bot[bot] in https://github.com/dotnet/efcore/pull/39249 * [release/8.0] Update branding to 8.0.34 by @dotnet-release-bot[bot] in https://github.com/dotnet/efcore/pull/39341 **Full Changelog**: https://github.com/dotnet/efcore/compare/v8.0.32...v8.0.34",
+    "categories": [
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "d84fd1aa60d0aaa414f3139b2ed908397d50a74a7e561fddceb6e4ca79285161",
+    "title": ".NET 8.0.34",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v8.0.34",
+    "source": "aspnetcore",
+    "publishedAt": "2026-11-10T17:01:21+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v8.0.34) ## What\u0027s Changed * [release/8.0] Update branding to 8.0.33 by @dotnet-release-bot[bot] in https://github.com/dotnet/aspnetcore/pull/69689 * [release/8.0] Update dependencies from dotnet/source-build-assets by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/69639 * [release/8.0] (deps): Bump src/submodules/googletest from \u006036ba75f\u0060 to \u0060bc548fd\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/69625 * [release/8.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/69623 * [release/8.0] (deps): Bump src/submodules/MessagePack-CSharp from \u0060365965f\u0060 to \u0060be938cd\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/69538 * [release/8.0] Scope WebSocket request-body assertion to in-process hosting by @wtgodbe in https://github.com/dotnet/aspnetcore/pull/69327 * [release/8.0] Update dependencies from dotnet/source-build-external",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f50ef9e262aa9c0dfc16b24a982b5589fa7ddde7e4aaf89cb28b5e87eb7eee65",
+    "title": ".NET 10.0.14",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v10.0.14",
+    "source": "runtime",
+    "publishedAt": "2026-11-10T16:51:49+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v10.0.14) ## What\u0027s Changed * [release/10.0] Fix InlinedCallFrameMarker bit-0 check on 64-bit platforms in DAC stack walk by @jkotas in https://github.com/dotnet/runtime/pull/131961 * [release/10.0] Fix transition from monomorphic to polymorphic VSD by @AndyAyersMS in https://github.com/dotnet/runtime/pull/132626 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/runtime/pull/132653 * [release/10.0] Fix sporadic AccessViolation in compressed single-file apps on Apple Silicon by @elinor-fung in https://github.com/dotnet/runtime/pull/132710 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/runtime/pull/132790 * [release/10.0] Update dependencies from dotnet/xharness by @dotnet-maestro[bot] in https://github.com/dotnet/runtime/pull/132684 * [release/10.0] Fix internal Helix queue selection by @jozkee in https://github.co",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "2ca9e7ccfb40e8e196973da1eabca4becb8d04a3f62e028c7618e5edb0aa96bc",
+    "title": ".NET 10.0.14",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v10.0.14",
+    "source": "efcore",
+    "publishedAt": "2026-11-10T16:51:45+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v10.0.14) ## What\u0027s Changed * [release/9.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/38853 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/38859 * [release/10.0]: Bump SQLitePCLRaw.bundle_e_sqlite3 from 2.1.12 to 2.1.13 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/38867 * [release/10.0]: Bump SQLitePCLRaw.core from 2.1.12 to 2.1.13 by @dependabot[bot] in https://github.com/dotnet/efcore/pull/38868 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/38877 * [release/9.0] Update dependencies from dotnet/arcade by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/38883 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/efcore/pull/38881 * [release/8.",
+    "categories": [
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "0f8f4e36a53aee8a441ef5a572da1819697c8f7fe7507a685a6d6eb2933a161d",
+    "title": ".NET 10.0.14",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v10.0.14",
+    "source": "aspnetcore",
+    "publishedAt": "2026-11-10T16:51:37+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v10.0.14) ## What\u0027s Changed * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/68601 * [release/10.0] Enable CFG for ARM64X ANCM forwarders by @github-actions[bot] in https://github.com/dotnet/aspnetcore/pull/68758 * [release/10.0] Source code updates from dotnet/dotnet by @dotnet-maestro[bot] in https://github.com/dotnet/aspnetcore/pull/68767 * [release/10.0] Fix installer background for bundles by @wtgodbe in https://github.com/dotnet/aspnetcore/pull/68932 * [release/10.0] Extract IsAuthenticated helper method by @Youssef1313 with @Copilot in https://github.com/dotnet/aspnetcore/pull/68656 * [release/10.0] Update OpenApi to 2.12.2 by @Youssef1313 in https://github.com/dotnet/aspnetcore/pull/68836 * [release/10.0] (deps): Bump src/submodules/googletest from \u006049495ea\u0060 to \u006036ba75f\u0060 by @dependabot[bot] in https://github.com/dotnet/aspnetcore/pull/68918 * [releas",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "c026f3a9d210019e1963852915ae763cd524a332900eb5f957c86b032435f73e",
+    "title": ".NET 9.0.22",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v9.0.22",
+    "source": "runtime",
+    "publishedAt": "2026-11-10T16:46:24+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v9.0.22) **Full Changelog**: https://github.com/dotnet/runtime/compare/v9.0.21...v9.0.22",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "7c1903f1761199051b9493dc476627c29c8cc2373eb4183e97379d0c4cdf8a26",
+    "title": ".NET 9.0.22",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v9.0.22",
+    "source": "efcore",
+    "publishedAt": "2026-11-10T16:46:19+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v9.0.22) **Full Changelog**: https://github.com/dotnet/efcore/compare/v9.0.21...v9.0.22",
+    "categories": [
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "95a65c2051bdfa4d5155c3c185fd8ddee444e30c7367f61c122d696e37d6afb1",
+    "title": ".NET 9.0.22",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.22",
+    "source": "aspnetcore",
+    "publishedAt": "2026-11-10T16:46:14+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v9.0.22) **Full Changelog**: https://github.com/dotnet/aspnetcore/compare/v9.0.21...v9.0.22",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "e436544af7ca034f20e670d5b54dd9d8ae641b3ebab029c158a4b5f2cf10789d",
+    "title": ".NET 8.0.33",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v8.0.33",
+    "source": "runtime",
+    "publishedAt": "2026-11-10T16:37:21+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v8.0.33) **Full Changelog**: https://github.com/dotnet/runtime/compare/v8.0.32...v8.0.33",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "1b74a8169028b9721cceb59b206c4b6fb2f204f9ae575a5c6e747f3c5a52387f",
+    "title": ".NET 8.0.33",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v8.0.33",
+    "source": "efcore",
+    "publishedAt": "2026-11-10T16:36:13+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v8.0.33) **Full Changelog**: https://github.com/dotnet/efcore/compare/v8.0.32...v8.0.33",
+    "categories": [
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "04eafb56bb62fda2fd11d4fdf07a98f998a8e0e30a030ab640f66cbd58be824c",
+    "title": ".NET 8.0.33",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v8.0.33",
+    "source": "aspnetcore",
+    "publishedAt": "2026-11-10T16:36:04+00:00",
+    "summary": "[Release](https://github.com/dotnet/core/releases/tag/v8.0.33) **Full Changelog**: https://github.com/dotnet/aspnetcore/compare/v8.0.32...v8.0.33",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "d04ccd86df73d515e305e040ea4980b7ec63d5644e6d52b914d5310f060d6c71",
     "title": "Trump taps Palantir security chief to run battered US cyber defense agency",
     "url": "https://www.theregister.com/security/2026/11/10/trump-taps-palantir-security-chief-to-run-battered-us-cyber-defense-agency/5308763",
@@ -611,6 +1047,19 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "3e71fc5dabd4c0acc325b08008242490f84b5990a5195cc39e29f40890fc92b3",
+    "title": "Azure.ResourceManager.CommvaultContentStore_1.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CommvaultContentStore_1.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-10T14:12:30+00:00",
+    "summary": "## 1.0.0 (2026-11-06) ### Features Added - First stable release of the Azure.ResourceManager.CommvaultContentStore library. - Upgraded the API version to 2026-11-03.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -674,6 +1123,34 @@
     ]
   },
   {
+    "id": "3b417f9a0d953178e8c868528fc09be928e9dda25184d9215617940328cf189a",
+    "title": "Azure.Core_1.65.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Core_1.65.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-10T02:05:23+00:00",
+    "summary": "## 1.65.0 (2026-11-09) ### Features Added - Added support for Azure Arc user-assigned managed identities. \u0060ManagedIdentityCredential\u0060 supports selection by client ID, resource ID, or object ID; \u0060DefaultAzureCredential\u0060 supports selection through its client ID and resource ID options. ### Bugs Fixed - Fixed \u0060ManagedIdentityCredential\u0060 truncating federated token files larger than 4096 characters during token exchange. ### Other Changes - Updated \u0060Microsoft.Identity.Client\u0060 and \u0060Microsoft.Identity.Client.Extensions.Msal\u0060 dependencies to version 4.92.0.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "2722040aa5f6f98381bc53c2267c7a46d5b8ff4392b0e67968fdc94151901f80",
+    "title": "Azure.Monitor.OpenTelemetry.Exporter_1.11.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Monitor.OpenTelemetry.Exporter_1.11.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-10T00:38:30+00:00",
+    "summary": "## 1.11.0-beta.1 (2026-11-09) ### Features Added - Added Attach SDK statistics per customer connection string observed in newly exported telemetry for multi-endpoint routing. A configured connection string alone no longer produces Attach in this mode, and offline-storage replays do not create or refresh Attach associations. Single-endpoint Attach is unchanged. - Multi-endpoint routing reads a new \u0060microsoft.ingestion_auth\u0060 attribute. Telemetry marked \u0060\u0022aad\u0022\u0060 is sent and stored separately from instrumentation-key telemetry for the same endpoint, in preparation for Microsoft Entra ID support. - Multi-endpoint routing can now be used with \u0060AzureMonitorExporterOptions.Credential\u0060. Only telemetry marked \u0060\u0022aad\u0022\u0060 is sent with a token, scoped to the audience in the \u0060Azure.Monitor.OpenTelemetry.Exporter.MultiEndpointAadAudience\u0060 AppContext value (public cloud by default). Without a credential, telemetry marked \u0060\u0022aad\u0022\u0060 is dropped. - Added the experimental \u0060Azure.Monitor.OpenTelemetry.Exporter.Ex",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
     "id": "025fdd17b37370cab5844f570af973855032435e46d477b4490f54544453d853",
     "title": "Anthropic\u0027s super bug-finding Mythos model is going into Cisco and IBM products",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616",
@@ -731,6 +1208,20 @@
     "summary": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s",
     "categories": [
       "azure"
+    ]
+  },
+  {
+    "id": "49f250d2d2b06af2bb8b25f895d1ba148d51f601cc51076979f6c4caccccace1",
+    "title": "Azure.Security.CodeTransparency_1.1.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.CodeTransparency_1.1.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-09T15:02:20+00:00",
+    "summary": "## 1.1.0-beta.1 (2026-10-07) ### Bugs Fixed - Fixed \u0060CodeTransparencyClient\u0060 permanently rejecting the service TLS connection after a ledger CCF node certificate is reissued (for example, after a node pod restart). The server certificate validation callback previously captured a single \u0060X509Chain\u0060 with a frozen \u0060VerificationTime\u0060 at client construction, so reissued node certificates whose \u0060NotBefore\u0060 was later than the construction time were rejected as \u0060NotTimeValid\u0060 until the process restarted. Validation now builds a fresh chain per TLS handshake, which also removes the concurrent use of a non-thread-safe shared \u0060X509Chain\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
     ]
   },
   {
@@ -843,6 +1334,19 @@
     ]
   },
   {
+    "id": "d80c1e07e9776239df4a203a957fab344693c9877c9b803ce12016c63ad5d3d1",
+    "title": "Azure.ResourceManager.RedisEnterprise_1.4.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.RedisEnterprise_1.4.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-09T09:56:58+00:00",
+    "summary": "## 1.4.0 (2026-10-30) ### Features Added - Updated the default service API version to stable \u00602026-09-01\u0060. - Added migration workflows for validation, start, retrieval, undo, and migrated-endpoint unlink. - Added migration rollback metadata through \u0060RollbackEligibilityExpiresOn\u0060. - Added \u0060Undo\u0060 and \u0060UndoAsync\u0060 migration operations with optional rollback reasons. - Added migrated-endpoint unlink operations for Azure Cache for Redis and Azure Cache for Redis Enterprise migration workflows. - Added \u0060Unlinking\u0060, \u0060Unlinked\u0060, and \u0060UnlinkFailed\u0060 migration provisioning states. ### Other Changes - The stable \u00601.3.0\u0060 to \u00601.4.0\u0060 upgrade remains API compatible. The following changes apply only when moving from the prerelease \u00601.4.0-beta.2\u0060 package: - Renamed the preview migration \u0060Cancel\u0060 and \u0060CancelAsync\u0060 operations to \u0060Undo\u0060 and \u0060UndoAsync\u0060. The undo operations also accept an optional rollback reason. - Removed the preview-only \u0060AccessString\u0060 and \u0060ProvisioningError\u0060 properties from access policy",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "e811360dc86da18ed11e34ee4ba43d00337239e8c97036fe2a3509c2568b821a",
     "title": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
     "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
@@ -852,6 +1356,18 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "c3042283ca600ff9288cba00d1addf4a818a3a85457ca47cb7104a6f02db9bae",
+    "title": "python-1.25.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.25.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-11-07T15:52:42+00:00",
+    "summary": "### Added - **agent-framework-core**, **agent-framework-foundry-hosting**: Support callable MCP discovery approval policies and honor Foundry Toolbox approval metadata, including tool-name and read-only filters, explicit caller overrides, and policy refresh for retained tools ([#10136](https://github.com/microsoft/agent-framework/pull/10136)) ### Changed - **agent-framework**, **agent-framework-a2a**, **agent-framework-ag-ui**, **agent-framework-anthropic**, **agent-framework-azure-ai-search**, **agent-framework-azure-contentunderstanding**, **agent-framework-azure-cosmos**, **agent-framework-azure-cosmos-memory**, **agent-framework-azure-documentdb**, **agent-framework-bedrock**, **agent-framework-chatkit**, **agent-framework-claude**, **agent-framework-copilotstudio**, **agent-framework-core**, **agent-framework-declarative**, **agent-framework-devui**, **agent-framework-duckdb**, **agent-framework-foundry**, **agent-framework-foundry-hosting**, **agent-framework-foundry-local**, **a",
+    "categories": [
+      "ai-agents",
+      "azure"
     ]
   },
   {
@@ -890,6 +1406,18 @@
     ]
   },
   {
+    "id": "eda8b1beab01b9a0848a4b5f0962946bc6765dd9fe2e9c443929aba01d9664ab",
+    "title": "dotnet-1.28.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.28.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-11-06T22:00:01+00:00",
+    "summary": "## [1.28.0] - 2026-11-06 ### Added * Foundry: Add the GA computer tool through \u0060FoundryAITool.CreateComputerTool()\u0060 and carry computer calls and results through Foundry hosting, including batched actions. Add an Azure OpenAI computer-use sample; the Foundry project endpoint still requires the existing preview tool. For non-hosted GA loops, use stored-response continuation: replaying locally retained computer calls with stored output disabled remains affected by an OpenAI SDK serialization limitation ([#8756](https://github.com/microsoft/agent-framework/pull/8756) by @rogerbarreto). * Foundry hosting: Add \u0060FoundryToolboxOptions.TokenScope\u0060 for cloud-specific toolbox authentication audiences, retaining \u0060https://ai.azure.com/.default\u0060 as the default ([#10100](https://github.com/microsoft/agent-framework/pull/10100) by @rogerbarreto). ### Changed * A2A hosting: [BREAKING] Limit built-in server registration to message-based responses while reliable task resumption across hosts is deferred (",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
     "id": "c0671233a4cf54b81d2c9533f88b0399b44dd20456161c747bf92513968fab4b",
     "title": "Agents reveal secrets when offered to team up with each other",
     "url": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
@@ -899,6 +1427,18 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "dbf2e7a2c05e6b4832943e732c4c5591aafff586d2e3112028e5b2253fe3e69e",
+    "title": "v0.49.2",
+    "url": "https://github.com/Azure/bicep/releases/tag/v0.49.2",
+    "source": "bicep",
+    "publishedAt": "2026-11-06T19:41:01+00:00",
+    "summary": "## Features and bug fixes ### CLI and module restore - Add \u0060--config \u0060 to the Bicep CLI ([#20412](https://github.com/Azure/bicep/pull/20412)) - Use the specified configuration instead of \u0060bicepconfig.json\u0060 discovery for every file loaded by the command, including the entrypoint, local modules, and \u0060using\u0060 targets. \u0060\u0060\u0060shell bicep build main.bicep --config bicepconfig.prod.json \u0060\u0060\u0060 - Support \u0060extends\u0060 and merge the configuration over the built-in defaults. A missing file fails the command rather than falling back to discovery. See [REP 0029](https://github.com/Azure/bicep-reps/blob/main/active/0029-cli-config-option.md). \u0060\u0060\u0060jsonc // bicepconfig.prod.json { \u0022extends\u0022: \u0022./bicepconfig.json\u0022, \u0022analyzers\u0022: { \u0022core\u0022: { \u0022rules\u0022: { \u0022no-unused-params\u0022: { \u0022level\u0022: \u0022error\u0022 } } } } } \u0060\u0060\u0060 - Retry previously failed modules on a forced restore ([#20472](https://github.com/Azure/bicep/pull/20472)) - \u0022Restore Bicep Modules (Force)\u0022 and \u0060bicep restore --force\u0060 now retry recently failed modules instead of ",
+    "categories": [
+      "azure",
+      "devops-iac"
     ]
   },
   {
@@ -935,6 +1475,34 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "f4f933d740ba18fb4cee020828261378625cf8924db59adedcff49dfc0648782",
+    "title": "Azure.ResourceManager.Sql_1.5.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Sql_1.5.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T14:37:54+00:00",
+    "summary": "## 1.5.0-beta.2 (2026-11-06) ### Features Added - Upgraded api-version to 2026-08-01-preview.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "8b485a0c71362e4dd50e85114aadac8e5888265c2e35493253eb3a37b20d685e",
+    "title": "Azure.ResourceManager.NetworkSecurity_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NetworkSecurity_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T14:31:37+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-10) ### Features Added - Initial release of the Azure Network Security management client library, supporting NeuroShield resources, protected resources, findings, mitigations, and summaries.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
     ]
   },
   {
@@ -987,6 +1555,19 @@
     ]
   },
   {
+    "id": "152681b25af27f40573c1d41467d1ed06a89fc2579196e640e306c6985723598",
+    "title": "Azure.ResourceManager.RecoveryServicesBackup_1.6.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.RecoveryServicesBackup_1.6.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T07:59:35+00:00",
+    "summary": "## 1.6.0 (2026-11-06) ### Features Added - Upgraded the service API version to \u00602026-11-01\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "53d8ad9cb00fa66b3937cc0ce4f7561b21c997c224181b92ef6eb7943f970e71",
     "title": "AI agents are a \u0027bane\u0027 for some website operators, says Cloudflare",
     "url": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
@@ -1008,6 +1589,110 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "7fc6ef70a50032a1319ee29d6c3cfb27b48bbfc2bdb707d02d757837bce6e8b9",
+    "title": "Azure.Storage.Blobs.ChangeFeed_12.0.0-preview.67",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs.ChangeFeed_12.0.0-preview.67",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:28:29+00:00",
+    "summary": "## 12.0.0-preview.67 (2026-11-05) ### Other Changes - Upgraded \u0060Azure.Storage.Blobs\u0060 package dependency to 12.31.0-beta.1",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "11d5e3ef80cf2e025045f06948e94af315fbbb9e860f61d269d0e2f34d7677bd",
+    "title": "Azure.Storage.Files.DataLake_12.29.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.DataLake_12.29.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:28:16+00:00",
+    "summary": "## 12.29.0-beta.1 (2026-11-05) ### Features Added - Added support for Session Authentication for \u0060TokenCredential\u0060-authenticated clients using GET Blob operations. This is currently disabled by default and can be enabled via \u0060DataLakeClientOptions.SessionOptions.SessionMode\u0060. - Added support for locality-aware downloads for \u0060DataLakeFileClient.ReadTo\u0060, \u0060DataLakeFileClient.ReadToAsync\u0060, \u0060DataLakeFileClient.OpenRead\u0060, and \u0060DataLakeFileClient.OpenReadAsync\u0060 operations. This is currently disabled by default and can be enabled via \u0060DataLakeFileReadToOptions.LayoutAwareRouting\u0060 and \u0060DataLakeOpenReadOptions.LayoutAwareRouting\u0060. - Added support for scheduling file deletion with \u0060DataLakeFileClient.Upload\u0060 and \u0060UploadAsync\u0060. ### Breaking Changes - Changed the default value of \u0060StorageTransferOptions.InitialTransferSize\u0060 used by partitioned uploads and downloads when it is not set by the caller. It now matches the default size of subsequent chunks instead of 256 MB: - Downloads (\u0060DataLakeFileCli",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "149b5c3c5da59d1060f6915eb109293d42d54968e23bd35a4aefbaf5e2a4174c",
+    "title": "Azure.Storage.Files.Shares.ChangeFeed_12.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.Shares.ChangeFeed_12.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:28:04+00:00",
+    "summary": "## 12.0.0-beta.1 (2026-11-05) ### Features Added - Initial release of Azure.Storage.Files.Shares.ChangeFeed.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "6eb8bb682b4da66fe04d3adcfb58ea8988facaabdc2dff39a3beaf101fd7d4b4",
+    "title": "Azure.Storage.Blobs.Batch_12.28.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs.Batch_12.28.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:27:59+00:00",
+    "summary": "## 12.28.0-beta.1 (2026-11-05) ### Other Changes - Upgraded \u0060Azure.Storage.Blobs\u0060 package dependency to 12.31.0-beta.1",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "724df268aadff13e17b362fc76f9e53194bebc1c398b04ce807733ad9edcf365",
+    "title": "Azure.Storage.Blobs_12.31.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs_12.31.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:16:12+00:00",
+    "summary": "## 12.31.0-beta.1 (2026-11-05) ### Features Added - Added support for Session Authentication for \u0060TokenCredential\u0060-authenticated clients using GET Blob operations. This is currently disabled by default and can be enabled via \u0060BlobClientOptions.SessionOptions.SessionMode\u0060. - Changed the default value of \u0060GetBlobsOptions.ResponseFormat\u0060 and \u0060GetBlobsByHierarchyOptions.ResponseFormat\u0060 to \u0060StorageResponseFormat.Arrow\u0060. The default value was previously \u0060StorageResponseFormat.Xml\u0060. This change will improve performance and modify the response format of the \u0060GetBlobs\u0060 and \u0060GetBlobsByHierarchy\u0060 APIs when the caller does not explicitly set the response format. Callers that require XML responses should explicitly set the response format to \u0060StorageResponseFormat.Xml\u0060. - Added support for locality-aware downloads for \u0060BlobBaseClient.DownloadTo\u0060, \u0060BlobBaseClient.DownloadToAsync\u0060, \u0060BlobBaseClient.OpenRead\u0060, and \u0060BlobBaseClient.OpenReadAsync\u0060 operations. This is currently disabled by default and can ",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "8bfd00093af0731b164eaa5900708b30ed763ee9e3da96fbaec30b7ba028f63f",
+    "title": "Azure.Storage.Queues_12.29.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Queues_12.29.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:15:39+00:00",
+    "summary": "## 12.29.0-beta.1 (2026-11-05) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values. SAS times are now normalized to UTC before formatting/signing, preventing unintended validity windows in st/se (Start Time, Expiry Time) and related delegation key fields. Affected APIs include: - \u0060QueueClient.GenerateSasUri(...)\u0060 - \u0060QueueClient.GenerateUserDelegationSasUri(...)\u0060 - \u0060QueueServiceClient.GenerateAccountSasUri(...)\u0060 - \u0060QueueSasBuilder\u0060",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "ae51696a857ef2b010d68e7da8236b81d4217b462d4b0f21855b0f2346d99656",
+    "title": "Azure.Storage.Files.Shares_12.29.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.Shares_12.29.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:15:39+00:00",
+    "summary": "## 12.29.0-beta.1 (2026-11-05) ### Features Added - Added support for \u0060ShareFileClient\u0060 and \u0060ShareDirectoryClient\u0060 constructed using File Id-based URLs. \u0060ShareFileClient\u0060 constructed via File Id-based URLs can only perform \u0060GetProperties\u0060 and \u0060GetFileLinks\u0060 operations currently. \u0060ShareDirectoryClient\u0060 constructed via File Id-based URLs can only perform \u0060GetProperties\u0060 operation currently. - Added support for \u0060ShareFileClient.GetFileLinks\u0060 and \u0060ShareFileClient.GetFileLinksAsync\u0060 operations. These operations are only supported for clients constructed using File Id-based URLs and not path-based URLs. - Added support for \u0060ShareProperties.CreatedOn\u0060 for \u0060ShareServiceClient.GetShare\u0060, \u0060ShareServiceClient.GetShareAsync\u0060, \u0060ShareClient.GetProperties\u0060, and \u0060ShareClient.GetPropertiesAsync\u0060 operations. - Added support for \u0060ShareProperties.EnableChangeFeed\u0060, \u0060ShareProperties.ChangeFeedRetentionInDays\u0060, and \u0060ShareProperties.ChangeFeedBlobContainerName\u0060 for \u0060ShareClient.GetProperties\u0060 and \u0060ShareClien",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "dc2cefd7876825d5f8221f2bb837e4072a12e7586bfff4563aa3c742daae4ec9",
+    "title": "Azure.Storage.Common_12.30.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Common_12.30.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-06T00:02:38+00:00",
+    "summary": "## 12.30.0-beta.1 (2026-11-05) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values (e.g. \u0060AccountSasBuilder\u0060). Times are now converted to UTC before formatting/signing to prevent unintended validity windows in st/se and related delegation key time fields.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -1081,6 +1766,19 @@
     "categories": [
       "ai-agents",
       "azure"
+    ]
+  },
+  {
+    "id": "ebfe2c1d1b643bacf8ab763109291b5e5bb4624d9aa4de1663ad5620d09acdb4",
+    "title": "Azure.ResourceManager.Monitor.Workspaces_1.1.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Monitor.Workspaces_1.1.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-05T19:03:45+00:00",
+    "summary": "## 1.1.0-beta.1 (2026-11-03) ### Features Added - Added support for managing metric namespaces and metric configurations in Azure Monitor Workspaces. - Added support for managing trace containers in Azure Monitor Workspaces and trace associations at resource, resource group, and subscription scopes.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -1197,6 +1895,58 @@
     "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October\u0027s Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What\u2019s new in Microsoft Foundry | October 2026 appeared first on Microsoft Foundry Blog .",
     "categories": [
       "ai-agents"
+    ]
+  },
+  {
+    "id": "bbe5c2edaee5f0619b970ba002bce051c7f477636baf6d13d3fb2ccbdbd7205e",
+    "title": "Azure.AI.AgentServer.Activity_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.AgentServer.Activity_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-05T09:39:19+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-04) ### Features Added - Initial release of \u0060Azure.AI.AgentServer.Activity\u0060 \u2014 a .NET library for hosting a Microsoft 365 Agents SDK \u0060AgentApplication\u0060 as an Azure AI Foundry hosted agent that speaks the **activity protocol** (\u0060POST /activity/messages\u0060). - \u0060ActivityServer.Run(...)\u0060 one-liner startup that wires Kestrel, health probes, OpenTelemetry, and the activity endpoint, with overloads for the way your agent is constructed: - \u0060Run ()\u0060 \u2014 host an \u0060AgentApplication\u0060 subclass by type. - \u0060Run(app =\u003E ...)\u0060 \u2014 register handlers inline on the built \u0060AgentApplication\u0060 (no agent class). - \u0060Run(agentApp)\u0060 \u2014 host a pre-built \u0060AgentApplication\u0060 instance. - \u0060Run(Func )\u0060 \u2014 factory registration with access to DI. - \u0060Run(RequestDelegate)\u0060 \u2014 own the raw request pipeline (the Microsoft 365 Agents SDK is not initialized). - Composition on the shared Core host builder via \u0060AgentHostBuilder.AddActivity ()\u0060, \u0060AddActivity(agentApp)\u0060, and \u0060AddActivity(Func )\u0060. - Self-hosting on your ",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "43e7e3b784e9f86163c0ec1e9bc89b9fb277c04253c9a65aa559f178dd03c6cf",
+    "title": "Azure.AI.AgentServer.Core_1.0.0-beta.31",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.AgentServer.Core_1.0.0-beta.31",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-05T09:24:53+00:00",
+    "summary": "## 1.0.0-beta.31 (2026-11-04) ### Features Added - Added the \u0060microsoft.foundry = \u0022True\u0022\u0060 string attribute to all collected spans and log records. The default telemetry processors override conflicting marker values without changing \u0060gen_ai.provider.name\u0060. - Added protocol-scoped task access for composed hosts and per-task activation checks, stamping the owning protocol on new task records so a disabled protocol cannot start or recover its tasks merely because another protocol enabled the shared runtime. Legacy unmarked application tasks require the explicit Core switch for recovery; existing Invocations chains continue under that opt-in. The new public protocol-scoping helpers and per-task activation option are experimental (\u0060AAAS003\u0060). ### Bugs Fixed - Prevented a stale steering nudge from canceling a promoted turn after its pending-input queue has drained. Pending-input publication now follows the same turn as the cancellation signal.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "39444920c6baef944418483a55441ef6da35f688a37e5341c9f8646d2fe46941",
+    "title": "Azure.ResourceManager.ComputeFleet_1.1.0-beta.4",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ComputeFleet_1.1.0-beta.4",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-05T07:38:54+00:00",
+    "summary": "## 1.1.0-beta.4 (2026-11-03) ### Breaking Changes - Removed the \u0060ZoneAllocationPolicy\u0060 property from \u0060ComputeFleetProperties\u0060 and the corresponding \u0060zoneAllocationPolicy\u0060 parameter from \u0060ArmComputeFleetModelFactory.ComputeFleetProperties\u0060. - Removed \u0060ComputeFleetZoneAllocationPolicy\u0060, \u0060ComputeFleetZoneDistributionStrategy\u0060, and \u0060ZonePreference\u0060, along with the \u0060ArmComputeFleetModelFactory.ComputeFleetZoneAllocationPolicy\u0060 and \u0060ArmComputeFleetModelFactory.ZonePreference\u0060 methods.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "2e331836a641baff84bdefd9eeb4ddc549b01f77eb69d70dea30b416bc03e98f",
+    "title": "System.ClientModel_1.17.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/System.ClientModel_1.17.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-05T04:01:08+00:00",
+    "summary": "## 1.17.0 (2026-11-04) ### Features Added - Added \u0060ClientPipeline.Send\u0060 and \u0060SendAsync\u0060 overloads accepting a \u0060CancellationToken\u0060 to override cancellation for a send while preserving applied request options. ### Bugs Fixed - Fixed invalid JSON when \u0060JsonPatch\u0060 replaces string-like values inside stored JSON objects or arrays.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -1364,6 +2114,58 @@
     ]
   },
   {
+    "id": "3ce413fed72b355796ce1e96dbf6b1127ae65800c3f15cd271b316954691b325",
+    "title": "Azure.ResourceManager.AIInfraOptimization_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.AIInfraOptimization_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-04T08:39:42+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-04) This is the initial public preview release of the Azure AI Infrastructure Optimization management client library for .NET. ### Features Added - Adds synchronous and asynchronous \u0060RecommendVmSku\u0060 operations for requesting VM SKU recommendations. - Supports the \u0060Microsoft.AIInfraOptimization\u0060 service API version \u00602026-06-01-preview\u0060. This package is a public preview, so expect incompatible changes in subsequent releases as we improve the product. To provide feedback, submit an issue in the [Azure SDK for .NET GitHub repository](https://github.com/Azure/azure-sdk-for-net/issues).",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "6a8c1c16308a43373472fd3e00ab3576eb3e34378993b8b3554ccfbe2a04360c",
+    "title": "Azure.ResourceManager.SecretsStoreExtension_1.0.0-beta.3",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.SecretsStoreExtension_1.0.0-beta.3",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-04T07:03:51+00:00",
+    "summary": "## 1.0.0-beta.3 (2026-11-03) ### Features Added - Added support for specifying the Azure cloud using the \u0060CloudName\u0060 property on \u0060KeyVaultSecretProviderClassProperties\u0060 and \u0060AzureKeyVaultSecretProviderClassUpdateProperties\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "5321184e5ce01c44eb9326188f6426def762e37152e0744848e9ce5a3d51f851",
+    "title": "Azure.Provisioning.SecretsStoreExtension_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.SecretsStoreExtension_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-04T07:02:16+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-02) ### Features Added - Initial release of the Azure.Provisioning.SecretsStoreExtension library.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "9712ad8604185e1355cad21b20a02ca3b44fdec659c2b46878c763b07ba34254",
+    "title": "Azure.Provisioning.ResourceConnector_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.ResourceConnector_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-04T06:04:22+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-02) ### Features Added - Initial beta release of Azure.Provisioning.ResourceConnector.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "5d75479b3ef017f19fddbed86cd2e2ebd9e155aaa48115795e5ef46353464e40",
     "title": "AMD on track to overtake Intel as biggest x86 outfit",
     "url": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
@@ -1373,6 +2175,19 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "eea573d8e4141f32fb132f6d094c9d7f527964fd5e20a8633dfc9bafb4e61df3",
+    "title": "Azure.Provisioning.Qumulo_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.Qumulo_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-04T01:56:30+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-02) ### Features Added - Initial beta release of Azure.Provisioning.Qumulo.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -1562,6 +2377,125 @@
     ]
   },
   {
+    "id": "5fc024a94af0ed8881e8592df308437e7cba36708e3201a7226ba950f66e37d2",
+    "title": "Azure.Provisioning.SelfHelp_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.SelfHelp_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T08:35:15+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-02) ### Features Added - Initial release of Azure.Provisioning.SelfHelp.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "8670516958e8fc93f197a0bb6cf465c430020ac38f07c7b15f775fb8d3b68628",
+    "title": "Azure.Provisioning.ServiceGroups_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.ServiceGroups_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T08:34:11+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-02) ### Features Added - Initial beta release of Azure.Provisioning.ServiceGroups.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "fa072463a055bcc0494fde7419e7a3dace9ea0d533182270e618482aeb50f7e9",
+    "title": "Azure.Provisioning.Relationships_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.Relationships_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T07:47:59+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-02) ### Features Added - Initial release of Azure.Provisioning.Relationships.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "303c2fd2f343bd4576c1bff34fce5e14d5c37e0b2cf6708f998130f3d658c13b",
+    "title": "Azure.ResourceManager.Compute_1.19.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Compute_1.19.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T07:47:37+00:00",
+    "summary": "## 1.19.0 (2026-10-30) ### Features Added - Added \u0060FlexPreferredVmSize\u0060 to \u0060VirtualMachineData\u0060 and \u0060VirtualMachinePatch\u0060 to support FlexProfile preferred VM sizes. - Added \u0060PrivateIPAddressPrefixLength\u0060 to \u0060VirtualMachineNetworkInterfaceIPConfiguration\u0060, \u0060VirtualMachineScaleSetIPConfiguration\u0060 and \u0060VirtualMachineScaleSetUpdateIPConfiguration\u0060. ### Bugs Fixed - Fixed \u0060CapacityReservationGroupResource\u0060 delete operations to poll the long-running operation until completion.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f06c630fc7ffa93ade198184b458f8fbc6c5d104d426977c61728c301d2797e3",
+    "title": "Azure.Provisioning.Compute_1.0.0-beta.3",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.Compute_1.0.0-beta.3",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T07:47:08+00:00",
+    "summary": "## 1.0.0-beta.3 (2026-10-30) ### Features Added - Upgraded the Compute API version to \u00602026-04-01\u0060 and the ComputeGallery API version to \u00602026-03-03\u0060, aligning with \u0060Azure.ResourceManager.Compute\u0060. - Added \u0060VirtualMachineDiagnosticRunCommand\u0060 and \u0060VirtualMachineScaleSetVMDiagnosticRunCommand\u0060 resources. - Added \u0060VirtualMachine.FlexPreferredVmSize\u0060 for configuring FlexProfile preferred VM sizes. - Added \u0060PrivateIPAddressPrefixLength\u0060 to \u0060VirtualMachineNetworkInterfaceIPConfiguration\u0060 and \u0060VirtualMachineScaleSetIPConfiguration\u0060. - Added support for gallery image metadata and data disk security profiles, capacity reservation state and utilization details, and secrets provisioning settings. ### Breaking Changes - Replaced \u0060VirtualMachine.CapacityReservationGroupId\u0060 and \u0060VirtualMachineScaleSetVmProfile.CapacityReservationGroupId\u0060 with \u0060CapacityReservation.CapacityReservationGroupId\u0060. - Replaced \u0060VirtualMachineScaleSetVmProfile.HardwareVmSizeProperties\u0060 with \u0060HardwareProfile.VmSizeProperties",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "3be6851fafad30d81618383715e4a5852cec22ed1a0d959b7bc696a1c3cc455e",
+    "title": "Azure.ResourceManager.DataProtectionBackup_1.10.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.DataProtectionBackup_1.10.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T07:46:52+00:00",
+    "summary": "## 1.10.0-beta.1 (2026-10-30) ### Features Added - Upgraded the API version to \u00602026-07-01\u0060. - Added vault and recovery point immutability configuration support. - Added PostgreSQL Flexible Server backup solution settings.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "f07b86f0a75d0262406bfcdca128291b91f69a3078d5dc2aac896b698d2f1886",
+    "title": "Azure.ResourceManager.Relationships_1.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Relationships_1.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T07:46:09+00:00",
+    "summary": "## 1.0.0 (2026-10-19) This is the first stable release of the Relationships management client library. ### Features Added - Updated the service API version to \u00602026-08-01\u0060. - Added APIs for listing \u0060Contains\u0060 relationships at resource group and subscription scopes. - Added resource and collection APIs for managing \u0060DependencyOf\u0060 relationships scoped to a service group. - Added pageable enumeration for \u0060DependencyOf\u0060 and service group member relationship collections. ### Breaking Changes - Corrected the source and target semantics of \u0060ServiceGroupMemberRelationshipProperties\u0060. The constructor now accepts \u0060sourceId\u0060, \u0060SourceId\u0060 is settable, \u0060TargetId\u0060 is read-only, and \u0060SourceTenant\u0060 replaces \u0060TargetTenant\u0060. ### Bugs Fixed - Fixed relationship collection paging to handle relative continuation tokens and propagate cancellation tokens during async enumeration. - Fixed \u0060Contains\u0060 relationship operations to honor configured API version overrides.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "ef94cb28e0f31d2f73707f4225daa38cc0485befb4e29ff8aced947ae0417a40",
+    "title": "Azure.ResourceManager.NetApp_1.20.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NetApp_1.20.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T06:47:00+00:00",
+    "summary": "## 1.20.0-beta.1 (2026-10-30) ### Features Added - Upgraded api-version to \u00602026-08-15-preview\u0060. - Added \u0060ExternalClusterResource\u0060 and \u0060ExternalSvmResource\u0060, together with their collections and models, for external NetApp ONTAP clusters and storage virtual machines. - Added \u0060ClusterPeerResource\u0060 and \u0060SvmPeerResource\u0060, together with their collections and models, for cluster and storage virtual machine peering. - Added \u0060ExternalCacheResource\u0060 and \u0060ExternalCacheConnectionResource\u0060, together with their collections and models, for external caches and cache connections between external and Azure NetApp Files volumes. - Added \u0060GeoNamespaceOriginVolume\u0060 to \u0060NetAppVolumeData\u0060, \u0060NetAppVolumePatch\u0060, and \u0060NetAppVolumeGroupVolume\u0060, with the \u0060OriginVolume\u0060 enum for geographic namespace origin settings. - Added asynchronous directory deletion settings through \u0060AsyncDirectoryDelete\u0060 and \u0060AsyncDirectoryDeleteStatus\u0060 on volume and volume-group models. - Added SMB opportunistic locking settings through \u0060",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "c9c93834bca03072c85d5724376b908280a4799bbb04d9ac8fa74ddf460a3864",
+    "title": "Microsoft.Azure.WebJobs.Extensions.SignalRService_2.3.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Microsoft.Azure.WebJobs.Extensions.SignalRService_2.3.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-03T04:49:26+00:00",
+    "summary": "## 2.3.0 (2026-11-02) ### Other Changes - Updated \u0060MessagePack\u0060 to 2.5.307 and \u0060Microsoft.Azure.SignalR.Serverless.Protocols\u0060 to 1.11.1 to address GHSA-qhrr-8q5h-9q3h, including the protocol assembly\u0027s embedded MessagePack reader.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "c2c7b014228817a3b85f8d8e883f85d69fdef8251ff6f740554c69071b689f0b",
     "title": "The Platform Behind the Next AI Breakthrough",
     "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
@@ -1702,6 +2636,85 @@
     ]
   },
   {
+    "id": "65d5e2801d90a642a3e4d10c86ed7af9ba07bb895a8bd64d9e241029318eb2e1",
+    "title": "Azure.Provisioning.StorageActions_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.StorageActions_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-02T08:50:49+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-10-27) ### Features Added - Initial release of Azure.Provisioning.StorageActions.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "ca2daa0154ad45a51e3af4a588a0fcf7595e29bff3366fede6a92837875cce11",
+    "title": "Azure.Template_1.0.3-beta.7020321",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Template_1.0.3-beta.7020321",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-02T07:00:33+00:00",
+    "summary": "## 1.0.3-beta.7020321 (2026-10-30) ### Features Added - Added \u0060WidgetAnalyticsClientSettings\u0060 to support creating a \u0060WidgetAnalyticsClient\u0060 from \u0060IConfiguration\u0060, including configuration-based credential resolution and dependency injection registration.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "46a031ba4a7959646cf1f59768964061dec006969944be4df58ce9c249fff464",
+    "title": "Azure.ResourceManager.Cdn_1.6.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Cdn_1.6.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-02T01:50:06+00:00",
+    "summary": "## 1.6.0 (2026-10-29) ### Features Added - Upgraded api-version to 2026-10-01. - Added support for creating a rule set together with its rules in batch mode via \u0060FrontDoorRuleSetData.IsBatchMode\u0060 and \u0060FrontDoorRuleSetData.Rules\u0060. - Added server TLS group configuration via \u0060AfdServerTlsGroupPolicy\u0060 and \u0060AfdServerTlsGroup\u0060. - Added \u0060CertificateNameCheckValidationMode\u0060 and \u0060CustomCertificateSubjects\u0060 to Front Door origins. - Added \u0060TokenDestinationHeader\u0060 to \u0060OriginAuthenticationProperties\u0060. ### Breaking Changes - Removed preview-only features introduced in 1.6.0-beta.1 (api-version 2025-09-01-preview) that are not part of the stable api-version 2026-10-01, including key groups, web agents, profile agents, deployment versions, and embedded WAF policies.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "d50d2b70c26623224fd82d02ffc039ce8b874c3866b13c4d2c48954527857ddb",
+    "title": "Azure.AI.Projects_3.0.0-beta.6",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Projects_3.0.0-beta.6",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-31T02:15:01+00:00",
+    "summary": "## 3.0.0-beta.6 (2026-10-30) ### Features Added - Added opt-in Voice Agent realtime tracing for connections, sessions, responses, tool milestones, audio usage, cancellation, and errors using the existing Foundry GenAI tracing settings. Added correlated, payload-free realtime diagnostic logs. - Included first-text/audio latency, reported audio formats and sample rates, session audio totals, consistent session lifecycle events, and bounded opt-in transcript/tool message content in Voice Agent telemetry. - Added the \u0060MaxSamples\u0060 property to \u0060SimulationSeedDataGenerationJobConfiguration\u0060. ### Breaking Changes - \u0060SimulationSeedDataGenerationJobConfiguration\u0060 now requires a \u0060maxSamples\u0060 constructor argument. Replace parameterless construction with \u0060new SimulationSeedDataGenerationJobConfiguration(maxSamples)\u0060. - Added an optional \u0060maxSamples\u0060 parameter to \u0060AzureAIProjectsModelFactory.SimulationSeedDataGenerationJobConfiguration\u0060, changing its binary signature. Recompile code that uses this f",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "5a6049d6c4b10a0a92fb5b032263e9deb94b454729d14e88218eeb8ee023e8de",
+    "title": "Azure.AI.Extensions.OpenAI_3.0.0-beta.6",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Extensions.OpenAI_3.0.0-beta.6",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-31T02:10:04+00:00",
+    "summary": "## 3.0.0-beta.6 (2026-10-30) ### Features Added - Exposed the constructors of \u0060GitHubCopilotToolsetPreview\u0060, \u0060GitHubCopilotToolsetDefaultConfig\u0060 \u0060GitHubCopilotToolsetConfig\u0060, \u0060MicrosoftCopilotToolsetPreview\u0060, \u0060MicrosoftCopilotToolsetDefaultConfig\u0060 and \u0060MicrosoftCopilotToolsetConfig\u0060. ### Breaking Changes - \u0060BrowserAutomationPreviewTool\u0060 is deprecated and hidden from IntelliSense. Please use \u0060BrowserAutomationTool\u0060 instead. - Removed the \u0060type\u0060 parameter from response-item methods on \u0060ExtensionsOpenAIModelFactory\u0060. Each factory now uses the discriminator value for its concrete response-item type. ### Sample Updates - Added sample for Hosted Agent identity isolation.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d487bf059e0d862a0fbd495535346bb35174a5efa2567e562d86acf0817315e5",
+    "title": "Azure.AI.Projects.Agents_3.0.0-beta.6",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Projects.Agents_3.0.0-beta.6",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-31T02:06:49+00:00",
+    "summary": "## 3.0.0-beta.6 (2026-10-30) ### Features Added - Added experimental Voice Agent post-call delivery to Event Grid connections and routines. - Added experimental Voice Agent soundscapes for telephony ambience and event cues. - Added Azure Speech streaming transcription and headset/personal noise suppression modes. - Added \u0060ProjectsAgentProtocol.VoiceConversationEngine\u0060 for hosted voice conversation engines. - Enriched existing Foundry GenAI agent-creation traces with privacy-safe Voice Agent metadata and bounded instruction content under the existing opt-in setting. Other Voice Agent REST operations retain their existing SDK diagnostics. ### Breaking Changes - Added the \u0060postCall\u0060 parameter before \u0060store\u0060 in \u0060ProjectsAgentsModelFactory.VoiceAgentDefinition\u0060, affecting positional arguments. - Added the \u0060soundscape\u0060 parameter before \u0060outputModalities\u0060 in \u0060ProjectsAgentsModelFactory.VoiceAgentDefinition\u0060, affecting positional arguments. - \u0060VoiceAgentAvatarVideoCrop.BottomRight\u0060 and \u0060VoiceA",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "6183373fc616114b315d82a121080b585aa2b978f1ca3d4bb9151d7b9b2d6e58",
     "title": "I Turned Off CI for Pull Requests. Here\u0027s Why",
     "url": "https://milanjovanovic.tech/blog/i-turned-off-ci-for-pull-requests",
@@ -1714,6 +2727,18 @@
     ]
   },
   {
+    "id": "14b2aa70d380cd6e896060ae08185b58b7c0edb08e67a2f7febe9742e34debe6",
+    "title": "python-1.24.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.24.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-10-30T21:52:13+00:00",
+    "summary": "## [1.24.0] - 2026-10-30 \u003E [!WARNING] \u003E **Redis context index migration:** The beta \u0060RedisContextProvider\u0060 now preserves exact scope identity and rejects the legacy raw-scope index schema. Delete the old context index and its context hashes, let the provider create a new index, and re-ingest the context data. \u0060overwrite_index=True\u0060 does not migrate incompatible indexes. \u003E [!IMPORTANT] \u003E **Python support:** Python 3.11 or later is now the supported baseline, subject to package-specific upper limits. Python 3.10 installation remains permitted by \u0060Requires-Python\u0060 in this release, but compatibility is not guaranteed. The next release will also remove Python 3.10 installation eligibility from \u0060Requires-Python\u0060. Upgrade to Python 3.11 or later as soon as possible. ### Added - **agent-framework-core**: Add an explicit default approval mode for local MCP tools and prompts outside the per-tool approval lists, and warn when \u0060never_require_approval\u0060 leaves the default implicit while preserving t",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
     "id": "8041bb1801b377567e84cb0fddd69fd6c7e60aa54170762c3aa06b793672e81a",
     "title": "Everything released in October 2026 for Azure Developer CLI",
     "url": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2026/",
@@ -1722,6 +2747,47 @@
     "summary": "The October recap for the Azure Developer CLI (\u0060azd\u0060). Preview service deployments before making changes, deploy to Container Apps express, remove stored environment values, and use extension-defined infrastructure providers in generated pipelines. Extension APIs gain stable contracts, and provisioning validation, cancellation, and upgrade recovery improve. The post Everything released in October 2026 for Azure Developer CLI appeared first on Azure SDK Blog .",
     "categories": [
       "azure"
+    ]
+  },
+  {
+    "id": "a7bfb1892c3d42dbcb4e2ea6b19e6720c137cdbd77e1cc2b1f6767ffe7c41a7d",
+    "title": "dotnet-1.27.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.27.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-10-30T18:55:48+00:00",
+    "summary": "## [1.27.0] - 2026-10-30 ### Added * skills: Add a .NET consumer skill for building with Agent Framework ([#9651](https://github.com/microsoft/agent-framework/pull/9651) by @westey-m). * .NET, CI: Add a script to bump the .NET release version ([#9894](https://github.com/microsoft/agent-framework/pull/9894) by @baywet). ### Changed * .NET, AgentServer: [BREAKING] Update AgentServer dependencies ([#9721](https://github.com/microsoft/agent-framework/pull/9721) by @rogerbarreto). **Migration:** In Foundry hosted applications, replace \u0060builder.Services.AddFoundryResponses(...)\u0060 with \u0060builder.AddFoundryResponses(...)\u0060 so response and task storage use the same configuration-bound identity and endpoint. The \u0060IServiceCollection\u0060 overload remains supported for local or non-hosted use. If you pin SDK dependencies directly, align \u0060Azure.AI.Projects\u0060 and \u0060Azure.AI.Extensions.OpenAI\u0060 to \u00603.0.0-beta.5\u0060, and \u0060Azure.AI.AgentServer.Core\u0060, \u0060Azure.AI.AgentServer.Invocations\u0060, and \u0060Azure.AI.AgentServer.Res",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "8d09080ac34466f2ecbf9ff180968cb27e05d85b9f3edb48e1de0a3c7218666c",
+    "title": "Azure.ResourceManager.DeviceProvisioningServices_1.4.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.DeviceProvisioningServices_1.4.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T18:12:25+00:00",
+    "summary": "## 1.4.0 (2026-11-01) ### Features Added - Updated to support API version \u00602026-11-01\u0060. - Added support for Device Registry namespaces linked to a Device Provisioning Service.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "abc70dd12b075155ada7fbbc45fe3828d8367a4e497e51f978322cd39cd1b642",
+    "title": "Azure.Security.Attestation_2.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.Attestation_2.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T17:51:29+00:00",
+    "summary": "## 2.0.0 (2026-10-30) ### Features Added - Updated the client library to target the \u00602025-06-01\u0060 Azure Attestation service API version. - Added \u0060AttestationClientOptions.ServiceVersion.V2025_06_01\u0060, which is now the default service version. \u0060V2020_10_01\u0060 remains available for callers that need to continue targeting the previous service API version. - Added the \u0060AttestationType.AzureGuest\u0060, \u0060AttestationType.SevSnpVm\u0060, and \u0060AttestationType.TdxVm\u0060 values. \u0060TdxVm\u0060 requires service version \u0060V2025_06_01\u0060. - Added \u0060AttestationClient.AttestTdxVm\u0060 and \u0060AttestationClient.AttestSevSnpVm\u0060 (and their async counterparts) to attest Intel TDX and AMD SEV-SNP confidential virtual machines. \u0060AttestTdxVm\u0060 requires service version \u0060V2025_06_01\u0060; \u0060AttestationClient.CanAttestTdxVm\u0060 indicates whether the client supports it. - Added \u0060AttestationRequest.Nonce\u0060, which the service returns in the \u0060nonce\u0060 claim of the attestation token. - Added \u0060AttestationResult.AdditionalClaims\u0060, which exposes the token\u0027s claims",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
     ]
   },
   {
@@ -1762,6 +2828,19 @@
     ]
   },
   {
+    "id": "da09a3762f5bce8d1c44c560d8063284918b69a384192d28ccb5d583f54045ad",
+    "title": "Azure.Provisioning.Network_1.2.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.Network_1.2.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T12:22:25+00:00",
+    "summary": "## 1.2.0-beta.1 (2026-10-30) ### Features Added - Updated the default Network API version to \u00602026-03-01\u0060, adding support for new resources and properties. ### Other Changes - Migrated code generation to TypeSpec.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "9ef472a50943fc83034e941e6e9aae8fa25e85c19c634bd7662a268337766b82",
     "title": "Runtime async benchmarks: .NET 10 vs .NET 11",
     "url": "https://www.meziantou.net/runtime-async-benchmarks-dotnet-10-vs-dotnet-11.htm",
@@ -1774,6 +2853,59 @@
     ]
   },
   {
+    "id": "b02bf05098c6f041a3bedc9983865482f1bf6a39462d1bb4de7494452fed1039",
+    "title": "Azure.ResourceManager.RedHatOpenShiftHcp_1.0.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.RedHatOpenShiftHcp_1.0.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T11:43:48+00:00",
+    "summary": "## 1.0.0-beta.2 (2026-10-27) ### Features Added - Added active OpenShift version information to cluster and node pool resource status. - Added \u0060HcpOpenShiftClusterKmsEncryptionProfile.KeyVaultType\u0060 to select Azure Key Vault or Managed HSM for KMS encryption. - Added \u0060HcpOpenShiftClusterPlatformProfile.ContainerRegistryManagedIdentity\u0060 to configure the managed identity used for container registry access. ### Breaking Changes - Replaced \u0060HcpOpenShiftClusterProperties.StatusConditions\u0060 and \u0060HcpOpenShiftClusterNodePoolProperties.StatusConditions\u0060 with \u0060Status.Conditions\u0060. The new \u0060Status\u0060 properties also expose \u0060ActiveVersions\u0060. - Updated the corresponding \u0060ArmRedHatOpenShiftHcpModelFactory\u0060 method signatures to reflect the new status models, KMS key vault type, and container registry managed identity.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "dc61ed80c0802132b26bfe65acc9b68f40f9be5a84e038156695eb7848a50a67",
+    "title": "Azure.ResourceManager.Network_1.18.0-beta.3",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.18.0-beta.3",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T09:52:57+00:00",
+    "summary": "## 1.18.0-beta.3 (2026-10-30) ### Features Added - Upgraded API version from 2026-01-01 to 2026-03-01. - Added support for managing ExpressRoute LAG authorizations, including retrieving authorization keys. - Added support for listing and retrieving virtual network appliance capabilities. - Added DDoS custom policy mitigation rules with traffic scopes, TCP and UDP mitigation settings, and source-specific policy overrides. - Exposed strongly typed \u0060ETag\u0060 properties on \u0060NetworkChildResourceData\u0060 and \u0060NetworkProxyResourceData\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "defff3c3dcad79bd6fcc4e5da3a52eaa59ed8c4fffb807a4abc0bb2df3037803",
+    "title": "Azure.ResourceManager.PrivateTrafficManager_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.PrivateTrafficManager_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T08:15:06+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-10-29) ### Features Added - Initial beta release of the Azure Resource Manager client for Private Traffic Manager.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "25dad1c50f78ba4ba563136f1a7b46cda2b2df2db23a714ed5b3f596c912a930",
+    "title": "Azure.ResourceManager.EdgeActions_1.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.EdgeActions_1.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-30T06:03:13+00:00",
+    "summary": "## 1.0.0 (2026-10-28) ### Features Added - Initial stable release of the Azure Edge Actions management library for .NET, using service API version \u00602026-10-01\u0060. - Supports managing edge actions, versions, code deployments, and execution filters.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "3abfc968642b2753820c3c68312b898396972b1336322294c215f177913e5efb",
     "title": "AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue",
     "url": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
@@ -1783,6 +2915,18 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "37435be61b45fd61c56f3918b4f911c42c98d2a2d21411b235a3cb6672c59e0c",
+    "title": "v10.4.2",
+    "url": "https://github.com/dotnet/orleans/releases/tag/v10.4.2",
+    "source": "orleans",
+    "publishedAt": "2026-10-30T01:53:05+00:00",
+    "summary": "## What\u0027s Changed * [10.x] fix(azure): tolerate legacy membership writers during rolling upgrades by @ReubenBond in https://github.com/dotnet/orleans/pull/11624 **Full Changelog**: https://github.com/dotnet/orleans/compare/v10.4.1...v10.4.2",
+    "categories": [
+      "azure",
+      "dotnet-ecosystem"
     ]
   },
   {
@@ -1852,6 +2996,125 @@
     "summary": "Everything in this series so far has rested on one fact: async is a compiler rewrite. The compiler takes your method, moves the body into a generated state machine, and leaves behind a stub that starts it. .NET 11 changes that. The runtime suspends and resumes async methods itself, and the compiler stops generating state machines. Turning it on Runtime async is a preview feature in .NET 11, opted into per\u2026",
     "categories": [
       "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "80532d60f465a4c452a352a788649089d5b4f1ce3d68a250800299dd97f157d8",
+    "title": "Azure.AI.AgentServer.Invocations_1.0.0-beta.8",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.AgentServer.Invocations_1.0.0-beta.8",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T09:55:55+00:00",
+    "summary": "## 1.0.0-beta.8 (2026-10-28) ### Features Added - Added \u0060VoiceInputDataPart\u0060, ordered \u0060VoiceUserMessageEvent.ContentParts\u0060, and \u0060VoiceResponseOutputDataDoneMessage\u0060 for application data in Bridge protocol \u00601.0\u0060. The existing text-only \u0060Content\u0060 projection and explicit silent completion remain available. - Added a standalone \u0060/voice_conversation_engine\u0060 WebSocket route for typed Voice handlers registered with \u0060AddVoice ()\u0060. It reuses the existing Bridge Protocol 1.0 relay alongside \u0060/invocations_ws\u0060, without new registration options or changes to generic Invocations handlers. - Aligned the experimental Voice caller-interruption contract with \u0060user.barge_in\u0060, \u0060VoiceUserBargeInEvent\u0060, and \u0060OnUserBargeInAsync\u0060, preserving playback snapshots and application-owned cancellation/history. Voice Live senders must use the same event contract. Generic raw WebSocket handlers are unchanged. ### Other Changes - Reference the published \u0060Azure.AI.AgentServer.Core\u0060 1.0.0-beta.30 package instead of the c",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "278809e152911deb6de2b5db60abed129884dfd39c4fc9e2d8216385c52eb140",
+    "title": "Azure.Provisioning_1.7.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning_1.7.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T08:03:48+00:00",
+    "summary": "## 1.7.0-beta.2 (2026-10-29) ### Features Added - Added a typed \u0060ManagementLock.Scope\u0060 property to apply a lock to an individual resource. Leaving it unset or assigning \u0060null\u0060 preserves deployment-scope locking. ([#63624](https://github.com/Azure/azure-sdk-for-net/issues/63624)) - Types deriving from \u0060ManagementLock\u0060 that declare their own \u0060Scope\u0060 member, such as the workaround described in the issue, now hide this property (warning CS0108). Remove that member and use \u0060ManagementLock.Scope\u0060. - Added support for explicitly tagged raw Bicep expressions in \u0060BicepValue \u0060 using the \u0060text/vnd.microsoft.bicep\u0060 media type. ### Bugs Fixed - Fixed null assignments to generated resource references in this library to clear the reference instead of emitting an explicit null. Clearing a required \u0060Parent\u0060 leaves it unset for required-property validation. - Fixed \u0060BicepValue \u0060 literal compilation to emit JSON through Bicep\u0027s \u0060json(...)\u0060 function while preserving generated base64-encoded properties.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "a538114189431850d9963912e84c5365fb08286e74c8b8410bfa81dc98c42f5f",
+    "title": "Microsoft.Azure.WebJobs.Extensions.EventHubs_6.5.5",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Microsoft.Azure.WebJobs.Extensions.EventHubs_6.5.5",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T07:23:04+00:00",
+    "summary": "## 6.5.5 (2026-10-27) ### Bugs Fixed - Fixed an issue where stale checkpoints could prevent scale-in when \u0060BatchCheckpointFrequency\u0060 was greater than 1. Pending processed events are now checkpointed after 10 minutes of inactivity so that the scale controller does not report backlog for events that have already been processed. ([#59801](https://github.com/Azure/azure-sdk-for-net/pull/59801))",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "19cc8353d37d23f9852725bd8f77021bb07008c5623318264bcecc859a99bd0d",
+    "title": "Azure.ResourceManager.Storage_1.9.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Storage_1.9.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T05:07:11+00:00",
+    "summary": "## 1.9.0 (2026-10-28) ### Features Added - Upgraded api-version from \u00602026-06-01\u0060 to \u00602026-09-01\u0060. Tag details available at https://github.com/Azure/azure-rest-api-specs/tree/fd6b671904429f73310b882648f81346b05024d1/specification/storage/resource-manager/Microsoft.Storage/Storage. - Supported new \u0060BlobAccessPointConfigurationResource\u0060 for managing Blob Access Point configurations and testing proposed and existing connections to backing data stores. - Supported attaching blob containers to Blob Access Point configurations and enabling Blob Access Points through \u0060StorageDataCollaborationPolicyProperties.AllowBlobAccessPoints\u0060. - Supported new \u0060TurboTier\u0060 configuration on storage account create/update, including status and target percentage. - Supported context cache name availability checks. - Supported new \u0060ServiceTags\u0060 property on \u0060NspAccessRuleProperties\u0060 for inbound network security perimeter access rules.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "5946a97349117e37daac63c3b6184b8e6f0e4ac56fc8784bc35768e7a99233bb",
+    "title": "Azure.ResourceManager.ContainerService_1.10.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerService_1.10.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T03:49:06+00:00",
+    "summary": "## 1.10.0-beta.1 (2026-10-22) ### Features Added - Upgraded api-version to 2026-08-02-preview.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "eefbbe4975d2d6fc7da881ccdd890b0f7cab74fa7a031f2f688873471d77d5dc",
+    "title": "Azure.AI.VoiceLive_1.2.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.VoiceLive_1.2.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T03:48:34+00:00",
+    "summary": "## 1.2.1 (2026-10-28) ### Bugs Fixed - WebSocket connections no longer follow redirects, preventing API keys and other handshake headers from being forwarded to redirect destinations.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "de45343c4a16df7026cfc18b55a92a836cf623693e56e30675262ae91b3fa2eb",
+    "title": "Azure.Security.KeyVault.Secrets_4.12.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Secrets_4.12.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T01:25:55+00:00",
+    "summary": "## 4.12.0 (2026-10-27) ### Other Changes - Regenerated the library for stable Key Vault API version \u00602026-04-01\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "2c78e161f04ecd43157844148ab7e953cbc3b15781d0987c05128c3737268b69",
+    "title": "Azure.Security.KeyVault.Certificates_4.10.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Certificates_4.10.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-29T01:25:42+00:00",
+    "summary": "## 4.10.0 (2026-10-27) ### Other Changes - Regenerated the library for stable Key Vault API version \u00602026-04-01\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "e3b1dc3f7a15969960e7ea3082bd2277ecef498d942f771c48255f1a7c4d94ad",
+    "title": "v10.4.1",
+    "url": "https://github.com/dotnet/orleans/releases/tag/v10.4.1",
+    "source": "orleans",
+    "publishedAt": "2026-10-28T23:42:33+00:00",
+    "summary": "# Orleans 10.4.1 Orleans 10.4.1 improves cluster membership, grain scheduling, graceful shutdown, client startup, serialization, and provider reliability. It also restores standalone serializer code generation, fixes ADO.NET streaming message loss, and improves dashboard statistics and navigation. ## Compatibility and upgrade notes \u003E [!IMPORTANT] \u003E **Public API compatibility:** \u0060SiloAddress.GetUniformHashCodes(int)\u0060 now returns \u0060ImmutableArray \u0060 instead of \u0060uint[]\u0060. This is a source- and binary-breaking change for code which calls this method. Rebuild affected applications and libraries against 10.4.1. Use \u0060ToArray()\u0060 when a mutable array is required, or \u0060Sort()\u0060 for an immutable sorted result. See [#11425](https://github.com/dotnet/orleans/pull/11425). - **Distributed grain directory:** Preserve the cluster\u0027s existing partition count and ordered partition boundaries throughout an upgrade. The new \u0060GrainDirectoryOptions.GetPartitionBoundaries\u0060 callback supports configuring the mapping ",
+    "categories": [
       "dotnet-ecosystem"
     ]
   },
@@ -1949,6 +3212,20 @@
     ]
   },
   {
+    "id": "5d756d10cb0ad87bf9acce63e0b29788e4ef69d9416bd9c22f526c2946ec583a",
+    "title": "Azure.ResourceManager.Network_1.18.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.18.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-28T15:00:27+00:00",
+    "summary": "## 1.18.0-beta.2 (2026-10-28) The changes below are described relative to version 1.15.0. Previously published releases after 1.15.0, including 1.16.1 and 1.17.0, are planned for retraction. ### Features Added - Upgraded API version from 2025-05-01 to 2026-01-01. - Added resource APIs for address prefix sets, connection analyzers, connection policies, ExpressRoute LAGs, firewall policy Kubernetes selector groups, identity integration authentication policies, interconnect groups, and network manager configuration commits. - Added models for Application Gateway advanced routing conditions, maps, and rules. - Added strongly typed \u0060BastionHostPatch\u0060 overloads to \u0060BastionHostResource.Update\u0060 and \u0060UpdateAsync\u0060. ### Breaking Changes - This release contains breaking changes compared with versions 1.16.1 and 1.17.0. ### Other Changes - Migrated code generation from AutoRest to TypeSpec. - Deprecated \u0060PolicySettings.CaptchaCookieExpirationInMins\u0060 in favor of \u0060CaptchaExpirationInMins\u0060 and hid the",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
     "id": "3741478ac0e3de4871f841dad1566c298b4f7249b3ab5a99ab1c083acef8a587",
     "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
     "url": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
@@ -1959,6 +3236,32 @@
       "ai-agents",
       "azure",
       "ef-data"
+    ]
+  },
+  {
+    "id": "2cdeee5a3120c7ceaad5512f1b9997bbea5acfc6d3c2eb898fd96896699c958c",
+    "title": "Azure.ResourceManager.OracleDatabase_1.3.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.OracleDatabase_1.3.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-28T05:59:21+00:00",
+    "summary": "## 1.3.0 (2026-10-16) ### Features Added - Upgraded API version to 2026-06-01. ### Bugs Fixed - Fixed hostname deserialization for cloud VM clusters. - Fixed base database model factories to return concrete mock instances while preserving discriminator values.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "682843aad2cd8f22a30097488d3676eade477a45b6a370b28d92c28d95e66612",
+    "title": "Azure.ResourceManager.NetApp_1.19.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NetApp_1.19.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-28T04:50:41+00:00",
+    "summary": "## 1.19.0 (2026-10-20) ### Features Added - Upgraded api-version to \u00602026-08-01\u0060. - Expanded \u0060LdapConfiguration\u0060 and \u0060LdapConfigurationPatch\u0060 with bind authentication, DNS servers, distinguished names, LDAP port, and Key Vault-backed bind password settings. - Added \u0060BindPasswordKeyVaultConfig\u0060 and \u0060BindPasswordKeyVaultConfigPatch\u0060 models. - Added \u0060BindAuthenticationLevel\u0060 and \u0060SecureLdapType\u0060 enums for LDAP authentication and secure LDAP configuration. - Added the \u0060Canceled\u0060 member to \u0060NetAppProvisioningState\u0060. - Added \u0060RefreshLdapBindPassword\u0060 and \u0060RefreshLdapBindPasswordAsync\u0060 operations to \u0060NetAppAccountResource\u0060. ### Bugs Fixed - Preserved the existing \u0060NetAppAccountPatch.Encryption\u0060 and \u0060NetAppAccountPatch.ActiveDirectories\u0060 property types and \u0060NfsV4IdDomain\u0060 property name when generating from TypeSpec. - Preserved explicit-null NFSv4 ID domain updates and their serialization round-trips. - Restored mutable empty tags when Elastic resource model factories receive omitted or null t",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -2044,6 +3347,47 @@
     ]
   },
   {
+    "id": "3296d4bd45ca70cacda66f5451c9a0dad19882ceb8b90fe32e2dc7ae0ddd6582",
+    "title": "Azure.Provisioning_1.7.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning_1.7.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-27T08:48:13+00:00",
+    "summary": "## 1.7.0-beta.1 (2026-10-27) ### Features Added - Added JSON serialization and deserialization for \u0060Infrastructure\u0060 and Bicep syntax nodes through \u0060ModelReaderWriter\u0060, including schema-compatible decorators, 64-bit integers, type annotations, and reverse indexing. - Added \u0060OfResourceType \u0060 to upgrade deserialized resources to generated resource types while preserving properties, metadata, conditions, and resource dependencies. - Added validation that rejects Bicep constructs without a JSON schema representation, including nested resource access, null suppression, and standalone decorators.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "777830901670b0be6ebba1e2a51088a0a6655eb78113e4686a6bc0446a7ea6eb",
+    "title": "Azure.ResourceManager.CloudHealth_1.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CloudHealth_1.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-27T07:47:37+00:00",
+    "summary": "## 1.0.0 (2026-10-27) This is the first stable release of this library. ### Features Added - Upgraded API version from \u00602026-10-01-preview\u0060 to the stable \u00602026-11-01\u0060 version.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "4b7a54a006f426b26a7a3d89b1b221d1b3fd73ce28e77113142d677bce6bf70c",
+    "title": "Azure.Core_1.64.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Core_1.64.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-26T22:46:45+00:00",
+    "summary": "## 1.64.0 (2026-10-26) ### Features Added - Promoted AKS identity binding support in \u0060WorkloadIdentityCredential\u0060 to general availability. \u0060WorkloadIdentityCredentialOptions.IsAzureProxyEnabled\u0060 no longer requires suppressing experimental diagnostic \u0060AZID0002\u0060. Identity binding remains opt-in and isn\u0027t supported by \u0060DefaultAzureCredential\u0060 or \u0060ManagedIdentityCredential\u0060. ### Bugs Fixed - Fixed CA certificate reloads for an already-used Kubernetes token proxy in \u0060WorkloadIdentityCredential\u0060, so subsequent requests use the new CA without throwing or retaining the old trust configuration.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
     "id": "88b66ab4804ec5f0fa2668d9fe363a129344804c5f0ab9c24ca01e8d4393ac63",
     "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
     "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
@@ -2075,6 +3419,19 @@
     "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .",
     "categories": [
       "azure"
+    ]
+  },
+  {
+    "id": "11ea1e0baf08758dbfc46f5b400bc60ba162e312bafc2b9f4b60bc273471c58d",
+    "title": "Azure.ResourceManager.CognitiveServices_1.7.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CognitiveServices_1.7.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-26T15:54:40+00:00",
+    "summary": "## 1.7.0-beta.1 (2026-10-26) ### Features Added - Upgraded api-version to 2026-09-15-preview. ### Breaking Changes - Compared to \u00601.6.0-beta.4\u0060, renamed \u0060CapabilitySettings\u0060 to \u0060CognitiveServicesAgentCapabilitySettings\u0060, including references in account/project properties and model-factory methods. - Compared to \u00601.6.0-beta.4\u0060, changed \u0060CognitiveServicesClusterComputeProperties.SubnetArmId\u0060 from \u0060string\u0060 to \u0060Azure.Core.ResourceIdentifier\u0060. - Compared to \u00601.6.0-beta.4\u0060, changed \u0060CognitiveServicesManagedComputeDeploymentInfo.DeploymentId\u0060 and \u0060ProjectId\u0060 from \u0060string\u0060 to \u0060Azure.Core.ResourceIdentifier\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -2161,6 +3518,18 @@
     ]
   },
   {
+    "id": "e00a2c90a81cc397ea2fdcc9a8ec91d93bb128ddc5057e9f91f351fe2c9661a6",
+    "title": "dotnet-1.26.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.26.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-10-23T14:32:13+00:00",
+    "summary": "## Changes: * 9c8a3514a15a702f81bfda456d80c7ccaa4d2712 Update package versions for release (#9650) * c3b9f22d64fd86e8133395555a1fa4aa22f745e0 Add ACGS to the Python community projects (#9618) * 71cf48cb4019bc503c7ceb61420cc3d836250790 Python: Honor allow_multiple_tool_calls in AnthropicClient when tool_choice is unset (#8980) * ea32b6db9e9b4b434a86496bacd9cc6dd0422a69 Python: compose Copilot session hooks correctly (#9649) * 678c6616aa4c73ecfc28cc6fc119a3928ba04024 .NET: Fix AG-UI sample prerequisites and troubleshooting paths (#9620) * 8730cb1974857e2264f874a258623db1303cc2ac .NET: Log a warning when an unsupported declarative action is skipped (#8056) [ #8040 ] * 9581926deec6a0473a68797153e98d44da74d09a .NET: Correct endpoint override instructions in Responses samples (#9639) * 9c53b5f44658cc7839d0f1aefe580152edaba970 Python: Refresh coding standards and Copilot review guidance (#9637) * 3b725b3b0ffe09ff00d57b31cc179d20d12a1e49 Python: fix(core): define EdgeGroup\u0027s builtins.type alia",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "483c09277a8e933c959829a023fd193516323bf0e1b26f7a3db496e0d88b78ea",
     "title": "From Local Development to CI Workflows with the Azure Cosmos DB Emulator",
     "url": "https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/",
@@ -2182,6 +3551,33 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "765727132dbef2820813fa436442a52d21f767eaa6b28dea04a0741dfcce3209",
+    "title": "Azure.ResourceManager.EdgeActions_1.0.0-beta.4",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.EdgeActions_1.0.0-beta.4",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-23T08:08:14+00:00",
+    "summary": "## 1.0.0-beta.4 (2026-10-22) ### Features Added - Updated the default service API version from \u00602025-12-01-preview\u0060 to \u00602026-10-01\u0060. ### Breaking Changes - \u0060EdgeActionVersionResource.DeployVersionCode\u0060 and \u0060DeployVersionCodeAsync\u0060 now return operations with an \u0060EdgeActionVersionResource\u0060 result instead of \u0060EdgeActionVersionProperties\u0060. Access the deployed version\u0027s properties through \u0060operation.Value.Data.Properties\u0060 instead of \u0060operation.Value\u0060. ### Other Changes - Clarified documentation for PATCH tag replacement and clearing, rejected SKU updates, version deployment-type restrictions, and default-version changes through \u0060SwapDefault\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f6ad2d638475c1317244e6a512cf979ca58272d5a0d13463dad531f2d396ebff",
+    "title": "Azure.ResourceManager.Hci_1.4.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Hci_1.4.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-23T07:25:41+00:00",
+    "summary": "## 1.4.0 (2026-10-22) ### Features Added - Upgraded API version to \u00602026-10-01\u0060 (stable). - Added support for cluster jobs and edge-machine management, including deployment settings, disks, network adapters, security settings, volumes, and associated job operations.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
     ]
   },
   {
@@ -2208,6 +3604,17 @@
     ]
   },
   {
+    "id": "bb4c860b7668aff045b4edca02fd1f6acbce36988829fa55672259503bcd1426",
+    "title": "python-1.23.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0",
+    "source": "agent-framework",
+    "publishedAt": "2026-10-22T17:05:37+00:00",
+    "summary": "## [1.23.0] - 2026-10-22 ### Added - **agent-framework-a2a**: Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ([#9193](https://github.com/microsoft/agent-framework/pull/9193)) - **agent-framework-core**, **agent-framework-orchestrations**: Add an opt-in synthetic trailing user turn for providers that return empty text after assistant-ending prompts ([#8779](https://github.com/microsoft/agent-framework/pull/8779)) ### Changed - **agent-framework**, **agent-framework-ag-ui**, **agent-framework-core**, **agent-framework-declarative**, **agent-framework-foundry-hosting**, **agent-framework-hosting-mcp**, **agent-framework-lab**: [BREAKING] Add the MCP 2.x compatibility foundation and migrate MCP transports, errors, schemas, and lifecycle handling ([#9236](https://github.com/microsoft/agent-framework/pull/9236)) - **agent-framework-ag-ui**, **agent-framework-core**: [BREAKING] Require an explicit AG-UI authorization scope or single-user decla",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
     "id": "6a75547e584d98c77e17246c2ec3a9079c8f920a5260967c4ac02d799ebf28c9",
     "title": "Are you getting everything you can from Your Visual Studio Subscription?",
     "url": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
@@ -2215,6 +3622,84 @@
     "publishedAt": "2026-10-22T14:00:56+00:00",
     "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you\u2019re a Visual Studio subscriber, you may already have benefits that can help you do all three. Here\u2019s [\u2026] The post Are you getting everything you can from Your Visual Studio Subscription? appeared first on Visual Studio Blog .",
     "categories": [
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "46e855244d2f80f53bfd8388940b271ead13ff9b03e16a3cb5c2773381ccfd39",
+    "title": "Azure.ResourceManager.ContainerService_1.9.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerService_1.9.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-22T13:06:51+00:00",
+    "summary": "## 1.9.0 (2026-10-19) ### Features Added - Upgraded api-version to 2026-08-01. - Added NVIDIA GPU management settings to agent pool GPU profiles.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "e9d5e0f10abd6c0c23ba2bff1653eafdf4d1537e3880630a3f48006fbea52eb6",
+    "title": "Azure.Provisioning.SerialConsole_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.SerialConsole_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-22T10:15:41+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-10-22) ### Features Added - Initial release of Azure.Provisioning.SerialConsole.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "aecaab3be58b555858ca2b31116420bba6c38d6911576c41a7ab6198b52840dc",
+    "title": "Azure.Provisioning.HealthBot_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.HealthBot_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-22T08:54:58+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-10-22) ### Features Added - Initial beta release of Azure.Provisioning.HealthBot.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "86a97800aca93b488b999126da7623a90531e0f35a6b3ff5f177d7e34a8c1eda",
+    "title": "Azure.Provisioning.SiteManager_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.SiteManager_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-22T07:47:20+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-10-22) ### Features Added - Initial beta release of Azure.Provisioning.SiteManager.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "e921424345495a6540220efc8dfb2db53466195f21987d9e49399974643967a8",
+    "title": "Azure.Extensions.AspNetCore.DataProtection.Blobs_1.5.5",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Blobs_1.5.5",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-21T22:08:29+00:00",
+    "summary": "## 1.5.5 (2026-10-21) ### Other Changes - Updated \u0060Microsoft.AspNetCore.DataProtection\u0060 dependency to \u00608.0.32\u0060 for \u0060net8.0\u0060 and \u006010.0.13\u0060 for all other target frameworks.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "1546770fb74cbb1bd2eb56454a1cbd6e748b01ce5f37818374e24684406719fc",
+    "title": "Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.5",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.5",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-21T22:08:06+00:00",
+    "summary": "## 1.6.5 (2026-10-21) ### Other Changes - Updated \u0060Microsoft.AspNetCore.DataProtection\u0060 dependency to \u00608.0.32\u0060 for \u0060net8.0\u0060 and \u006010.0.13\u0060 for all other target frameworks.",
+    "categories": [
+      "ai-agents",
       "azure",
       "dotnet-csharp"
     ]
@@ -2279,6 +3764,19 @@
       "azure",
       "ef-data",
       "security-identity"
+    ]
+  },
+  {
+    "id": "a0977233c7e5d1519e5ca16fa98f652cdd2bb7cdbd08f2cced2bd11849c84a70",
+    "title": "Azure.ResourceManager.Maintenance_1.2.0-beta.12",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Maintenance_1.2.0-beta.12",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-21T08:46:56+00:00",
+    "summary": "## 1.2.0-beta.12 (2026-10-20) ### Features Added - Release ScheduledEvents Acknowledge Error Details classes.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   },
   {
@@ -2419,6 +3917,19 @@
     ]
   },
   {
+    "id": "2ef7eb8911590a5ae11544d6f90340fc8023a67bd4fbcd9cd1248a951c3c3b45",
+    "title": "Azure.Provisioning.ContainerService_1.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.ContainerService_1.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-19T09:35:22+00:00",
+    "summary": "## 1.0.0 (2026-10-19) ### Features Added - First stable release of Azure.Provisioning.ContainerService for declarative provisioning of Azure Kubernetes Service resources, using API version \u00602026-07-01\u0060 by default.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "93aa1a4a7e5ab21ab29411882915576962fbc9cca619c74ac25920eef01a6bf2",
     "title": "AI\u2019s epic cash call is matched only by its ability to strangle revenue streams",
     "url": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
@@ -2428,6 +3939,32 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "70fbf192556ecf54f412314618bbbbbe999a923a64cc3a58acafb857396ace8c",
+    "title": "Azure.ResourceManager.HybridConnectivity_1.2.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.HybridConnectivity_1.2.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-19T06:25:40+00:00",
+    "summary": "## 1.2.0 (2026-10-20) ### Features Added - Upgraded API version to \u00602027-01-01\u0060. - Added support for Google Cloud Platform (GCP) public cloud connectors: - Added \u0060PublicCloudHostType.Gcp\u0060. - Added \u0060GcpCloudProfile\u0060, \u0060GcpProjectProperties\u0060, and \u0060GcpOrganizationProperties\u0060 models, exposed via \u0060PublicCloudConnectorProperties.GcpCloudProfile\u0060. - Added \u0060SubscriptionResource.PostGenerateGcpTemplate\u0060 and \u0060PostGenerateGcpTemplateAsync\u0060 for retrieving a GCP access control template, along with the \u0060GenerateGcpTemplateContent\u0060, \u0060GenerateGcpTemplateResult\u0060, and \u0060GcpTemplateFormat\u0060 models. - Added \u0060PublicCloudConnectorData.Kind\u0060 identifying which public cloud a connector targets. - Added \u0060HostTypes\u0060 to \u0060PublicCloudConnectorSolutionTypeProperties\u0060 and \u0060PublicCloudConnectorSolutionTypeSettingsProperties\u0060. ### Breaking Changes - \u0060PublicCloudConnectorPatch.AwsCloudExcludedAccounts\u0060 is obsolete in favor of \u0060PublicCloudConnectorPatch.Properties.AwsCloudExcludedAccounts\u0060. The patch payload now carries a \u0060",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "a2e4269edfe1770c05b94084a9564b6026394602ab68e85004cd466d77692263",
+    "title": "Azure.Provisioning.AgriculturePlatform_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.AgriculturePlatform_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-10-19T02:53:54+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-10-15) ### Features Added - Initial release of Azure.Provisioning.AgriculturePlatform",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
     ]
   }
 ]

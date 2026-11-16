@@ -674,6 +674,19 @@
     ]
   },
   {
+    "id": "f1c855aa4b85adba761aad960a42517244583d645ae576b1d63f7128085d5034",
+    "title": "Aspire 13.6.5",
+    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.5",
+    "source": "aspire",
+    "publishedAt": "2026-11-10T21:45:33+00:00",
+    "summary": "## What\u0027s New in Aspire 13.6.5 Patch release for Aspire 13.6 with dashboard and CLI security hardening and .NET runtime servicing updates. ### \uD83D\uDC1B Fixes - \uD83D\uDDA5\uFE0F **Dashboard authentication is enforced on missing and unauthorized routes** \u2014 Secured dashboards now check authorization before rendering the main layout for missing routes or denied access. In browser-token mode, unauthenticated users are redirected to login with the original route preserved. Additional authentication checks protect layout, dialog, interaction, and standalone terminal-window initialization; unsecured mode is unchanged. ([#22071](https://github.com/microsoft/aspire/pull/22071), [0b6bfe2](https://github.com/microsoft/aspire/commit/0b6bfe2f538d4eed8a9ae7e11651c09dbbe886b8), @jamesnk) - \uD83D\uDD12 **Container telemetry no longer implicitly exposes the dashboard frontend** \u2014 When the Aspire container tunnel is enabled, automatic dashboard tunneling exposes only the OTLP gRPC and HTTP endpoints. Explicit references to other da",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem",
+      "security-identity"
+    ]
+  },
+  {
     "id": "f509c1dcbdc30dd917bd23d5cd97de4db8033ff3194650cbf480cfa2bee48466",
     "title": "To thwart reverse engineering by agents, dev proposes blinding them",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/10/to-thwart-reverse-engineering-by-agents-dev-proposes-blinding-them/5308897",
@@ -3482,6 +3495,18 @@
     ]
   },
   {
+    "id": "477ccfef244c34f6eba81fed0db6e2abce241d994708ac2d3170c53df600a413",
+    "title": "Aspire 13.6.4",
+    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.4",
+    "source": "aspire",
+    "publishedAt": "2026-10-24T11:45:13+00:00",
+    "summary": "## What\u0027s New in Aspire 13.6.4 Patch release for Aspire 13.6 that improves resource startup reliability, fixes Azure publishing with parameterized enum properties in TypeScript AppHosts, and tightens CLI diagnostic log permissions on Unix. ### \uD83D\uDC1B Fixes - \uD83D\uDDA5\uFE0F **Resources could fail to start after a DCP create request timed out** \u2014 AppHost now checks whether a resource was created before retrying a timed-out or HTTP 504 request, avoiding a premature \u0060FailedToStart\u0060 state when DCP completed the operation. API operations default to a 40-second timeout with an additional 20-second allowance before the first successful operation, and resource creation has a two-minute recovery budget. These limits can be configured through \u0060DcpPublisher:KubernetesApiTimeout\u0060, \u0060DcpPublisher:KubernetesInitializationAdditionalTimeout\u0060, and \u0060DcpPublisher:KubernetesCreateRecoveryTimeout\u0060. Established watch and log streams are not limited by these operation timeouts. Addresses startup timeouts reported in 13.6. Fi",
+    "categories": [
+      "azure",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
     "id": "f45693d87865b36ce16bb35c0f70f3cd203e795e0f7d553202f621bc48e0ed3b",
     "title": "How to Revoke a JWT Before It Expires",
     "url": "https://milanjovanovic.tech/blog/revoke-jwt-before-it-expires-token-version",
@@ -3502,6 +3527,17 @@
     "summary": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an",
     "categories": [
       "azure"
+    ]
+  },
+  {
+    "id": "2231366e8909b1d86f8c45b47b8d1820e32f6d51d7920a6902f5825dcaa337a3",
+    "title": "Aspire 13.6.3",
+    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.3",
+    "source": "aspire",
+    "publishedAt": "2026-10-23T18:17:33+00:00",
+    "summary": "## What\u0027s New in Aspire 13.6.3 Patch release for Aspire 13.6 that improves resource orchestration reliability by preventing unread resource watches from stalling resource updates and operations. ### \uD83D\uDC1B Fixes - \uD83D\uDDA5\uFE0F **Resource operations could stall when a watch stopped being read** \u2014 AppHost now closes abandoned watch connections when setup is canceled and keeps reading resource events even when event handlers are slow. Resource event ordering, lifecycle callback dispatch, and the existing periodic reconnection safeguard are preserved. ([#21002](https://github.com/microsoft/aspire/pull/21002), backport of [#20972](https://github.com/microsoft/aspire/pull/20972), @danegsta) - \uD83D\uDD04 **Slow watchers could block other resource updates or watcher shutdown** \u2014 The bundled Developer Control Plane (DCP) is updated to 0.26.6, which keeps internal lifecycle watches draining and uses bounded, asynchronous watch delivery to prevent unread watches from blocking resource-change publication and unrelated",
+    "categories": [
+      "dotnet-ecosystem"
     ]
   },
   {
@@ -3777,6 +3813,19 @@
       "ai-agents",
       "azure",
       "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f795bcb12c0eec502efd374aee42fa19f390bfedb7d4508db39573ba376ca20a",
+    "title": "Aspire 13.6.2",
+    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.2",
+    "source": "aspire",
+    "publishedAt": "2026-10-20T23:06:59+00:00",
+    "summary": "*Full commit: [af07e33f8d1ef733645138b3f8e36067d073148d](https://github.com/microsoft/aspire/commit/af07e33f8d1ef733645138b3f8e36067d073148d)* ## What\u0027s Changed * [release/13.6] Bump version to 13.6.2 by @danegsta with @Copilot in https://github.com/microsoft/aspire/pull/20877 * [release/13.6] Pin MessagePack to 2.5.307 for security fixes by @eerhardt in https://github.com/microsoft/aspire/pull/21156 **Full Changelog**: https://github.com/microsoft/aspire/compare/v13.6.1...v13.6.2",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem",
+      "security-identity"
     ]
   },
   {

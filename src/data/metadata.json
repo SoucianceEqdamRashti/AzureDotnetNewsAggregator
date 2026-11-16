@@ -1,8 +1,6 @@
 {
-  "lastSuccessfulIngestion": "2026-11-16T10:27:48.5472019+00:00",
-  "articleCount": 325,
-  "successfulSources": 27,
-  "failedSources": [
-    "aspire"
-  ]
+  "lastSuccessfulIngestion": "2026-11-16T10:33:02.3491765+00:00",
+  "articleCount": 329,
+  "successfulSources": 28,
+  "failedSources": []
 }

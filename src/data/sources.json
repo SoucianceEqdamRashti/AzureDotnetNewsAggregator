@@ -1,0 +1,499 @@
+[
+  {
+    "id": "azure-updates",
+    "name": "Azure Updates",
+    "homepage": "https://azure.microsoft.com/en-us/updates/",
+    "url": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "azure"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "azure-blog",
+    "name": "Microsoft Azure Blog",
+    "homepage": "https://azure.microsoft.com/en-us/blog/",
+    "url": "https://azure.microsoft.com/en-us/blog/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "azure"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "azure-sdk",
+    "name": "Azure SDK Blog",
+    "homepage": "https://devblogs.microsoft.com/azure-sdk/",
+    "url": "https://devblogs.microsoft.com/azure-sdk/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "azure"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "tech-community",
+    "name": "Microsoft Tech Community",
+    "homepage": "https://techcommunity.microsoft.com/",
+    "url": null,
+    "type": "custom",
+    "enabled": false,
+    "defaultCategories": [
+      "azure"
+    ],
+    "includeKeywords": [
+      "Azure",
+      ".NET",
+      "C#",
+      "AI",
+      "agent",
+      "security",
+      "identity",
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "Kubernetes",
+      "agents"
+    ],
+    "disabledReason": "Homepage returned no advertised feed; a stable public feed/API for this broad source was not verified. No HTML scraping."
+  },
+  {
+    "id": "azure-sql",
+    "name": "Azure SQL Devs' Corner",
+    "homepage": "https://devblogs.microsoft.com/azure-sql/",
+    "url": "https://devblogs.microsoft.com/azure-sql/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "azure",
+      "ef-data"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "cosmosdb",
+    "name": "Azure Cosmos DB Blog",
+    "homepage": "https://devblogs.microsoft.com/cosmosdb/",
+    "url": "https://devblogs.microsoft.com/cosmosdb/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "azure",
+      "ef-data"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "agent-framework-blog",
+    "name": "Microsoft Agent Framework Blog",
+    "homepage": "https://devblogs.microsoft.com/agent-framework/",
+    "url": "https://devblogs.microsoft.com/agent-framework/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "ai-agents"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "foundry",
+    "name": "Microsoft Foundry Blog",
+    "homepage": "https://devblogs.microsoft.com/foundry/",
+    "url": "https://devblogs.microsoft.com/foundry/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "ai-agents"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "agent-framework",
+    "name": "Microsoft Agent Framework Releases",
+    "homepage": "https://github.com/microsoft/agent-framework/releases",
+    "url": "https://api.github.com/repos/microsoft/agent-framework/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "ai-agents"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "azure-sdk-net",
+    "name": "Azure SDK for .NET Releases",
+    "homepage": "https://github.com/Azure/azure-sdk-for-net/releases",
+    "url": "https://api.github.com/repos/Azure/azure-sdk-for-net/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "dotnet-blog",
+    "name": ".NET Blog",
+    "homepage": "https://devblogs.microsoft.com/dotnet/",
+    "url": "https://devblogs.microsoft.com/dotnet/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-csharp"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "runtime",
+    "name": ".NET Runtime Releases",
+    "homepage": "https://github.com/dotnet/runtime/releases",
+    "url": "https://api.github.com/repos/dotnet/runtime/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-csharp"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "aspnetcore",
+    "name": "ASP.NET Core Releases",
+    "homepage": "https://github.com/dotnet/aspnetcore/releases",
+    "url": "https://api.github.com/repos/dotnet/aspnetcore/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-csharp"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "visualstudio",
+    "name": "Visual Studio Blog",
+    "homepage": "https://devblogs.microsoft.com/visualstudio/",
+    "url": "https://devblogs.microsoft.com/visualstudio/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-csharp"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "efcore",
+    "name": "EF Core Releases",
+    "homepage": "https://github.com/dotnet/efcore/releases",
+    "url": "https://api.github.com/repos/dotnet/efcore/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "ef-data"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "npgsql",
+    "name": "Npgsql",
+    "homepage": "https://www.npgsql.org/",
+    "url": null,
+    "type": "custom",
+    "enabled": false,
+    "defaultCategories": [
+      "ef-data"
+    ],
+    "disabledReason": "Homepage has no advertised dated feed. A reliable news endpoint was not verified; no homepage scraping is implemented."
+  },
+  {
+    "id": "thinktecture",
+    "name": "Thinktecture Blog",
+    "homepage": "https://www.thinktecture.com/en/",
+    "url": null,
+    "type": "custom",
+    "enabled": false,
+    "defaultCategories": [
+      "ef-data"
+    ],
+    "includeKeywords": [
+      "Azure",
+      ".NET",
+      "C#",
+      "AI",
+      "agent",
+      "security",
+      "identity",
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "Kubernetes",
+      "agents"
+    ],
+    "disabledReason": "Homepage has no advertised RSS/Atom feed. No supported dated API was verified; no fragile HTML scraping."
+  },
+  {
+    "id": "aspire-blog",
+    "name": "Aspire Blog",
+    "homepage": "https://devblogs.microsoft.com/aspire/",
+    "url": "https://devblogs.microsoft.com/aspire/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-ecosystem"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "aspire",
+    "name": "Aspire Releases",
+    "homepage": "https://github.com/dotnet/aspire/releases",
+    "url": "https://api.github.com/repos/dotnet/aspire/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-ecosystem"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "orleans",
+    "name": "Microsoft Orleans Releases",
+    "homepage": "https://github.com/dotnet/orleans/releases",
+    "url": "https://api.github.com/repos/dotnet/orleans/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-ecosystem"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "andrewlock",
+    "name": "Andrew Lock's Blog",
+    "homepage": "https://andrewlock.net/",
+    "url": "https://andrewlock.net/rss.xml",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-ecosystem"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "milan",
+    "name": "Milan Jovanović Blog",
+    "homepage": "https://www.milanjovanovic.tech/blog",
+    "url": "https://milanjovanovic.tech/rss/feed.xml",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-ecosystem"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "meziantou",
+    "name": "Gérald Barré (Meziantou)",
+    "homepage": "https://www.meziantou.net/",
+    "url": "https://www.meziantou.net/feed.rss",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-ecosystem"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "security",
+    "name": "Microsoft Security Blog",
+    "homepage": "https://www.microsoft.com/en-us/security/blog/",
+    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "security-identity"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "entra",
+    "name": "Microsoft Entra Blog",
+    "homepage": "https://techcommunity.microsoft.com/category/microsoft-entra/blog/identity",
+    "url": "https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Identity",
+    "type": "rss",
+    "enabled": false,
+    "defaultCategories": [
+      "security-identity"
+    ],
+    "disabledReason": "Publisher-linked legacy Identity RSS endpoint returned HTTP 404. Current blog navigation redirected to sign-in; no replacement feed verified."
+  },
+  {
+    "id": "msrc",
+    "name": "Microsoft Security Response Center",
+    "homepage": "https://msrc.microsoft.com/update-guide",
+    "url": "https://api.msrc.microsoft.com/cvrf/v3.0/updates",
+    "type": "custom",
+    "enabled": true,
+    "defaultCategories": [
+      "security-identity"
+    ],
+    "disabledReason": null,
+    "adapter": "msrc"
+  },
+  {
+    "id": "devops",
+    "name": "Azure DevOps Blog",
+    "homepage": "https://devblogs.microsoft.com/devops/",
+    "url": "https://devblogs.microsoft.com/devops/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "devops-iac"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "github-blog",
+    "name": "GitHub Blog",
+    "homepage": "https://github.blog/",
+    "url": "https://github.blog/feed/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "devops-iac"
+    ],
+    "includeKeywords": [
+      "Azure",
+      ".NET",
+      "C#",
+      "AI",
+      "agent",
+      "security",
+      "identity",
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "Kubernetes",
+      "agents"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "bicep",
+    "name": "Azure Bicep Releases",
+    "homepage": "https://github.com/Azure/bicep/releases",
+    "url": "https://api.github.com/repos/Azure/bicep/releases?per_page=100",
+    "type": "github-release",
+    "enabled": true,
+    "defaultCategories": [
+      "devops-iac"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "hashicorp",
+    "name": "HashiCorp Blog",
+    "homepage": "https://www.hashicorp.com/en/blog",
+    "url": null,
+    "type": "custom",
+    "enabled": false,
+    "defaultCategories": [
+      "devops-iac"
+    ],
+    "includeKeywords": [
+      "Azure",
+      ".NET",
+      "C#",
+      "AI",
+      "agent",
+      "security",
+      "identity",
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "Kubernetes",
+      "agents"
+    ],
+    "disabledReason": "Publisher homepage returned HTTP 429 during verification. No feed endpoint was verified; retry discovery when accessible."
+  },
+  {
+    "id": "infoq-dotnet",
+    "name": "InfoQ .NET",
+    "homepage": "https://www.infoq.com/dotnet/",
+    "url": "https://feed.infoq.com/dotnet/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "dotnet-csharp"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "infoq-cloud",
+    "name": "InfoQ Cloud Computing",
+    "homepage": "https://www.infoq.com/cloud-computing/",
+    "url": "https://feed.infoq.com/cloud-computing/",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "general-technology"
+    ],
+    "includeKeywords": [
+      "Azure",
+      ".NET",
+      "C#",
+      "AI",
+      "agent",
+      "security",
+      "identity",
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "Kubernetes",
+      "agents"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "register",
+    "name": "The Register",
+    "homepage": "https://www.theregister.com/",
+    "url": "https://www.theregister.com/?lab_viewport=rss",
+    "type": "rss",
+    "enabled": true,
+    "defaultCategories": [
+      "general-technology"
+    ],
+    "includeKeywords": [
+      "Azure",
+      ".NET",
+      "C#",
+      "AI",
+      "agent",
+      "security",
+      "identity",
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "Kubernetes",
+      "agents"
+    ],
+    "disabledReason": null
+  },
+  {
+    "id": "customer-stories",
+    "name": "Microsoft Azure Customer Stories",
+    "homepage": "https://www.microsoft.com/en-us/customers/search?filters=product%3Aazure",
+    "url": null,
+    "type": "custom",
+    "enabled": false,
+    "defaultCategories": [
+      "azure-customer-stories"
+    ],
+    "disabledReason": "Inspected official search HTML: no advertised feed or dated structured story listing. No supported public story-search API verified. Disabled to avoid fragile scraping."
+  }
+]

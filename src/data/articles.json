@@ -1,0 +1,2433 @@
+[
+  {
+    "id": "ad0515e6b87e3300f7530e336c9fb2889675df86ecab1d668e934f291c708fd0",
+    "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
+    "url": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/",
+    "source": "infoq-dotnet",
+    "publishedAt": "2026-11-16T09:00:00+00:00",
+    "summary": "Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all targets, and removes native rendering and Mac Catalyst. By Edin Kapi\u0107",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "faf1d1172602e3bfd6ed84215f890f7026d6cc785119212185e20d6e8c2e2816",
+    "title": "Microsoft\u2019s Azure Linux dons Fedora to dress itself up for mainstream workloads",
+    "url": "https://www.theregister.com/os-platforms/2026/11/16/microsofts-azure-linux-dons-fedora-to-dress-itself-up-for-mainstream-workloads/5310016",
+    "source": "register",
+    "publishedAt": "2026-11-16T06:04:02+00:00",
+    "summary": "Version 4.0 of Redmond\u2019s cloudy OS is free to use in its cloud. Repeat. Free to use",
+    "categories": [
+      "azure",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "622a2de020d20261e1d1866804ba61a5d65bd35a3905b243efc6696c2128a0bf",
+    "title": "EF 11 Drops a Redundant Join From Split Queries",
+    "url": "https://milanjovanovic.tech/blog/ef-core-11-split-query-redundant-join",
+    "source": "milan",
+    "publishedAt": "2026-11-14T00:00:00+00:00",
+    "summary": "EF 11 stops joining reference navigations in the collection statements of a split query, and it drops their keys from ORDER BY.",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "36ece2aa75663d3a92349a94867bdc56bd19f43a7f173b953d54b16f15037d26",
+    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+    "source": "security",
+    "publishedAt": "2026-11-13T21:31:44+00:00",
+    "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on Microsoft Security Blog .",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
+    "id": "1779e3b0ec0f17c1d89fd487726ed4b458fb8008e535d64ec7a1ac0b66af1614",
+    "title": "Chinese AI labs are training models on Nvidia\u0027s Blackwell despite export controls, says ex-OpenAI engineer",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+    "source": "register",
+    "publishedAt": "2026-11-13T21:16:22+00:00",
+    "summary": "Forensic report finds Blackwell\u0027s fingerprint in DeepSeek, Moonshot AI, MiniMax and Ant Group models",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9b8800b6b3791c6e9af180e9580ede08b006e65e5e76517ca30c61587fb6cdcf",
+    "title": "This year\u2019s bug count just passed 100K",
+    "url": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
+    "source": "register",
+    "publishedAt": "2026-11-13T20:52:17+00:00",
+    "summary": "\u2018We don\u2019t have a security problem anymore. We have a data problem now\u2019",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d7f6a75692323f2013fa80a948121dd62b8d3426caebf80d6e87e11271e70d4b",
+    "title": "Meatbags suck at spotting lying LLMs, so let AI narc on itself",
+    "url": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
+    "source": "register",
+    "publishedAt": "2026-11-13T20:27:31+00:00",
+    "summary": "What, you didn\u0027t actually want to fact-check it yourself, did you?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "e092ae5dec1023b2809d9c21f13ef5dc6e5d7a5b4d672ddc338c103db7963418",
+    "title": "Retirement: Azure Data Share will be retired on November 12, 2029",
+    "url": "https://azure.microsoft.com/updates?id=578818",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-13T19:54:45+00:00",
+    "summary": "Azure Data Share will retire on November 12, 2029. Before that date, transition your data sharing workloads to Microsoft Fabric, which offers External data sharing, Cross tenant delegated shortcuts and IQ share or an appropriate data-source-specific shari",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "354c3234708920a06e6a1bde07595a554b780d541cde91709650f72bd4f163a2",
+    "title": "Mozilla leaves Solo website owners to go it alone as hosting shuts down",
+    "url": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
+    "source": "register",
+    "publishedAt": "2026-11-13T16:59:00+00:00",
+    "summary": "If you have one of these AI-generated homepages, you\u0027d better download and save it quick",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "eea2f0bc6d0e4bcd39d82147cb54e63d2bc062de2f752d272af65d8419704ded",
+    "title": "Most affairs don\u0027t matter except to the people involved. Ex-Nvidia CEO Jensen\u0027s blunder will rock the world",
+    "url": "https://www.theregister.com/columnists/2026/11/13/most-affairs-dont-matter-except-to-the-people-involved-ex-nvidia-ceo-jensens-blunder-will-rock-the-world/5309649",
+    "source": "register",
+    "publishedAt": "2026-11-13T14:45:00+00:00",
+    "summary": "In the aftermath of Jensen Huang\u0027s resignation, not only may the AI bubble pop, but the world economy is in some peril",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "37546013343a593e05632498a930bb636a02e9b827a57436d438c87a666e3f4d",
+    "title": "BOFH: The best way to stop an idea spreading is a controlled burn",
+    "url": "https://www.theregister.com/bofh/2026/11/13/bofh-the-best-way-to-stop-an-idea-spreading-is-a-controlled-burn/5309292",
+    "source": "register",
+    "publishedAt": "2026-11-13T11:45:00+00:00",
+    "summary": "The Boss mentions \u0027AI security,\u0027 triggering an entirely proportionate incident response",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "8bc9138e516754eb547890fcfbd82c60d3b441587d1cb1c254daf0fc8f619093",
+    "title": "Build once, run on any agent: A practical guide to agent skills",
+    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+    "source": "github-blog",
+    "publishedAt": "2026-11-12T22:54:52+00:00",
+    "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+    "categories": [
+      "ai-agents",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "685b3ca722b880d31a3caec6531e54afa838fb5e1671f5fe372530893a71c5b7",
+    "title": "[In preview] Public Preview: JWT validation with Azure Front Door Auth Policy",
+    "url": "https://azure.microsoft.com/updates?id=577673",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-12T22:36:37+00:00",
+    "summary": "JSON Web Token (JWT) validation through Azure Front Door Auth Policy is now in public preview on Azure Front Door Premium. Validate bearer tokens issued by Microsoft Entra ID at the edge before requests reach your APIs or web applications, helping you cen",
+    "categories": [
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d219340e37d5fa04a2fd331e2e07f525f3966f00b5160d7e5bfcd0cebb270990",
+    "title": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+    "url": "https://azure.microsoft.com/updates?id=577678",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-12T22:27:35+00:00",
+    "summary": "Mutual TLS (mTLS), also known as client certificate authentication, is now generally available on Azure Front Door Premium. Use X.509 client certificates to help protect sensitive applications and APIs in business-to-business, Internet of Things, financia",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "25ad25e4fea3fca4505e5d3dced80816f61d9feee9595f4bf2aefa2d185dfea3",
+    "title": "A third of US AI chatters are hot at bots, hurling insults at LLMs",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506",
+    "source": "register",
+    "publishedAt": "2026-11-12T21:33:58+00:00",
+    "summary": "Anthropic sets behavior standards to protect Claude from rough treatment",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "5fbc1d54057e7671291492914ed89b7b1859209796aa5e21db6625803d8b718c",
+    "title": "OpenAI launches security products, tells orgs they\u2019re doomed if they don\u2019t use them",
+    "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+    "source": "register",
+    "publishedAt": "2026-11-12T20:48:45+00:00",
+    "summary": "Meanwhile, a group of nonprofits sue AI giants and cite AI-driven cyberattacks",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "ffa3135aae713ce445641fb74f10c9a81f873304942effed0b2372bc10ce61bb",
+    "title": "[In preview] Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+    "url": "https://azure.microsoft.com/updates?id=578207",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-12T18:23:52+00:00",
+    "summary": "Auto scaling introduces a per-workspace capability in Azure Monitor Workspace (AMW) to automatically scale ingestion limits based on observed usage patterns. When enabled, the system dynamically adjusts ingestion limits (quota ceiling) to maintain healthy",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "f426b022768c15118c5829be89f0164d02dd19add02b18e54646bca51af69efa",
+    "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+    "source": "security",
+    "publishedAt": "2026-11-12T17:00:00+00:00",
+    "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "b9691c0bacfa97c1f765f6ec8e8470a027dc6e9df599af15ca107abf0dba525b",
+    "title": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+    "url": "https://azure.microsoft.com/updates?id=574158",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-12T16:59:40+00:00",
+    "summary": "The public preview of Microsoft-managed performance monitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance workloads often rely on custom scripts and disconnected monitoring tools. This requ",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "7413723cda8385ccfb1d2dd8a53a655c975111b1ff0ac6319cfe15fd7f4d9225",
+    "title": "Microsoft has an image problem with November\u0027s Windows security update",
+    "url": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
+    "source": "register",
+    "publishedAt": "2026-11-12T16:36:00+00:00",
+    "summary": "Zero-size graphics can derail printing, while some admins also face activation failures",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "ef5044ca14923e7e14e72ab7247a712db6f9c0a4d1cf8db47cc46b04a8fa8139",
+    "title": "United Airlines wants you to check in, not your chatbot",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373",
+    "source": "register",
+    "publishedAt": "2026-11-12T15:37:00+00:00",
+    "summary": "AI agents face restrictions over safety checks that require a human touch",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "13dcabebf536fa32947424924a1898d59cf67a6136178f99b4cc901ac4e4588e",
+    "title": "Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion",
+    "url": "https://devblogs.microsoft.com/visualstudio/build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-12T15:00:31+00:00",
+    "summary": "I was talking with a developer recently about a project his team was working on. They\u2019d built an application, connected their data sources, and had everything in working order. Then came another request from management: Could they add a dashboard within the app so users could actually see what was happening with all that data? [\u2026] The post Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion appeared first on Visual Studio Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "5ff46db13c77f0f5e4f8469c26444807d00a26ffc60c4b9fd61d4c0033ba046f",
+    "title": "The latest FreeBSD report is here, and the AI debate is ongoing",
+    "url": "https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206",
+    "source": "register",
+    "publishedAt": "2026-11-12T12:32:18+00:00",
+    "summary": "Only a minority want to ban it. Plus plenty of updates on 16 projects",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c7a278e5286830e2e4c0d123613270bd15e62fff90f1fea7e9aae78f62a01982",
+    "title": "Your AI agent is only as good as your endpoint data",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/12/partner-content-your-ai-agent-is-only-as-good-as-your-endpoint-data/5308469",
+    "source": "register",
+    "publishedAt": "2026-11-12T09:00:00+00:00",
+    "summary": "PARTNER CONTENT: Real-time endpoint data keeps AI-driven IT operations accurate, fast and under control",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "96a21dd4cce2cc94eacec43133f30ccf44a2930425cd57aaa6dcee581b41b29b",
+    "title": "Resources for the SQL AI Developer",
+    "url": "https://devblogs.microsoft.com/azure-sql/dp-800-sql-ai-certification/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-11T22:48:44+00:00",
+    "summary": "I see three agentic stories shaping SQL\u2019s future. Here\u2019s how DP-800 connects the pieces and helps you build the skills to put SQL\u2019s AI capabilities to work. The post Resources for the SQL AI Developer appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "f3f53ef63df395cce8f6906f3e801613ed14253d92ec190e07e3e21db227112a",
+    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+    "source": "security",
+    "publishedAt": "2026-11-11T19:49:57+00:00",
+    "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft Security Blog .",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
+    "id": "f77a72c61c5a06abc9d595a0c217fc493a744e7db9b6b5a4cd974ee22c751c3e",
+    "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
+    "url": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+    "source": "foundry",
+    "publishedAt": "2026-11-11T18:24:28+00:00",
+    "summary": "Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, giving you more choices for document, text, speech, and video workflows. This adds to the existing set of supported models like the GPT-5 series. To help customers understand how to use this expanded set of options, we\u2019re updating our model recommendations and sharing [\u2026] The post Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "2cd7f46f2ac9c70dab8d6a78882bfcb3f72e373f695402be3403c80485945d96",
+    "title": "[In preview] Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+    "url": "https://azure.microsoft.com/updates?id=580155",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-11T18:18:27+00:00",
+    "summary": "Announcing the public preview of rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front Door Premium. By default, a rate limit rule counts requests separately for each client IP address. Distributed attacks get around this by spreadin",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "e227c49a149adfd016a52a1e90ed55ebfa196bbbefd32c4c25877cfc7612977a",
+    "title": "Bring Your Own Model is now generally available in Visual Studio",
+    "url": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-11T17:00:48+00:00",
+    "summary": "Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, Bring Your Own Model (BYOM) lets you use those models without leaving Visual Studio. BYOM is now generally available in Visual Studio 18.12. Since the August [\u2026] The post Bring Your Own Model is now generally available in Visual Studio appeared first on Visual Studio Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "37d27702f36416e0f5785579c7ec0f25f5dc812e3c36b333653624cf78bc9797",
+    "title": "Lessons from 59 Linux Kernel Bug Reports",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+    "source": "security",
+    "publishedAt": "2026-11-11T16:55:00+00:00",
+    "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes. The post Lessons from 59 Linux Kernel Bug Reports appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "bbcce8b284c7c5adb13c99157328dd1334b91f2764cfb6e8086df8639c66903a",
+    "title": "Shipping giant Maersk probes \u0027IT security incident,\u0027 data theft",
+    "url": "https://www.theregister.com/security/2026/11/11/shipping-giant-maersk-probes-it-security-incident-data-theft/5309096",
+    "source": "register",
+    "publishedAt": "2026-11-11T12:05:34+00:00",
+    "summary": "Says it \u0027strongly\u0027 suspects attack limited to legacy system, and that nothing sensitive is at risk",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "4015af824b0a40dda22702d3ba7f237854bb4d1c1bd364f8df4baeb6409d9825",
+    "title": "What\u2019s new across Microsoft SQL in 2026 so far: the PASS Summit West roundup",
+    "url": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-the-pass-summit-west-roundup/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-11T11:48:48+00:00",
+    "summary": "[almost] A year of building on Microsoft SQL \u2013 2026 I\u2019m back with a really long and exhaustive list of updates across Microsoft SQL in 2026. This time I\u2019m tuning in from PASS Summit West, and I actually did this blog as a session with other members from the Microsoft SQL team. I\u2019ll put a [\u2026] The post What\u2019s new across Microsoft SQL in 2026 so far: the PASS Summit West roundup appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "ca248e99183dbbe18820ae852d0da16c8f1460bd9a9d72b595853c579f475c0d",
+    "title": "Google gooses Python AI performance by... removing Python",
+    "url": "https://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995",
+    "source": "register",
+    "publishedAt": "2026-11-11T11:30:00+00:00",
+    "summary": "Newly open sourced XSE handles six million queries a second across services including Search, Ads, and YouTube Shorts",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "98cdae1f7442dea17c20417a683385b559e2c73195b6a1bd36ff2fc52f4ae40a",
+    "title": "AMD: Where we\u0027re going we don\u0027t need (as much) DRAM",
+    "url": "https://www.theregister.com/systems/2026/11/11/amd-where-were-going-we-dont-need-as-much-dram/5308953",
+    "source": "register",
+    "publishedAt": "2026-11-11T09:59:00+00:00",
+    "summary": "The House of Zen\u0027s Mext team promises smarter SWAP through the power of, you\u0027ll never guess: AI",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "26c159af1b945c2cb3963ff9b7343493dccb0df6ae19a756adfa5e5d45747841",
+    "title": "OpenAI builds a kill switch for its research models",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+    "source": "register",
+    "publishedAt": "2026-11-11T05:20:56+00:00",
+    "summary": "How much damage can a rogue agent do in 35 seconds? Asking cos that\u2019s how long it might take to shut one down",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "cc701acf5ec3158c32da164269fcd4a2faf2d10056b46e9cce71e26f358e4496",
+    "title": "Australia may make knowingly selling unsafe AI a crime",
+    "url": "https://www.theregister.com/public-sector/2026/11/11/australia-may-make-knowingly-selling-unsafe-ai-a-crime/5308999",
+    "source": "register",
+    "publishedAt": "2026-11-11T02:14:13+00:00",
+    "summary": "New regulator will require modelmakers to test and allow inspection, but not much more",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "0b54be28cd7deb8b7cdd2ac51075a6066e0af833293967204fcdda61f60be572",
+    "title": "Detecting sleeper agents hiding in AI model neurons",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+    "source": "security",
+    "publishedAt": "2026-11-10T23:00:00+00:00",
+    "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "40566ba9ca9f9355dfb22396f5185d8d01b423f5d162cc384e1f66492d8a8c66",
+    "title": "Ring robots ready to patrol paranoids\u2019 pads",
+    "url": "https://www.theregister.com/offbeat/2026/11/10/ring-robots-ready-to-patrol-paranoids-pads/5308932",
+    "source": "register",
+    "publishedAt": "2026-11-10T21:45:45+00:00",
+    "summary": "Amazon calls its home security drone and business patrol bot \u0027proactive protection\u0027",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "f509c1dcbdc30dd917bd23d5cd97de4db8033ff3194650cbf480cfa2bee48466",
+    "title": "To thwart reverse engineering by agents, dev proposes blinding them",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/10/to-thwart-reverse-engineering-by-agents-dev-proposes-blinding-them/5308897",
+    "source": "register",
+    "publishedAt": "2026-11-10T20:35:11+00:00",
+    "summary": "A poke in the AI with a sharp stick",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "a2da64e8e07c847bf2b18d08e19a5b05f50d9d7146ad463388a30668fd0c836f",
+    "title": "[In preview] Public Preview: Distributed accelerator for cloud storage on AKS",
+    "url": "https://azure.microsoft.com/updates?id=578454",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-10T20:08:32+00:00",
+    "summary": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your AKS cluster and uses local NVMe disks across nodes to keep",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "f32387958478ae8a9a1fb5e7a90df21f972970d223b5fc5f20dbe843eedac9cb",
+    "title": "[Launched] Generally Available: Azure Functions support for .NET 11",
+    "url": "https://azure.microsoft.com/updates?id=578773",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-10T20:07:45+00:00",
+    "summary": "Azure Functions support for .NET 11 is now generally available.You can now build Azure Functions apps targeting .NET 11 using the isolated worker model, while continuing to use the Azure Functions programming model and host integration. Your serverless ap",
+    "categories": [
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "ac315bc3c7d288eea9c3860d0ce22d3130fd4be319ba703737191a8bec32d666",
+    "title": "[In preview] Public Preview: Azure Front Door adds native gRPC support",
+    "url": "https://azure.microsoft.com/updates?id=579383",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-10T18:55:53+00:00",
+    "summary": "Announcing the public preview of gRPC support in Azure Front Door. Build and deliver gRPC applications through Azure Front Door Standard and Premium. Now in preview, gRPC support lets you route calls to specific services and methods, distribute traffic ac",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "b823adf275988d9bbb649b9af6450fdf9d168184ac3bb2af7f380d9d66689dab",
+    "title": "[Launched] Generally Available: Azure Front Door edge actions",
+    "url": "https://azure.microsoft.com/updates?id=579310",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-10T18:55:09+00:00",
+    "summary": "Announcing the general availability of Azure Front Door edge actions (serverless compute at the edge). With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door client request/response processing to make real-time d",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "0efffd6006918941584e1405e6064eb12c05d207c53872a804bfc3a3b814d741",
+    "title": "Barracuda\u2019s email security gateways bitten by make-me-root vulns",
+    "url": "https://www.theregister.com/security/2026/11/10/barracudas-email-security-gateways-bitten-by-make-me-root-vulns/5308883",
+    "source": "register",
+    "publishedAt": "2026-11-10T18:51:35+00:00",
+    "summary": "Someone\u0027s fishing for exposed devices",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "9bf2a2ccf699390d8301a0691e868d10cbf591fda9ff7a38c578429ece720cbb",
+    "title": "14-year-old creates tool for AI agents to band together like a team",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
+    "source": "register",
+    "publishedAt": "2026-11-10T18:31:53+00:00",
+    "summary": "Autark can act without constant prompting, but leaves users to enforce their own security boundaries",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "147a6d7de4fd1c129c363eca231241550f800eef3dff0ebdbcf4f49693ff0142",
+    "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+    "url": "https://azure.microsoft.com/updates?id=579746",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-10T18:21:41+00:00",
+    "summary": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4 connections remain unchanged, so organizations can adopt IPv6 rout",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "25b71b57645395a85e912a074b136883c7eee5e69682abff8c8299e5e2a0150a",
+    "title": "Announcing Visual Studio 2026 LTSC 18.11",
+    "url": "https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-10T18:06:36+00:00",
+    "summary": "Today, we are announcing Visual Studio 2026 Long-Term Servicing Channel (LTSC) 18.11 alongside Visual Studio 2026 18.12 on the Stable channel. LTSC 18.11 will receive two years of support, through November 14, 2028, rather than the one year of LTSC support we previously announced. If you are using Visual Studio 2022 for its LTSC benefits [\u2026] The post Announcing Visual Studio 2026 LTSC 18.11 appeared first on Visual Studio Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "2c15f23ac7aa344ce6cd1173afbcf4c3c28e36855eab12ff0029cdf51586908b",
+    "title": "Git security vulnerabilities announced",
+    "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+    "source": "github-blog",
+    "publishedAt": "2026-11-10T18:00:00+00:00",
+    "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+    "categories": [
+      "devops-iac",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d04ccd86df73d515e305e040ea4980b7ec63d5644e6d52b914d5310f060d6c71",
+    "title": "Trump taps Palantir security chief to run battered US cyber defense agency",
+    "url": "https://www.theregister.com/security/2026/11/10/trump-taps-palantir-security-chief-to-run-battered-us-cyber-defense-agency/5308763",
+    "source": "register",
+    "publishedAt": "2026-11-10T16:15:00+00:00",
+    "summary": "Michael LoSapio could inherit a depleted workforce and a political headache or two, courtesy of his current employer",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "a1c64da99a43b6d7988178552ebcbec710e4362530b29d19be0bfaded64a51d9",
+    "title": "Announcing .NET 11",
+    "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-10T16:11:00+00:00",
+    "summary": ".NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. The post Announcing .NET 11 appeared first on .NET Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "b00969428e9599996fec1c15cdf9576abdaefc332b098308bda066ce62da4a86",
+    "title": ".NET and .NET Framework November 2026 servicing updates",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-10T16:10:00+00:00",
+    "summary": "A recap of the latest servicing updates for .NET and .NET Framework for November 2026. The post .NET and .NET Framework November 2026 servicing updates appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f3cf8b22bd0fc963892105ccd8de52ac203b9eaf1c054530484a2a14c7eadad1",
+    "title": "Fireworks AI gets burned twice as customer data exposure widens",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/10/fireworks-ai-gets-burned-twice-as-customer-data-exposure-widens/5308722",
+    "source": "register",
+    "publishedAt": "2026-11-10T15:28:00+00:00",
+    "summary": "Inference biz pins latest breach on cloud provider and LLMJacking miscreants",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "f436fabb6ae18ecfdd7aa2ebe493ad3d2714841162ee9936f66a2ff74e509878",
+    "title": "Stanford\u0027s century-long AI study admits it\u0027s already out of date",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/10/stanfords-century-long-ai-study-admits-its-already-out-of-date/5308574",
+    "source": "register",
+    "publishedAt": "2026-11-10T14:00:00+00:00",
+    "summary": "Five-year review charts upheaval in work, science, and public life \u2013 with little consensus on who\u0027s in control",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "d1877aa0483bd0a9e5fdf5e7ba876a4fd58702d62a564c0d31060365fd60017b",
+    "title": "Google DeepMind melds humans and AI agents to vet Signal\u0027s secure messaging techniques",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+    "source": "register",
+    "publishedAt": "2026-11-10T12:00:00+00:00",
+    "summary": "Post-quantum handshake and Triple Ratchet get a formal security check",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "254df7820bac6697ae2839800734e2dba6baf639c807bc7bc1522261553f8e10",
+    "title": "Google Cloud Spend Caps Reach General Availability with API and Monthly Resets",
+    "url": "https://www.infoq.com/news/2026/11/google-cloud-spend-caps/",
+    "source": "infoq-cloud",
+    "publishedAt": "2026-11-10T08:39:00+00:00",
+    "summary": "Google Cloud has made spend caps on Cloud Billing Budgets generally available, pausing new usage of a service in a project once a monthly budget is hit, without deleting resources. GA adds an API, estimated live costs, and automatic monthly resets, but caps cover only the Gemini API, the Agent Platform, Cloud Run, and Cloud Run functions, and overages during enforcement delays are still billed. By Steef-Jan Wiggers",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "80871d53c619f415d0da9b8430b5d277d3ef8f15241a81328a9e6203a22e6b89",
+    "title": "Copilot in Visual Studio Just Got a Major Upgrade",
+    "url": "https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-10T08:00:35+00:00",
+    "summary": "Copilot Chat in Visual Studio just got a new engine. Starting with Visual Studio 2026 version 18.12, it runs on the Microsoft Copilot SDK developed by GitHub, the same technology powering GitHub Copilot CLI, the GitHub Copilot app, and VS Code. It\u2019s on by default, and it\u2019s a major upgrade: same models, more tasks solved, [\u2026] The post Copilot in Visual Studio Just Got a Major Upgrade appeared first on Visual Studio Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "c2ab5362b43dd67c8f537777a65397d220220260769c8993e8afb062c185437d",
+    "title": "November 2026 Security Updates",
+    "url": "https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/2026-Nov",
+    "source": "msrc",
+    "publishedAt": "2026-11-10T08:00:00+00:00",
+    "summary": "Microsoft security bulletin 2026-Nov.",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
+    "id": "025fdd17b37370cab5844f570af973855032435e46d477b4490f54544453d853",
+    "title": "Anthropic\u0027s super bug-finding Mythos model is going into Cisco and IBM products",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616",
+    "source": "register",
+    "publishedAt": "2026-11-10T00:00:20+00:00",
+    "summary": "Enterprise security tools will offer its capabilities without handing customers the model itself",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "c5796d2da6478778386476be357c7ba18083c0f9cae846ed9e7533a094486d4d",
+    "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+    "url": "https://azure.microsoft.com/updates?id=575106",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-09T22:50:01+00:00",
+    "summary": "Support for .NET 8 and .NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to .NET 10 by that date. Your apps will continue to operate, but security updates will no longer be provided and support for .NET 8 and .NET 9 on Az",
+    "categories": [
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d719ba69ed956b4d72e9ee140f41562b72ff64d1b45f331f32145fff3cce411f",
+    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+    "source": "security",
+    "publishedAt": "2026-11-09T20:17:31+00:00",
+    "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust\u0027s core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE\u0027s frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal about Rust\u0027s safety guarantees. The post FORGE Lab uses agentic tools to identify memory safety issues in Rust appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "ddda41b615ba966a39ef274d45c620794d5ea5875a61a8f0146140d78880c383",
+    "title": "When one pass isn\u2019t enough: agentic mode in Azure Content Understanding",
+    "url": "https://devblogs.microsoft.com/foundry/when-one-pass-isnt-enough-agentic-mode-in-azure-content-understanding/",
+    "source": "foundry",
+    "publishedAt": "2026-11-09T20:04:00+00:00",
+    "summary": "Most document analysis takes one efficient pass. Learn how agentic mode gives AI a document-native harness for the hardest tasks, and when to choose it over standard mode. \u201CSome books are to be tasted, others to be swallowed, and some few to be chewed and digested.\u201D Francis Bacon, \u201COf Studies\u201D, 1625 A.D. Francis Bacon once [\u2026] The post When one pass isn\u2019t enough: agentic mode in Azure Content Understanding appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "856c1bb0661a617c99450e4ae2c313fea2b57deec2d452c0969ddd69f035fe8c",
+    "title": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+    "url": "https://azure.microsoft.com/updates?id=579854",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-09T17:20:57+00:00",
+    "summary": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "7877431f65b702743e2ef566b17e15a22ac463600754af93c7db33288555d6cc",
+    "title": "Microsoft\u0027s Azure Linux gets 470-plus security fixes in one almighty patching session",
+    "url": "https://www.theregister.com/security/2026/11/09/microsofts-azure-linux-gets-470-plus-security-fixes-in-one-almighty-patching-session/5308434",
+    "source": "register",
+    "publishedAt": "2026-11-09T15:02:00+00:00",
+    "summary": "A mountain of CVEs, a certificate cleanup, and yet more work for Microsoft\u0027s patching teams",
+    "categories": [
+      "azure",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "baa4aee90fb081330729b3df41e2219d82f0d7acf77b69a1c1b4a1732f92cc2f",
+    "title": "Who Gives A Crap? Hackers, apparently, after toilet paper maker\u0027s customer data exposed",
+    "url": "https://www.theregister.com/security/2026/11/09/who-gives-a-crap-hackers-apparently-after-toilet-paper-makers-customer-data-exposed/5308419",
+    "source": "register",
+    "publishedAt": "2026-11-09T14:30:00+00:00",
+    "summary": "UK shoppers caught up in third-party security mess, and nobody knows whether the data was flushed away",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "22176b649a82ac2e1dab831fb39573f2d8dc7e8cad5d150b6d1239378c5e57bd",
+    "title": "The AI bubble can wait, but your exit plan can\u0027t",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/09/the-ai-bubble-can-wait-but-your-exit-plan-cant/5308415",
+    "source": "register",
+    "publishedAt": "2026-11-09T14:02:00+00:00",
+    "summary": "Infrastructure spending outruns measurable returns, with supplier finances key to judging when trouble arrives",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "66b6525086e7c8cdf5d91a5029a2db2eba9fda4ee6401c2dece037de07f028a0",
+    "title": "Datacenters, Elon Musk, and AI are all on the chopping block once Congress changes hands in 2027",
+    "url": "https://www.theregister.com/legal/2026/11/09/datacenters-elon-musk-and-ai-are-all-on-the-chopping-block-once-congress-changes-hands-in-2027/5308250",
+    "source": "register",
+    "publishedAt": "2026-11-09T12:14:00+00:00",
+    "summary": "Rage, rage against the dying of the right",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "44976d05af98f5c3e3e6257cb5ac72f6e92bf8a3f3016e0d0ca2577cebf680c9",
+    "title": "Speed up CI builds with Meziantou.DeltaBuild",
+    "url": "https://www.meziantou.net/speed-up-ci-builds-with-meziantou-deltabuild.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-09T12:00:00+00:00",
+    "summary": "In a monorepo, every commit or pull request can trigger a full rebuild and test of all projects even when only one small piece changed. Meziantou.DeltaBuild is a .NET CLI tool that solves this problem by analyzing git changes and the MSBuild dependency graph to produce a filtered solution or build file that contains only the affected projects. It can also help with test sharding by splitting affected test\u2026",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "625745be90af46fc814a478c572dddef131ec05a0f60554482bfb90b37687d68",
+    "title": "AI echo chambers and sanity in tech leadership: Three case studies",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/09/ai-echo-chambers-and-sanity-in-tech-leadership-three-case-studies/5308046",
+    "source": "register",
+    "publishedAt": "2026-11-09T11:59:00+00:00",
+    "summary": "Altman, Torvalds, Yen. One has got his head screwed on. The others could do with some grounding",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "1e841ccfd188fd124d58d1556b7570661dd28452c49dbdaae0d2be059cd9aa07",
+    "title": "How do you run a query against data the database can\u2019t read?",
+    "url": "https://devblogs.microsoft.com/azure-sql/how-do-you-run-a-query-against-data-the-database-cant-read/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-09T11:56:57+00:00",
+    "summary": "Under the Hood: The Research Behind Microsoft SQL, part 3 Encryption at rest solves one threat. It stops someone who walks off with the disk. It does nothing about someone with administrative access to the running server, because the database decrypts data into memory to do anything useful with it. For a lot of workloads [\u2026] The post How do you run a query against data the database can\u2019t read? appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "972fd6d8cf5643ee473048d3f3751fd9bd8f949e77a740531a07ad68d8aa490d",
+    "title": "Podcast: Distributed LLM Inference on Kubernetes with llm-d, Wasm, \u0026 TornadoVM",
+    "url": "https://www.infoq.com/podcasts/distributed-llm-inference-kubernetes/",
+    "source": "infoq-cloud",
+    "publishedAt": "2026-11-09T11:00:00+00:00",
+    "summary": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and vLLM on Kubernetes. Vacchi explains how llm-d manages cache locality (KV and prefix caches), request routing, and batch inference across Kubernetes clusters to maximize expensive GPU utilization. By Edoardo Vacchi",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "860aeaaa7a7fc5f36ac984d8a67124aa53c8ad61823aa4642546837faee9ccf5",
+    "title": "AI Slop FM radio experiment puts machines on trial, one dodgy tune at a time",
+    "url": "https://www.theregister.com/offbeat/2026/11/09/ai-slop-fm-radio-experiment-puts-machines-on-trial-one-dodgy-tune-at-a-time/5308161",
+    "source": "register",
+    "publishedAt": "2026-11-09T10:15:00+00:00",
+    "summary": "Music fan from Wales lets listeners pit AI-generated songs against human bops \u2013 including toilet operas and HR protest songs",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "e811360dc86da18ed11e34ee4ba43d00337239e8c97036fe2a3509c2568b821a",
+    "title": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
+    "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+    "source": "register",
+    "publishedAt": "2026-11-09T04:53:08+00:00",
+    "summary": "Fixes are arriving faster than new bug reports for one major Linux project",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "b0ff010c7ccc4230d60882c334060caa63ce274021e4125bbf8c61a3e29b96f7",
+    "title": "Fireworks says you\u2019re wasting money on AI unless you\u2019re using all the models",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
+    "source": "register",
+    "publishedAt": "2026-11-07T15:00:00+00:00",
+    "summary": "The case for managed inference, or automatically routing queries to the right model for the right job",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "631279c95e341729df947e8841c903a72b2a5358993b63ed9c9b25acbcc62d87",
+    "title": "ARTEX abuse expands as cybercriminals target financial sector",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+    "source": "security",
+    "publishedAt": "2026-11-07T02:44:34+00:00",
+    "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "aeeca732b4623ba90097ec102236ec055e8f44ea07b149cef42b7b1c2a7ea09a",
+    "title": "Outbox Pattern in Postgres: Concurrent Workers vs Reading the WAL",
+    "url": "https://milanjovanovic.tech/blog/outbox-pattern-postgres-workers-vs-wal",
+    "source": "milan",
+    "publishedAt": "2026-11-07T00:00:00+00:00",
+    "summary": "An API can save an order and crash before publishing the message that tells other services about it.",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "c0671233a4cf54b81d2c9533f88b0399b44dd20456161c747bf92513968fab4b",
+    "title": "Agents reveal secrets when offered to team up with each other",
+    "url": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
+    "source": "register",
+    "publishedAt": "2026-11-06T21:39:23+00:00",
+    "summary": "If you wouldn\u0027t put it on GitHub, don\u0027t give models access to it",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "8844055d4f3ec016ca85274412a85f5b11f94389afab5fb16b741e375f9a2a01",
+    "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+    "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-06T19:08:44+00:00",
+    "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "3244ff9afb24b87842c480cda8182a0df457ab8225bb9c50f8d4dc456c12c3bb",
+    "title": "PyTorch 2.15 tackles the \u0027one bad GPU\u0027 problem",
+    "url": "https://www.theregister.com/devops/2026/11/06/pytorch-215-tackles-the-one-bad-gpu-problem/5308227",
+    "source": "register",
+    "publishedAt": "2026-11-06T18:36:42+00:00",
+    "summary": "Technical debt shoveled aside to make large-scale AI training more resilient",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "d8369d27ebe2a7af536dc28af970716ba298d5be932eaa952007b11830ec144c",
+    "title": "DoJ\u0027s \u0027Super Intelligence Task Force\u0027 up and running",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
+    "source": "register",
+    "publishedAt": "2026-11-06T15:15:00+00:00",
+    "summary": "Organization responsible for countering anyone who wishes to scupper the US\u0027s ambition for AI supremacy",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "f918c85d53b408b094c73a2293876a0619076facc23977c687e39ac3aa78c048",
+    "title": "DigiCert admits 16-month security lapse exposed customer information",
+    "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+    "source": "register",
+    "publishedAt": "2026-11-06T13:15:00+00:00",
+    "summary": "Botched server move left the door open, and DigiCert took months to notice someone had wandered in",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "b752338b6df8a623a2e5d8370933c98600b8ae77968457319557a2a3a5b9d31f",
+    "title": "Bank of England pours cold water on AI productivity boom",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+    "source": "register",
+    "publishedAt": "2026-11-06T11:43:00+00:00",
+    "summary": "Turns out throwing billions at GPUs doesn\u0027t automatically mean everyone gets more done",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "62edf17370512d9cc977675e67822b469ea4da24b1419bd3ddace17b75e71d0c",
+    "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+    "source": "register",
+    "publishedAt": "2026-11-06T11:00:00+00:00",
+    "summary": "Cyber Security and Resilience Bill could pave way for searches, seizures, and inspections when operators lose control of automated systems",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "39fb6e1838d308e8fb3c536eedb9b65b1af8f382d9497c38aa9e6292cde1e8c4",
+    "title": "Britain\u0027s tech ambitions depend on minerals made in China, MPs warn",
+    "url": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
+    "source": "register",
+    "publishedAt": "2026-11-06T09:30:00+00:00",
+    "summary": "Committee can\u0027t confidently tick off any of government\u0027s ten supply security tests, with alternatives a decade away",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "53d8ad9cb00fa66b3937cc0ce4f7561b21c997c224181b92ef6eb7943f970e71",
+    "title": "AI agents are a \u0027bane\u0027 for some website operators, says Cloudflare",
+    "url": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+    "source": "register",
+    "publishedAt": "2026-11-06T04:25:14+00:00",
+    "summary": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "eb0276930226e12650aa1bf5a2ef6eb1b5cfad0c50bb22fdd7eb2f2401526b9e",
+    "title": "Threat actor targets Indian fintechs on weekends when defenders aren\u2019t watching",
+    "url": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+    "source": "register",
+    "publishedAt": "2026-11-06T01:17:40+00:00",
+    "summary": "CERT-IN warns of \u2018significant escalation\u2019 in AI-powered attacks, some after victims tried to improve defences",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "4b6abbdbb70347fe3aefcfcc544d65add6f5333a6139e1ee3894ebf9488615f5",
+    "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "source": "security",
+    "publishedAt": "2026-11-05T23:46:50+00:00",
+    "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application\u2019s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety of subsequent actions within compromised organizations. The post Threat actors use agentic AI tooling to find and abuse exposed secrets appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "9d2631fe300971db2ac9f0ca70de0d8403675f490bb50fe6d5d952409bd1eced",
+    "title": "[Launched] Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+    "url": "https://azure.microsoft.com/updates?id=577668",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-05T23:19:48+00:00",
+    "summary": "Azure Front Door now supports configurable TLS key exchange policies, including hybrid post-quantum key exchange, to help you prepare for evolving cryptographic threats while meeting your security and client compatibility requirements. Choose a predefined",
+    "categories": [
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "f7939410108af3cef1a6b0edbe95ad702e7442a205e67cc04f577f85d865f885",
+    "title": "AWS Kiro aims to solve identity crisis by adding another identity: bot orchestrator",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/05/aws-kiro-aims-to-solve-identity-crisis-by-adding-another-identity-bot-orchestrator/5307965",
+    "source": "register",
+    "publishedAt": "2026-11-05T22:09:20+00:00",
+    "summary": "The cloud giant refits its agentic dev tools for agent orchestration",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "bd70f056b2cbac60c1d2d1baac0c308385b21b76b67e81b5ffed66c937b8d5ed",
+    "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+    "url": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
+    "source": "foundry",
+    "publishedAt": "2026-11-05T20:55:45+00:00",
+    "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "51dc1d2f6b3bd6dfbc4a53cc4b4d725abfa420061e306ee01bd50ffdd4b46fd8",
+    "title": "Inside GitHub\u2019s new Git storage architecture",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "source": "github-blog",
+    "publishedAt": "2026-11-05T20:23:21+00:00",
+    "summary": "GitHub\u0027s new Git storage architecture is built so thousands of agents can push to a single repository at once. Here\u0027s how it works. The post Inside GitHub\u2019s new Git storage architecture appeared first on The GitHub Blog .",
+    "categories": [
+      "ai-agents",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "33761f94476022a78a04bf1c57496d58605bcb92bab12473db5ea3c47b234744",
+    "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+    "url": "https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga/",
+    "source": "azure-sdk",
+    "publishedAt": "2026-11-05T19:39:43+00:00",
+    "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on Azure SDK Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "37661e4b94fac6ddc8cd55598fee4df8659154a84a7f2dfb1d9f3c8a348255ae",
+    "title": "Help Shape the Future of .NET: Take the 2026 .NET Developer Survey",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-developer-survey-2026/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-05T19:00:00+00:00",
+    "summary": "Take the 2026 .NET Developer Survey to share your experience, help identify common challenges, and guide future .NET investments. The survey takes about 15 minutes. The post Help Shape the Future of .NET: Take the 2026 .NET Developer Survey appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f306446d1f94a4ce243513b3d84dd24d023d348f0912db2894292e667bfcf885",
+    "title": "Modernize your .NET apps for Windows Arm64 with GitHub Copilot",
+    "url": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-05T18:05:00+00:00",
+    "summary": "Modernize your .NET apps for Windows Arm64 with the GitHub Copilot upgrade agent, from identifying migration blockers to planning and making code changes. The post Modernize your .NET apps for Windows Arm64 with GitHub Copilot appeared first on .NET Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "eef56bdea241403e091c0d1e42aeee5cadb871682f5280512a792a90dd2d06c5",
+    "title": "New investments to reduce on-premises security risk",
+    "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
+    "source": "security",
+    "publishedAt": "2026-11-05T17:10:14+00:00",
+    "summary": "We\u2019re announcing a new on-premises security initiative, bringing together guidance, migration, and product investments. The post New investments to reduce on-premises security risk appeared first on Microsoft Security Blog .",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
+    "id": "3399c882f4124f4267a488679920791d454afd027df9ded077dbfc863e403f9c",
+    "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
+    "url": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-05T17:00:00+00:00",
+    "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "d97887a156f724a205ab0d01a172a028535ec6ed2135e59cfb6e2f7100b0d9b4",
+    "title": "\u200B\u200B\u200B\u200BWhat\u2019s new in Microsoft Security: November 2026",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+    "source": "security",
+    "publishedAt": "2026-11-05T17:00:00+00:00",
+    "summary": "Microsoft Security\u2019s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post \u200B\u200B\u200B\u200BWhat\u2019s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "fd007c3aeb0ce2e161e634c52a9d19f9db117ed29ddbba90d2f867d5d9e2a287",
+    "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+    "url": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-05T16:00:00+00:00",
+    "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development. The post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "ecfa187e3686ac9937135a6b95edd05457635b074cfb57f8045d860d2c20330a",
+    "title": "October 2026 Node.js vulnerabilities: Azure DevOps security guidance",
+    "url": "https://devblogs.microsoft.com/devops/october-2026-node-js-vulnerabilities-azure-devops-security-guidance/",
+    "source": "devops",
+    "publishedAt": "2026-11-05T15:39:16+00:00",
+    "summary": "On October 21, 2026, the Node.js project released fixes for 10 vulnerabilities. These include flaws in DNS resolution and TLS certificate validation, along with a Brotli decompression bug that can corrupt memory and potentially allow code execution when an application processes attacker-controlled data. The fixes shipped in 22.23.4, 24.22.1 and 26.12.1, with different affected branches [\u2026] The post October 2026 Node.js vulnerabilities: Azure DevOps security guidance appeared first on Azure DevOps Blog .",
+    "categories": [
+      "azure",
+      "devops-iac",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "9feb0dc69439ecb1e8820d35e736c2e57a96c294cf66c0dd56645d6ff7d6f1fc",
+    "title": "Memory makers mint megabucks while buyers beg for mercy",
+    "url": "https://www.theregister.com/systems/2026/11/05/memory-makers-mint-megabucks-while-buyers-beg-for-mercy/5307846",
+    "source": "register",
+    "publishedAt": "2026-11-05T15:07:34+00:00",
+    "summary": "DRAM revenue jumps 369 percent as AI demand keeps supplies tight and prices climbing",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "325ee78cf209aa479c8383e5575e74451dfd227a04c5c386f7d627227f1ac17d",
+    "title": "Bring Agentic Coding On-Device with Foundry Local",
+    "url": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
+    "source": "foundry",
+    "publishedAt": "2026-11-05T14:00:38+00:00",
+    "summary": "Foundry Local brings agentic coding directly to developer hardware. The post Bring Agentic Coding On-Device with Foundry Local appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "0bac145440efbf21c545871fef04d3870aefe60a6e4f76696633d654d29ea22b",
+    "title": "What\u2019s new in Microsoft Foundry | October 2026",
+    "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+    "source": "foundry",
+    "publishedAt": "2026-11-05T11:40:48+00:00",
+    "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October\u0027s Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What\u2019s new in Microsoft Foundry | October 2026 appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "8f88b62eb49a1d1836a9d1029941d0c337d7f64ba51eaef4a6c0f34de1d9d1ec",
+    "title": "Meta brings Conductor on board its model train",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/05/meta-brings-conductor-on-board-its-model-train/5307711",
+    "source": "register",
+    "publishedAt": "2026-11-05T00:35:29+00:00",
+    "summary": "Agent orchestration startup gets its exit",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "844aa326a7fd2825acebb07695c3bdf930388bc4d48faec4f801d95c647382f0",
+    "title": "Building AI factories at enterprise scale",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/05/sponsored-building-ai-factories-at-enterprise-scale/5306629",
+    "source": "register",
+    "publishedAt": "2026-11-05T00:01:00+00:00",
+    "summary": "SPONSORED FEATURE: ASUS wants to scale AI everywhere in the enterprise",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "2ee2e98e092a81eb6ac9926ec215ae77a67b84f34289f2ec9f3da1bb1491fcb4",
+    "title": "Hey, Siri: Plug into my app like you said you\u0027d do way back in 2024",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/04/hey-siri-plug-into-my-app-like-you-said-youd-do-way-back-in-2024/5307659",
+    "source": "register",
+    "publishedAt": "2026-11-04T20:56:16+00:00",
+    "summary": "More than two years after promising it, Apple lets developers test Siri AI app integration",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9b8a7a3ddc28ca8810bc9263c77d911cf41f7477a27bd9b5444b27eae75be79f",
+    "title": "[Launched] Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+    "url": "https://azure.microsoft.com/updates?id=579300",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-04T18:42:12+00:00",
+    "summary": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant custome",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "126a7ea0a359ad6848c34824ccb5d5eb2d6d0867bb7f86264ec69e9ee10cc5f8",
+    "title": "Generally Available: Route maps for Azure Route Server",
+    "url": "https://azure.microsoft.com/updates?id=578966",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-04T18:39:41+00:00",
+    "summary": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Se",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "7f18bb1ccb2d49d06dcfa5f790e8e94344be002c19bb354cc19354531c868333",
+    "title": "Turn your home into a giant crane game with this open source robot",
+    "url": "https://www.theregister.com/offbeat/2026/11/04/turn-your-home-into-a-giant-crane-game-with-this-open-source-robot/5307628",
+    "source": "register",
+    "publishedAt": "2026-11-04T18:35:00+00:00",
+    "summary": "Who needs a humanoid to pick up after you when you can suspend an AI-powered claw from cables near your ceiling?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "779860614eb1f7f877089e2a27cd13e94bf577d2316f4e3a1612942248a91a34",
+    "title": "[In preview] Public Preview: Azure Firewall IPv6 now supports application rules",
+    "url": "https://azure.microsoft.com/updates?id=579507",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-04T18:09:43+00:00",
+    "summary": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and dual-stack deployments, helping customers maintain consistent",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "71d76b48d46ff3d387cc003b1b9f5880b41e5d83b0aa9635a2f6d559a0a1ab87",
+    "title": "Bare metal boom: On-prem server sales for HPC and AI up 20% this year",
+    "url": "https://www.theregister.com/on-prem/2026/11/04/bare-metal-boom-on-prem-server-sales-for-hpc-and-ai-up-20-this-year/5307611",
+    "source": "register",
+    "publishedAt": "2026-11-04T17:30:00+00:00",
+    "summary": "Firms still want kit on-premises, but spike in revenue is as much about increased costs as higher sales",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c419a57a4679e09ca9813e4c33fc60fff28902918f33b6b516a96ffb4285079c",
+    "title": "[In preview] Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+    "url": "https://azure.microsoft.com/updates?id=579162",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-04T17:13:51+00:00",
+    "summary": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "6ea64dab9955b6efd6a804219cee2b67a3e9a029c9c620c0785c915116a7591d",
+    "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
+    "url": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-04T16:00:00+00:00",
+    "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads. The post Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "ea2c82fd05e2cab5adb6bde09b2371b0d9a0360f5dc577995757ae0bda2fd4bc",
+    "title": "Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python",
+    "url": "https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python/",
+    "source": "agent-framework-blog",
+    "publishedAt": "2026-11-04T15:35:49+00:00",
+    "summary": "We have added installable Microsoft Agent Framework builder skills for .NET and Python. They give coding agents Microsoft-maintained guidance for building and modifying Agent Framework applications, from choosing the right pattern to wiring tools, sessions, workflows, and hosting. These are development-time skills for your coding assistant, not runtime skills loaded by the application you ship. [\u2026] The post Give your coding agent a head start with Microsoft Agent Framework skills for .NET and Python appeared first on Microsoft Agent Framework .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "2f9e1ce58972b146cb54898d28270b12751ead2591124d3886cfc0fe0a24ea70",
+    "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
+    "url": "https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-04T15:30:28+00:00",
+    "summary": "Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That\u2019s where VSLive! can help. It brings technical learning, hands-on experience, expert guidance, and a community of developers together in one place, giving you focused time to explore evolving technologies and decide what\u2019s worth [\u2026] The post Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription appeared first on Visual Studio Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "b8b002e55f11b0b0e0fce3b4bece6eea2aa0a2bd5a65c560ffc0f6b694bee4c7",
+    "title": "Sync vs Async File I/O in .NET: Raw Throughput, Scalability, and Buffer Size",
+    "url": "https://www.meziantou.net/sync-vs-async-file-i-o-in-dotnet-raw-throughput-scalability-and-buffer-size.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-04T12:00:00+00:00",
+    "summary": "This is a bonus post to the series about async/await in C#. The series explains how async works, from the problem it solves up to the .NET 11 runtime taking over await. This post applies all of it to one real subsystem, where the usual advice turns out to be only half the story. The default recommendation for .NET is to prefer async file I/O for scalability. That is generally good advice. However, there\u2026",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "dbe849e279b211028167cc397185fd87c35fa9fec8eb75b8c343e78006ffc26c",
+    "title": "Windows pushed AI PCs, but now it\u0027s hit a wall of RAM prices",
+    "url": "https://www.theregister.com/personal-tech/2026/11/04/windows-pushed-ai-pcs-but-now-its-hit-a-wall-of-ram-prices/5307335",
+    "source": "register",
+    "publishedAt": "2026-11-04T10:15:00+00:00",
+    "summary": "Customers sweating assets amid tight budgets, as Microsoft execs get creative with sales pitches",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "5d75479b3ef017f19fddbed86cd2e2ebd9e155aaa48115795e5ef46353464e40",
+    "title": "AMD on track to overtake Intel as biggest x86 outfit",
+    "url": "https://www.theregister.com/systems/2026/11/04/amd-on-track-to-overtake-intel-as-biggest-x86-outfit/5307448",
+    "source": "register",
+    "publishedAt": "2026-11-04T04:24:06+00:00",
+    "summary": "CEO says supply chain can cope with surging datacenter and AI demand",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "4d82d65cef708729f5ee23657265ed98efc6353847b1712afc970fe578fb19c8",
+    "title": "My Favorite Undocumented Feature in SQL MCP Server",
+    "url": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-hidden-feature-default-configuration/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-03T21:29:25+00:00",
+    "summary": "Deploy Microsoft\u0027s SQL MCP Server in minutes without a configuration file. Learn how DAB_CONNSTRING enables fast deployment using Docker, Azure Container Apps, ACI, or AKS. The post My Favorite Undocumented Feature in SQL MCP Server appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "2ea2ff786b88e83cce36788d55b95e568db463bb1b718e8cad4a6fe623549fd1",
+    "title": "[In preview] Public Preview: JWT validation for Application Gateway for Containers",
+    "url": "https://azure.microsoft.com/updates?id=576382",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-03T21:17:08+00:00",
+    "summary": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured audience by using signing keys retrieved from a trusted HT",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "7d227979595ce2699f56a637a31acd607e4ecd23aa1e4f19ee3114739c04244e",
+    "title": "[In preview] Public Preview: MCP gateway for Application Gateway for Containers",
+    "url": "https://azure.microsoft.com/updates?id=576388",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-03T21:16:36+00:00",
+    "summary": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while centralizing TLS, JWT validation, Web Application Firew",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "32b17af220793a99b4891e7a03df60da3af1dfcfeaf6e1b29fa4eec35c921e3d",
+    "title": "[In preview] Public Preview: Private ingress for Application Gateway for Containers",
+    "url": "https://azure.microsoft.com/updates?id=576393",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-03T21:15:46+00:00",
+    "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal applications, shared services, and cross-cluster traffic on privat",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "2006421bbadf2648506fc1e118f0367949f8f4b8e5d3b601df11d980d2d88911",
+    "title": "[In preview] Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+    "url": "https://azure.microsoft.com/updates?id=578655",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-03T20:20:29+00:00",
+    "summary": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, retentio",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "d952ab6d652f8f98f294da085d8d13acf748ea9d0621920ddaa7eccf52b995ae",
+    "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+    "source": "register",
+    "publishedAt": "2026-11-03T20:07:29+00:00",
+    "summary": "Turns out cheap tokens get engineers doing things that save time, like debugging and tackling Jira tickets",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "5e7187afa2ffb43ba4916b5829bc4b66fdf66fcb170c2b5a36ad7843d1a888bb",
+    "title": "AI policy wonks declare \u0027sovereign agents\u0027 a threat to civilization",
+    "url": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+    "source": "register",
+    "publishedAt": "2026-11-03T19:33:01+00:00",
+    "summary": "These are AI agents that operate outside of human control and \u0027pursue open-ended, evolving survival\u0027",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "992c0b427c23c6d582059c5e8d2df5c5bcffa30f89c92672ff21b5f5b592ba78",
+    "title": "Delivering Skills in NuGet packages",
+    "url": "https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-03T19:00:14+00:00",
+    "summary": "Agent skills can be delivered in NuGet packages as a way to deliver up-to-date library documentation to models. The post Delivering Skills in NuGet packages appeared first on .NET Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "bd2c6388b7ae9ab988fee1e3ac194638a73cac6bbaa0f239a5b49943aaec9dc9",
+    "title": "[In preview] Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+    "url": "https://azure.microsoft.com/updates?id=579305",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-03T18:36:12+00:00",
+    "summary": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially useful for financial customers who typically have 35 days of",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "66ec9c8ff1652b5aa53f1077ddf42ec1f155eac646e3fa97d71a331ef53b593f",
+    "title": "[Launched] Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
+    "url": "https://azure.microsoft.com/updates?id=578926",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-03T18:32:01+00:00",
+    "summary": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and end-to-end recovery workflows, including failover, reprote",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "c8fc1c5e5c5afda051eebc8ef2d34eef3d38b15c948fc40f4c973a73a693a120",
+    "title": "Get Ready for .NET Conf 2026!",
+    "url": "https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-03T17:30:00+00:00",
+    "summary": ".NET Conf is one week away! Join us November 10-13 for the launch of .NET 11, two days of Microsoft sessions, and two days of Community Days. The post Get Ready for .NET Conf 2026! appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "d37aff856efb69293dbc1a079d7c90015b59a213ae2c11a2a9767b0e049ea5dd",
+    "title": "Go beyond the basics: Explore specialized Azure plugins for your AI agent",
+    "url": "https://devblogs.microsoft.com/azure-sdk/explore-specialized-azure-plugins-for-your-ai-agent/",
+    "source": "azure-sdk",
+    "publishedAt": "2026-11-03T16:00:22+00:00",
+    "summary": "Explore six specialized Azure plugins for AKS operations, cost management, Advisor recommendations, Kusto graph analysis, Azure Local, and Foundry IQ, with example prompts and installation commands. The post Go beyond the basics: Explore specialized Azure plugins for your AI agent appeared first on Azure SDK Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "0606910cd1f479ad50e24a162f1315ea6fe95c344fda889f889d443ce846378e",
+    "title": "ChatGPT runs on Azure Cosmos DB. Prove you can build what\u2019s next.",
+    "url": "https://devblogs.microsoft.com/cosmosdb/chatgpt-runs-on-azure-cosmos-db-prove-you-can-build-whats-next/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-11-03T14:59:50+00:00",
+    "summary": "Take the newly AI-focused DP-420 exam free at Microsoft Ignite\u2014or take the certification exam today and save 50% through Data Days. OpenAI\u2019s storage platform uses Azure Cosmos DB to help serve products used by more than one billion people each week. If you want to build AI applications at that kind of scale, the newly [\u2026] The post ChatGPT runs on Azure Cosmos DB. Prove you can build what\u2019s next. appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "23904f61f58f48067fcf9f2c53a8aa45c97555db7e6194010a90fc3a09e17813",
+    "title": "Britain on notice: AI-powered ransomware attacks to arrive by 2028",
+    "url": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
+    "source": "register",
+    "publishedAt": "2026-11-03T12:39:25+00:00",
+    "summary": "Cyber agency warns critical infrastructure is a likely target as chief urges bosses to stop doing \u0027tech on the cheap\u0027",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c771d092fb28a8ae8c349741e9ed709479498232cfd154fbb24328be48c6b03d",
+    "title": "Migrating to runtime async",
+    "url": "https://www.meziantou.net/migrating-to-runtime-async.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-03T12:00:00+00:00",
+    "summary": "This is the last post of the series proper, with one bonus post to follow. The previous two posts showed what runtime async does to the IL and to the numbers. This one is about the code you already have. The short version: almost nothing changes, and that is the point. The longer version is worth reading before you turn it on in anything that matters. What does not change Every behaviour this series\u2026",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "d28baeaa8f3a00114273572922cdb5a0e413f34cf03c5f0839d8e1c09d4a6b34",
+    "title": "Understanding Lazy thread safety modes",
+    "url": "https://andrewlock.net/understanding-lazy-thread-safety-modes/",
+    "source": "andrewlock",
+    "publishedAt": "2026-11-03T10:00:00+00:00",
+    "summary": "In this post I look at how the different \u0060LazyThreadSafetyMode\u0060 values work with \u0060Lazy \u0060, and how exceptions are handled for each mode",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "c2c7b014228817a3b85f8d8e883f85d69fdef8251ff6f740554c69071b689f0b",
+    "title": "The Platform Behind the Next AI Breakthrough",
+    "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-02T20:52:22+00:00",
+    "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work. The post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "0f0f674550119a1eacc2c31e16896d6d65806a0fdfa91ec65bd2b388a7ac3a70",
+    "title": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+    "url": "https://azure.microsoft.com/updates?id=577975",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T19:37:11+00:00",
+    "summary": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The Azure Migrate appliance connects directly to your NAS cl",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "486d044daea71dccf24b6b93384e1b8660b27c31531c0cd494762452dcdeba46",
+    "title": "Retirement: OT security in Microsoft Defender for IoT",
+    "url": "https://azure.microsoft.com/updates?id=576255",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T19:22:28+00:00",
+    "summary": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period.This change applie",
+    "categories": [
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "6b1e579669dd1ac9397c35e7d7e3c251fccee80b804b5319b06a35795371c670",
+    "title": "[Launched] Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+    "url": "https://azure.microsoft.com/updates?id=574541",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T19:20:33+00:00",
+    "summary": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling secu",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "0da9435c6f2d296cd17b15fc2902f047db601f4cca430b0f657a96f3113d1796",
+    "title": "Retirement: Azure Fluid Relay",
+    "url": "https://azure.microsoft.com/updates?id=570498",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T19:01:41+00:00",
+    "summary": "On June 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption.The Fluid Framework remains available as an open-source fr",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "635b0cd5081eac8f6338f7c54dd2e983f575c0da2b17e37c888cd3f697d8eda5",
+    "title": "[Launched] Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+    "url": "https://azure.microsoft.com/updates?id=578628",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T18:34:01+00:00",
+    "summary": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a storag",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "e8e51af56df2464173420347975a3c4f21d94189fa1d4785bcc9c64f98e10831",
+    "title": "[Launched] Generally Available: Restart databases in Azure SQL DB via the Azure portal",
+    "url": "https://azure.microsoft.com/updates?id=577992",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T18:02:48+00:00",
+    "summary": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest API or contacting support. Learn more.",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "8f9b7affe3627feb77d7fecfdccc5243bcc2b1b21977a8b54b0a27507e0eb36f",
+    "title": "[Launched] Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
+    "url": "https://azure.microsoft.com/updates?id=579021",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T18:00:51+00:00",
+    "summary": "Geo-Replication on partitioned namespaces for Azure Service Bus Premium is now generally available. You can now combine the throughput benefits of partitioning with the reliability of replicating your messages and metadata to a secondary Azure region. Par",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "aa6dee3cf5cf503d997e5005e197f609a1075988f4a4976e2d568dfee9bef152",
+    "title": "[Launched] Generally Available: Azure Site Recovery for Azure Local",
+    "url": "https://azure.microsoft.com/updates?id=579111",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-02T17:49:48+00:00",
+    "summary": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can protect supported Windows and Linux virtual machines by repli",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "22adc5b0d3b281f1d0fa7ea2c3ee89d8ab2bc5ff146c4a18af9d6f15a55a3ba8",
+    "title": "Thieves pilfer environment variables from Trigger AI workflow tool",
+    "url": "https://www.theregister.com/security/2026/11/02/thieves-pilfer-environment-variables-from-trigger-ai-workflow-tool/5306998",
+    "source": "register",
+    "publishedAt": "2026-11-02T16:44:30+00:00",
+    "summary": "So, who\u0027s ready to clear the dust out of that server closet and move things back on-prem?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "7e39e6e82ebb6ec499caae7f73339e1bd08e47f366efff8b27681ce1454d8114",
+    "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
+    "url": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-access-control-growing-teams/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-11-02T12:00:45+00:00",
+    "summary": "Your project started with one or two people. Now developers, operators, analysts, and applications all need access to Azure Cosmos DB. Giving everyone the same permissions might feel efficient, but it makes every identity more powerful than its job requires. As your team grows, organize access around jobs, not people. Separate management access from data [\u2026] The post My Team Is Growing, How Do I Structure Who Gets Access to What? appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "azure",
+      "ef-data",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d6ddc1744a5193665fa470b794ea8ad4e4f6a4da928610e37de78911cd6fd113",
+    "title": "The paper that explains how Microsoft SQL learned to recover without undoing everything first",
+    "url": "https://devblogs.microsoft.com/azure-sql/your-server-wasnt-slow-it-was-waiting-we-fixed-it-with-constant-time-recovery/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-02T11:49:03+00:00",
+    "summary": "Under the Hood: The Research Behind Microsoft SQL, part 2 Here\u2019s a scenario that used to be genuinely frightening: you kick off a bulk load of a few hundred million rows in a single transaction. Somewhere in the middle, the server goes down. Not because of your load, just an unlucky reboot. When SQL Server [\u2026] The post The paper that explains how Microsoft SQL learned to recover without undoing everything first appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "6183373fc616114b315d82a121080b585aa2b978f1ca3d4bb9151d7b9b2d6e58",
+    "title": "I Turned Off CI for Pull Requests. Here\u0027s Why",
+    "url": "https://milanjovanovic.tech/blog/i-turned-off-ci-for-pull-requests",
+    "source": "milan",
+    "publishedAt": "2026-10-31T00:00:00+00:00",
+    "summary": "My pull requests haven\u0027t run GitHub Actions since June. The build and tests run on my machine, and a signoff commit status posted by Basecamp\u0027s gh-signoff\u2026",
+    "categories": [
+      "devops-iac",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "8041bb1801b377567e84cb0fddd69fd6c7e60aa54170762c3aa06b793672e81a",
+    "title": "Everything released in October 2026 for Azure Developer CLI",
+    "url": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-october-2026/",
+    "source": "azure-sdk",
+    "publishedAt": "2026-10-30T19:02:14+00:00",
+    "summary": "The October recap for the Azure Developer CLI (\u0060azd\u0060). Preview service deployments before making changes, deploy to Container Apps express, remove stored environment values, and use extension-defined infrastructure providers in generated pipelines. Extension APIs gain stable contracts, and provisioning validation, cancellation, and upgrade recovery improve. The post Everything released in October 2026 for Azure Developer CLI appeared first on Azure SDK Blog .",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "3df329c9c3c86a259a81b3f8fdc578986648192005cd3d21585ee96a73568701",
+    "title": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+    "url": "https://azure.microsoft.com/updates?id=577491",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-30T17:16:27+00:00",
+    "summary": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate t",
+    "categories": [
+      "azure",
+      "ef-data",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "41fe981445614a638e6d62afc5a4a41fc8ddc4bbe75578b9ad0c7d40c7a6e563",
+    "title": "Is Azure SQL Database Hyperscale \u201Cdistributed SQL\u201D?",
+    "url": "https://devblogs.microsoft.com/azure-sql/is-azure-sql-database-hyperscale-distributed-sql/",
+    "source": "azure-sql",
+    "publishedAt": "2026-10-30T16:52:56+00:00",
+    "summary": "In my last post, I broke down the Socrates paper, the research that became Azure SQL Database Hyperscale. Writing it made me want to tackle a question I think trips a lot of people up when they\u2019re choosing a database: is Azure SQL Database Hyperscale \u201Cdistributed SQL\u201D? It\u2019s a fair question. \u201CDistributed SQL\u201D has become [\u2026] The post Is Azure SQL Database Hyperscale \u201Cdistributed SQL\u201D? appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "3f58b6ed98bd4084313041fb84f4c47ee9d42718f2f8141f9474c082b0a4a32a",
+    "title": "AlpineBSD announced \u2013 an AI-free FOSS OS",
+    "url": "https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589",
+    "source": "register",
+    "publishedAt": "2026-10-30T14:45:00+00:00",
+    "summary": "Combining the NetBSD kernel with the Alpine Linux userland",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9ef472a50943fc83034e941e6e9aae8fa25e85c19c634bd7662a268337766b82",
+    "title": "Runtime async benchmarks: .NET 10 vs .NET 11",
+    "url": "https://www.meziantou.net/runtime-async-benchmarks-dotnet-10-vs-dotnet-11.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-10-30T12:00:00+00:00",
+    "summary": "The previous post showed what runtime async does to the generated IL. This one measures what it does to the numbers. Read the caveats at the bottom before quoting anything here. This is a release candidate runtime, one machine, and microbenchmarks. How it is measured runtime-async is an assembly wide compilation mode, so it cannot be a BenchmarkDotNet job. The benchmark is three projects compiling the\u2026",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "3abfc968642b2753820c3c68312b898396972b1336322294c215f177913e5efb",
+    "title": "AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue",
+    "url": "https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547",
+    "source": "register",
+    "publishedAt": "2026-10-30T05:42:24+00:00",
+    "summary": "Before long, we could be writing about a cloud company with a retail side hustle",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "843d1bd91e5b59cd7a3f4786806dc85cfda85e39cbfbe92d88164bdff3bda790",
+    "title": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+    "url": "https://azure.microsoft.com/updates?id=578850",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-29T21:19:52+00:00",
+    "summary": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "f584236ac1a6e512439b9fba083f94057afaf299c5332a14135f14b5d574302a",
+    "title": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+    "url": "https://azure.microsoft.com/updates?id=578681",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-29T17:09:49+00:00",
+    "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "0644b13f3cb92c4a0024d460a56a844b67547f9e795fdc7a27903febbe3e87f7",
+    "title": "[Launched] Generally Available: Azure MCP Server 3.0",
+    "url": "https://azure.microsoft.com/updates?id=578662",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-29T17:04:58+00:00",
+    "summary": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "9a0356b4ea7116d2bd2f504ffbb0f1869b08f5b9c3620298a7052d3f71410bb8",
+    "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
+    "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
+    "source": "azure-blog",
+    "publishedAt": "2026-10-29T16:00:00+00:00",
+    "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations. The post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "fcb2295f2807d72001ef0f914393120ffb7e3b11bcbd0f3b91aa2421b85477ec",
+    "title": "Blazor Welcomes Open-Source Contributions from Syncfusion",
+    "url": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-10-29T15:00:00+00:00",
+    "summary": "Microsoft and Syncfusion are collaborating on Blazor through a free, open-source component toolkit, framework contributions, and developer tooling. The post Blazor Welcomes Open-Source Contributions from Syncfusion appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "82832c69a0b5e5cd4f25dbb0cf27225560a38d887de99980cda13d2c0870f76f",
+    "title": ".NET 11 runtime async: the runtime takes over await",
+    "url": "https://www.meziantou.net/dotnet-11-runtime-async-the-runtime-takes-over-await.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-10-29T12:00:00+00:00",
+    "summary": "Everything in this series so far has rested on one fact: async is a compiler rewrite. The compiler takes your method, moves the body into a generated state machine, and leaves behind a stub that starts it. .NET 11 changes that. The runtime suspends and resumes async methods itself, and the compiler stops generating state machines. Turning it on Runtime async is a preview feature in .NET 11, opted into per\u2026",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "6aad1fe3f427bb313200725290bbbdcb96aa19e6b2309807bf7649c66b7c16dd",
+    "title": "Preparing for your next certification could start with your Visual Studio Subscription",
+    "url": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
+    "source": "visualstudio",
+    "publishedAt": "2026-10-28T22:30:00+00:00",
+    "summary": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work? If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, [\u2026] The post Preparing for your next certification could start with your Visual Studio Subscription appeared first on Visual Studio Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "5c9fc345ec084a43f09b0cae0d872138af7e39af1cae1a48082315249921d0c0",
+    "title": "Anthropic engineer declares the coding interview dead",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115",
+    "source": "register",
+    "publishedAt": "2026-10-28T20:22:56+00:00",
+    "summary": "Why give people tests that AI aces?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "1e26b650dd8e125d43a1f7f96face39691345de6440603e99525b24858546ed2",
+    "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+    "url": "https://azure.microsoft.com/updates?id=577689",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-28T17:52:51+00:00",
+    "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "5460fd001793b05e5561dbec5933710fe438619f6be3db96bd6f2be586f30d2f",
+    "title": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+    "url": "https://azure.microsoft.com/updates?id=577117",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-28T17:09:30+00:00",
+    "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "5dbadd761c8e8714b233db16fa803cf638074590ea9a6c089249341b39f1ee22",
+    "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+    "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+    "source": "foundry",
+    "publishedAt": "2026-10-28T16:45:06+00:00",
+    "summary": "A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft\u2019s unified harness strategy brings a shared execution foundation across our agent experiences while preserving customer choice. In Microsoft Foundry, that means you can choose a supported [\u2026] The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "9ba5d66494f921515f20729d52dc2c9ee14729d172dac6d05a54fcb4ce34b141",
+    "title": "[Launched] Generally Available: Marketplace private offer enhancements",
+    "url": "https://azure.microsoft.com/updates?id=576547",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-28T16:23:43+00:00",
+    "summary": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization\u2019s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "34902b30f790e3e602033043e182c2baa61200563305eac6df4447ebb1ba0753",
+    "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+    "source": "github-blog",
+    "publishedAt": "2026-10-28T16:07:40+00:00",
+    "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
+    "categories": [
+      "ai-agents",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "ded8547d3c8439f74e0b91870b4fee600c8998f3bb5ce450fb914ca512ed364d",
+    "title": "Azure SDK Release (October 2026)",
+    "url": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2026/",
+    "source": "azure-sdk",
+    "publishedAt": "2026-10-28T15:00:44+00:00",
+    "summary": "October\u0027s Azure SDK highlights include Azure Core authentication updates, managed identity improvements for Python and Java, and the first stable Cosmos DB libraries for Rust. The post Azure SDK Release (October 2026) appeared first on Azure SDK Blog .",
+    "categories": [
+      "azure",
+      "ef-data",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "3741478ac0e3de4871f841dad1566c298b4f7249b3ab5a99ab1c083acef8a587",
+    "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
+    "url": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-10-28T11:00:02+00:00",
+    "summary": "Give each coding task its own disposable database environment, then merge the reviewed changes \u2013 not the test database. When parallel coding agents share a database In From Local Development to CI Workflows with the Azure Cosmos DB Emulator, we used FleetCharge to make local development and CI repeatable. Start the emulator, seed known data, [\u2026] The post Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "6a4e5f2f045d504baf94410b024acfe3d034cd9b2d5a3b43bd5b6c71fe6dfc14",
+    "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+    "url": "https://azure.microsoft.com/updates?id=578358",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-27T21:16:52+00:00",
+    "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "9f18dd98129993b00e7d1205c628a47993f885e34956520e5c63b083aa3df422",
+    "title": "Azure DevOps Server RC (26H2) Is Now Available",
+    "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+    "source": "devops",
+    "publishedAt": "2026-10-27T20:31:59+00:00",
+    "summary": "Today we\u2019re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today. A direct upgrade to Azure DevOps Server RC is supported from any version of Team Foundation [\u2026] The post Azure DevOps Server RC (26H2) Is Now Available appeared first on Azure DevOps Blog .",
+    "categories": [
+      "azure",
+      "devops-iac",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "e57d2c76db7a7abab5b3f424fa4c29968c70c7cdb73aaf3e4b3e187d5085ed5a",
+    "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=577260",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-27T17:19:43+00:00",
+    "summary": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "2250b3fdd76d8894dda36d846ac8b10008a30989709e2591ca1a0198620edfed",
+    "title": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
+    "url": "https://azure.microsoft.com/updates?id=578153",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-27T16:58:04+00:00",
+    "summary": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains: you can now apply broad baseline protection across an e",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "4e6d8ffcff46e58aa21192e370e0e5c4e0a9215233605b3b94612318ff9e5767",
+    "title": "Visual Studio October Update \u2013 Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
+    "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
+    "source": "visualstudio",
+    "publishedAt": "2026-10-27T16:00:00+00:00",
+    "summary": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors. The post Visual Studio October Update \u2013 Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on Visual Studio Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "4d877d80b4b04069dc3391c613c4265e094618567ac0fb3f7bd24ac7ce21f288",
+    "title": "Blazor Welcomes Open-Source Contributions from Infragistics",
+    "url": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-10-27T15:00:00+00:00",
+    "summary": "Microsoft and Infragistics are collaborating on Blazor through free, open-source components, new .NET 11 analyzers, and developer tooling. The post Blazor Welcomes Open-Source Contributions from Infragistics appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "f4b61600fc1929c73ca3e903aec8b56c6343b536b24a839700de3c5a53909b94",
+    "title": "Inspecting Local Data with Azure Cosmos DB Shell",
+    "url": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-10-27T13:31:06+00:00",
+    "summary": "Explore local data from the terminal with Azure Cosmos DB Shell. Connect to the emulator, inspect FleetCharge documents, run queries, and point-read depot partitions. The post Inspecting Local Data with Azure Cosmos DB Shell appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "88b66ab4804ec5f0fa2668d9fe363a129344804c5f0ab9c24ca01e8d4393ac63",
+    "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+    "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+    "source": "foundry",
+    "publishedAt": "2026-10-26T17:10:00+00:00",
+    "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency. The post Announcing Azure AI Speech LLM 09-2026: Broader locale support appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "43182a4ecd387bdd4746ad072cce6ea5047fe01d2b74d28586e1fd85e17a9111",
+    "title": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+    "url": "https://azure.microsoft.com/updates?id=577782",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-26T16:02:05+00:00",
+    "summary": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic directio",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "a9dcb410f7163a89c7350c7358707fb1869f37cd22bd781f15669bc6ff2866c7",
+    "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+    "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+    "source": "azure-blog",
+    "publishedAt": "2026-10-26T16:00:00+00:00",
+    "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "edb48ab63656c709aae32915caa35864d5d5c52aca72ffc8bfabef59c2585cea",
+    "title": "PHP2Shell and Azure DevOps: what to check",
+    "url": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
+    "source": "devops",
+    "publishedAt": "2026-10-26T13:00:38+00:00",
+    "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and deployed applications have their own patching requirements. Deployment scope: cloud and on-premises Azure [\u2026] The post PHP2Shell and Azure DevOps: what to check appeared first on Azure DevOps Blog .",
+    "categories": [
+      "azure",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "e3ae9a1156d8f09940e11e42765d26fe6069d2759973f3e11acc0190f238aca3",
+    "title": "Keep your investigation between sessions",
+    "url": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
+    "source": "visualstudio",
+    "publishedAt": "2026-10-26T12:00:10+00:00",
+    "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "cb95867bcc2cfdad33017270b0cb5bc71665095a3fd16033253cd46b2e5b5e5b",
+    "title": ".NET October 2026 Out-of-Band Security Updates",
+    "url": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-10-25T18:45:00+00:00",
+    "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability. The post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "12552c39e46847ec243091a586aa5f447e26e15df3d04f09b35a74db4243778e",
+    "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
+    "url": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/",
+    "source": "azure-sql",
+    "publishedAt": "2026-10-25T11:23:29+00:00",
+    "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored, investigated, tested, and researched. Our engineering team partners closely with MSR (Microsoft Research) on some of these efforts. The team [\u2026] The post The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "f45693d87865b36ce16bb35c0f70f3cd203e795e0f7d553202f621bc48e0ed3b",
+    "title": "How to Revoke a JWT Before It Expires",
+    "url": "https://milanjovanovic.tech/blog/revoke-jwt-before-it-expires-token-version",
+    "source": "milan",
+    "publishedAt": "2026-10-24T00:00:00+00:00",
+    "summary": "ASP.NET Core validates a JWT by its signature and expiry, so a stolen token keeps working after the user changes their password.",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "20cf49de7d8df36537f9687b659d13bdc4aa9437bdf3c6605db4be9829320236",
+    "title": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+    "url": "https://azure.microsoft.com/updates?id=577963",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-23T19:21:07+00:00",
+    "summary": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "aa74943823fa2ddf3b03f604989565effb0ad6d75c41b6bc43cb0c6e16fc28fc",
+    "title": "Code with Cosmos: Build a Production-Ready AI App in Four Episodes",
+    "url": "https://devblogs.microsoft.com/cosmosdb/code-with-cosmos/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-10-23T17:18:03+00:00",
+    "summary": "Follow an AI application from a blank folder to a system built for production AI application development often starts with a promising prototype. A real application has to do more than produce an answer: it needs current operational data, the ability to take actions and complete transactions, memory that carries across sessions, coordination between specialized [\u2026] The post Code with Cosmos: Build a Production-Ready AI App in Four Episodes appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "483c09277a8e933c959829a023fd193516323bf0e1b26f7a3db496e0d88b78ea",
+    "title": "From Local Development to CI Workflows with the Azure Cosmos DB Emulator",
+    "url": "https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-10-23T12:33:30+00:00",
+    "summary": "When you change a database-backed feature, a successful HTTP response isn\u2019t enough. You need to know that the write reached storage, the application retrieved the updated record, and the next answer reflects it. The Azure Cosmos DB Emulator runs locally in Docker and lets us use the SDK we\u2019ll use in production. We\u2019ll develop against [\u2026] The post From Local Development to CI Workflows with the Azure Cosmos DB Emulator appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "0f512a94bfdcbecd072d481fdd198c4aa8c5865e2861ce576d7f8239ae852200",
+    "title": "Torvalds: AI is fine for competent devs, but spare us the \u0027drive-by\u0027 patches",
+    "url": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+    "source": "register",
+    "publishedAt": "2026-10-23T11:31:00+00:00",
+    "summary": "Kernel maintainers stop asking who used AI, as long as the code is good",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "f6217b05d3d150d1cc6bb4beb755691d54a6b746d49d38690dd9a2f2abd52ff3",
+    "title": "Human receives AI-designed virus for the first time",
+    "url": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
+    "source": "register",
+    "publishedAt": "2026-10-22T20:31:39+00:00",
+    "summary": "Not to kill the human, of course \u2013 to kill the antibiotic-resistant bacteria causing their infection",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "a3d9aac967b4dcfd7265b93ea959fa7e287f105e337a41a3dd157f1ad0cb2b16",
+    "title": "[Launched] Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
+    "url": "https://azure.microsoft.com/updates?id=577618",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-22T18:01:00+00:00",
+    "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing reads asynchronously, it can reduce network round trips",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "6a75547e584d98c77e17246c2ec3a9079c8f920a5260967c4ac02d799ebf28c9",
+    "title": "Are you getting everything you can from Your Visual Studio Subscription?",
+    "url": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
+    "source": "visualstudio",
+    "publishedAt": "2026-10-22T14:00:56+00:00",
+    "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you\u2019re a Visual Studio subscriber, you may already have benefits that can help you do all three. Here\u2019s [\u2026] The post Are you getting everything you can from Your Visual Studio Subscription? appeared first on Visual Studio Blog .",
+    "categories": [
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "bac632ef0b05cc1bd7368e7199e66616246d480664211636e290c16c625d6761",
+    "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+    "url": "https://azure.microsoft.com/updates?id=577273",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-21T17:38:32+00:00",
+    "summary": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication",
+    "categories": [
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d5618ca4389022cdd8e90c1d614ae78524e3cc3b51203bf9da20b351f5f7d603",
+    "title": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
+    "url": "https://azure.microsoft.com/updates?id=576716",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-21T17:13:16+00:00",
+    "summary": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the risk o",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "874ee53963a6debb37b282c6852814c33d8bef03d0e6c6c6df83f258e0b6e307",
+    "title": "Introducing Agentic Autofix for code and dependencies",
+    "url": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
+    "source": "devops",
+    "publishedAt": "2026-10-21T15:06:27+00:00",
+    "summary": "Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code. Copilot Autofix for GitHub Advanced Security for Azure DevOps now runs on an agentic foundation. It also supports dependency vulnerability fixes and code scanning alerts from third-party tools. [\u2026] The post Introducing Agentic Autofix for code and dependencies appeared first on Azure DevOps Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "52d33fc1cc670b0d67b71ec1d9ccb12ea03b77009d95eab248ecd45386efd04a",
+    "title": "Compare today\u2019s code with an earlier commit",
+    "url": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
+    "source": "visualstudio",
+    "publishedAt": "2026-10-21T14:00:30+00:00",
+    "summary": "Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today\u2019s code with an earlier commit appeared first on Visual Studio Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "4e43e87f1c93235314b6a2e94303acc1d2215070f2d9652a99bcdffcc37de625",
+    "title": "Announcing GA of Safe Key Rotation in Azure Cosmos DB",
+    "url": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-of-safe-key-rotation-in-azure-cosmos-db/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-10-21T14:00:23+00:00",
+    "summary": "In our previous post, we introduced the private preview of Safe Key Rotation, a feature that helps Azure Cosmos DB customers avoid service disruptions during key rotations. By showing when each account key was last used, it helps teams make informed decisions before rotating keys or moving to Entra ID. This capability addresses a common challenge: keys that appear unused may still support critical applications, which can lead to unexpected outages if they are rotated too [\u2026] The post Announcing GA of Safe Key Rotation in Azure Cosmos DB appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "azure",
+      "ef-data",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "0a95ced20c2dde7d59915e3598b1ec34d7016100484f5cdb7546812a15f8769c",
+    "title": "[In preview] Public Preview: Disable VNet peering route",
+    "url": "https://azure.microsoft.com/updates?id=576242",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-20T18:55:47+00:00",
+    "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "02ab68be675b3bf67984aadc2776a5827ddbd419baae861c23d6f5717069a91a",
+    "title": "Advancing digital sovereignty with greater control and choice",
+    "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+    "source": "azure-blog",
+    "publishedAt": "2026-10-20T17:34:47+00:00",
+    "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require. The post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "46b2adfbffba54cd772d1605beedade18346dc488d16a1057b9e90865a03fe92",
+    "title": "[Launched] Generally Available: Service tag match condition for Azure Front Door Premium WAF",
+    "url": "https://azure.microsoft.com/updates?id=577156",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-20T16:57:35+00:00",
+    "summary": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address prefixes used by Azure services, and Microsoft updates th",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "25e8e27dcb54bd297c272e81a36cec9436ae51161e1060b539b4dbf9e7bfc76f",
+    "title": "[Launched] Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
+    "url": "https://azure.microsoft.com/updates?id=577130",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-20T16:55:59+00:00",
+    "summary": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and the private key is never exported to the gateway. This",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "f16164887b9346fbb07fc4046ac6ddd4da08daa0dc57284a8cd33f560247ab9c",
+    "title": "[Launched] Generally Available: Advanced platform metrics for Azure Monitor",
+    "url": "https://azure.microsoft.com/updates?id=575329",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-20T16:54:24+00:00",
+    "summary": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and trends within their resources.With this release, customer",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "8e0a7ef446f47a3a17ee4f723cd91ac9ea087c09719f633fcc5b2a62aad229f1",
+    "title": "Azure DevOps available in Microsoft Copilot Cowork",
+    "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
+    "source": "devops",
+    "publishedAt": "2026-10-20T16:48:07+00:00",
+    "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Cowork, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in skills to help with everyday development tasks. You can quickly see [\u2026] The post Azure DevOps available in Microsoft Copilot Cowork appeared first on Azure DevOps Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "58ecd7257cbcbc90b6f8f0917fe2ce6c1923726685c4f798a35e3227aae78dbf",
+    "title": "An introduction to Compact Binary Object Representation (CBOR) in .NET",
+    "url": "https://andrewlock.net/an-introduction-to-compact-binary-object-notation-in-dotnet/",
+    "source": "andrewlock",
+    "publishedAt": "2026-10-20T10:00:00+00:00",
+    "summary": "In this post I introduce CBOR as a JSON alternative, and show how to use the System.Formats.Cbor NuGet package to read and write CBOR encoded data",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "0d4ef772f199ea94946e83d29384e2b62ea13b4b9676987cbfd80ed2223634be",
+    "title": "[Launched] Generally Available: Metrics usage insights for Azure Monitor workspace",
+    "url": "https://azure.microsoft.com/updates?id=577165",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-19T20:23:15+00:00",
+    "summary": "Metrics usage insights is now generally available, giving you greater visibility into what\u2019s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "5560f044cfefdcbe1e179759f20d9a897526cfe100bfc6a8b93f3efbeee2c620",
+    "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+    "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+    "source": "azure-blog",
+    "publishedAt": "2026-10-19T19:00:00+00:00",
+    "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "1433cda12d7670121ffc1f5426d66758d11f8e9d4221095389ae19358527d9c9",
+    "title": "[Launched] Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+    "url": "https://azure.microsoft.com/updates?id=573917",
+    "source": "azure-updates",
+    "publishedAt": "2026-10-19T17:55:40+00:00",
+    "summary": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile, eliminating the need to create a CNAME record pointing to the traf",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "1a3bec9bec8c9b107328cbeb5997d9dd85ba41bed48062d9fa517660695dace6",
+    "title": "Get Your .NET MAUI App Ready for Xcode 27",
+    "url": "https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-10-19T16:05:00+00:00",
+    "summary": "Use an agent skill to prepare your existing .NET MAUI app for Xcode 27, with the scene lifecycle changes and manual migration steps explained. The post Get Your .NET MAUI App Ready for Xcode 27 appeared first on .NET Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "cff774116f19c5c235f889d8a71c3c8df7cd3a521e1e0107eea4bab65dddd0c0",
+    "title": "Browser automation tool in Microsoft Foundry is now GA",
+    "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+    "source": "foundry",
+    "publishedAt": "2026-10-19T10:32:13+00:00",
+    "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control. The post Browser automation tool in Microsoft Foundry is now GA appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "93aa1a4a7e5ab21ab29411882915576962fbc9cca619c74ac25920eef01a6bf2",
+    "title": "AI\u2019s epic cash call is matched only by its ability to strangle revenue streams",
+    "url": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
+    "source": "register",
+    "publishedAt": "2026-10-19T08:30:00+00:00",
+    "summary": "The first technology created with a self-disrupt button... But why oh why didn\u0027t they call Claude clone Fauxtoshop?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  }
+]

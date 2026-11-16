@@ -1,0 +1,85 @@
+name: Update news and publish
+
+on:
+  schedule:
+    - cron: '0 8,20 * * *'
+      timezone: Europe/Stockholm
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: news-publication
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pages: read
+    defaults:
+      run:
+        working-directory: src
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm install --global pnpm@11.25.0
+      - run: dotnet restore --locked-mode
+      - run: dotnet build --no-restore --configuration Release
+      - run: dotnet test --no-build --configuration Release
+      - run: dotnet format --verify-no-changes --no-restore
+      - name: Ingest sources independently
+        run: dotnet run --no-build --configuration Release --project NewsCollector -- ingest data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - uses: actions/configure-pages@v5
+        id: pages
+      - run: pnpm install --frozen-lockfile
+        working-directory: src/web
+      - run: pnpm test && pnpm typecheck && pnpm lint && pnpm build
+        working-directory: src/web
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+      - run: node scripts/verify-build.mjs
+        working-directory: src/web
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+      - name: Persist the data used by this build
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/articles.json data/metadata.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update news data"
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: src/web/dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "azure",
+    "name": "Azure",
+    "keywords": [
+      "Azure"
+    ]
+  },
+  {
+    "id": "ai-agents",
+    "name": "AI & Agents",
+    "keywords": [
+      "AI",
+      "agent",
+      "Foundry",
+      "LLM",
+      "OpenAI",
+      "Copilot",
+      "agents",
+      "agentic"
+    ]
+  },
+  {
+    "id": "dotnet-csharp",
+    "name": ".NET & C#",
+    "keywords": [
+      ".NET",
+      "C#",
+      "ASP.NET"
+    ]
+  },
+  {
+    "id": "ef-data",
+    "name": "EF Core & Data",
+    "keywords": [
+      "EF Core",
+      "Entity Framework",
+      "SQL",
+      "Cosmos DB",
+      "PostgreSQL",
+      "Npgsql"
+    ]
+  },
+  {
+    "id": "dotnet-ecosystem",
+    "name": ".NET Ecosystem",
+    "keywords": [
+      "Aspire",
+      "Orleans",
+      "NuGet"
+    ]
+  },
+  {
+    "id": "security-identity",
+    "name": "Security & Identity",
+    "keywords": [
+      "security",
+      "identity",
+      "Entra",
+      "vulnerability",
+      "CVE-"
+    ]
+  },
+  {
+    "id": "devops-iac",
+    "name": "DevOps & IaC",
+    "keywords": [
+      "DevOps",
+      "Bicep",
+      "Terraform",
+      "GitHub Actions",
+      "infrastructure as code"
+    ]
+  },
+  {
+    "id": "azure-customer-stories",
+    "name": "Azure Customer Stories",
+    "keywords": []
+  },
+  {
+    "id": "general-technology",
+    "name": "General Technology",
+    "keywords": []
+  }
+]

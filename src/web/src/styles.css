@@ -1,0 +1,33 @@
+:root { font-family: system-ui, sans-serif; color: #172b3d; background: #f5f7fa; line-height: 1.55; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1100px; padding: 40px 24px; margin: 0 auto; }
+header { border-top: 4px solid #1769a5; padding: 24px 0 20px; }
+h1 { margin: 4px 0; font-size: clamp(1.9rem, 5vw, 2.7rem); letter-spacing: -.04em; }
+header p { margin: 6px 0; }
+.eyebrow { color: #32617e; font-size: .75rem; font-weight: 700; letter-spacing: .12em; }
+.muted, .result-count, footer { color: #536778; font-size: .88rem; }
+.filters { display: grid; grid-template-columns: 2fr 1.2fr 1.2fr 1fr; gap: 14px; padding: 20px; background: white; border: 1px solid #dbe2e9; border-radius: 6px; }
+label { display: flex; flex-direction: column; gap: 6px; font-size: .82rem; font-weight: 600; }
+input, select, button { font: inherit; }
+input, select { width: 100%; min-width: 0; padding: 10px; border: 1px solid #a5b4c2; border-radius: 4px; background: white; color: inherit; }
+:focus-visible { outline: 3px solid #1769a5; outline-offset: 3px; }
+.result-count { margin: 22px 0 12px; }
+.articles { display: grid; gap: 14px; }
+article { background: white; padding: 24px; border: 1px solid #dbe2e9; border-radius: 6px; }
+article.read { border-left: 4px solid #a3b1be; }
+.article-meta { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: .8rem; color: #536778; }
+.new { color: #12623e; background: #e5f4ec; padding: 2px 7px; border-radius: 3px; }
+h2 { font-size: 1.18rem; line-height: 1.4; margin: 10px 0; }
+a { color: #12598e; text-decoration: none; overflow-wrap: anywhere; }
+a:hover { text-decoration: underline; }
+.summary { font-size: .94rem; margin: 10px 0 16px; overflow-wrap: anywhere; white-space: pre-wrap; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tags span { background: #edf2f7; color: #35526c; padding: 2px 8px; border-radius: 3px; font-size: .75rem; }
+.article-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+button { cursor: pointer; color: #254e6c; border: 1px solid #a5b4c2; background: white; padding: 7px 12px; border-radius: 4px; }
+button[aria-pressed="true"] { background: #eaf3fb; border-color: #4683af; }
+.empty { padding: 36px; text-align: center; background: white; }
+footer { padding: 28px 0; }
+@media (max-width: 850px) { .filters { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { main { padding: 20px 14px; } .filters { grid-template-columns: 1fr; padding: 16px; } article { padding: 18px; } }

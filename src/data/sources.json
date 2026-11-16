@@ -251,7 +251,7 @@
     "id": "aspire",
     "name": "Aspire Releases",
     "homepage": "https://github.com/dotnet/aspire/releases",
-    "url": "https://api.github.com/repos/dotnet/aspire/releases?per_page=100",
+    "url": "https://api.github.com/repos/microsoft/aspire/releases?per_page=100",
     "type": "github-release",
     "enabled": true,
     "defaultCategories": [

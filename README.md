@@ -4,6 +4,8 @@ A lightweight news dashboard powered by a .NET 10 collector, React/TypeScript, r
 
 See [setup, configuration, tests, and deployment](src/README.md), [engineering instructions](src/AGENTS.md), [source verification](src/docs/SOURCES.md), and [implementation checkpoints](src/IMPLEMENTATION_STATUS.md).
 
+To onboard another publisher, follow the [numbered source-onboarding walkthrough](src/README.md#add-a-news-source).
+
 Quick start (requires .NET 10 SDK, Node.js 24, and pnpm 11.25.0):
 
 ```sh

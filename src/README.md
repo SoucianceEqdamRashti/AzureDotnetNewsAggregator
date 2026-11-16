@@ -4,17 +4,30 @@ A .NET 10 console collector publishes repository-backed JSON to a React + TypeSc
 
 ## Local setup
 
-Install the **.NET 10 SDK**, **Node.js 24**, and **pnpm 11.25.0** (`npm install --global pnpm@11.25.0`). Run these commands from the repository's `src` directory:
+1. Install the **.NET 10 SDK**, **Node.js 24**, and **pnpm 11.25.0**:
 
-```sh
-dotnet restore
-dotnet test
-dotnet run --project NewsCollector -- validate-sources data
-dotnet run --project NewsCollector -- ingest data
-cd web
-pnpm install --frozen-lockfile
-pnpm dev
-```
+   ```sh
+   npm install --global pnpm@11.25.0
+   ```
+
+2. Open a terminal in the repository's `src` directory, restore dependencies, and check the collector:
+
+   ```sh
+   dotnet restore --locked-mode
+   dotnet test
+   dotnet run --project NewsCollector -- validate-sources data
+   dotnet run --project NewsCollector -- ingest data
+   ```
+
+3. Start the dashboard:
+
+   ```sh
+   cd web
+   pnpm install --frozen-lockfile
+   pnpm dev
+   ```
+
+   Open the local URL printed by Vite. To onboard a publisher, follow [Add a news source](#add-a-news-source).
 
 The collector accepts an optional absolute or relative data-directory argument. Validation checks configured endpoints and parses their responses without changing published data. Add `--include-disabled` after the directory to check disabled entries that have a candidate endpoint. Disabled entries and reasons are always reported. Exit codes: `0` success, `1` failure, `2` invalid command, `130` cancellation. An empty but valid feed counts as a successful fetch; the validation report includes the number of dated entries.
 
@@ -27,6 +40,59 @@ Optionally provide `GITHUB_TOKEN` through the environment for public GitHub rele
 - `defaultCategories` contains category IDs. Optional `includeKeywords` keeps only matching titles or summaries for broad publishers. Keywords match case-insensitively at word boundaries; add plural forms explicitly. Keywords ending in punctuation, such as `CVE-`, can match prefixes.
 - `data/categories.json`: category IDs, display labels, and keyword rules. Multiple categories can match. Source defaults and matching rules are combined. Rules are reapplied to stored articles on successful ingestion, including articles from temporarily failing sources.
 - Add/remove source entries or change rules without code changes for supported adapters. Validate new endpoints before enabling them. See [source verification and disabled reasons](docs/SOURCES.md).
+
+## Add a news source
+
+Standard RSS, Atom, and GitHub release sources need configuration changes only. Run collector commands below from the repository's `src` directory.
+
+1. **Find the publisher's actual ingestion endpoint.** Check its RSS/Atom subscription links or official API documentation. A homepage is usually not a feed. For GitHub releases, use `https://api.github.com/repos/OWNER/REPOSITORY/releases?per_page=100`, replacing both placeholders with the verified canonical repository owner and name. Avoid redirected repository names because redirects can drop authentication.
+
+2. **Add a disabled entry to `data/sources.json`.** Append an object to the existing JSON array, using a unique, stable `id`. This example is a template; replace its URLs with endpoints verified in step 1:
+
+   ```json
+   {
+     "id": "example-blog",
+     "name": "Example Blog",
+     "homepage": "https://example.com/",
+     "url": "https://example.com/verified-feed.xml",
+     "type": "rss",
+     "enabled": false,
+     "defaultCategories": ["dotnet-csharp"],
+     "disabledReason": "Pending endpoint validation"
+   }
+   ```
+
+   Set `type` to `rss`, `atom`, or `github-release`. Choose category IDs from `data/categories.json`; do not use display labels such as `.NET & C#` as IDs.
+
+3. **Add topic filtering if the publisher covers unrelated subjects.** Add an optional `includeKeywords` property to the source object:
+
+   ```json
+   "includeKeywords": ["Azure", ".NET", "C#", "AI", "agent", "agents", "security"]
+   ```
+
+   An article must match at least one keyword in its title or summary. Matching ignores case and respects word boundaries; include plural forms explicitly. Leave this property out for a source whose full feed is relevant. `defaultCategories` assigns categories; it does not filter topics.
+
+4. **Validate the endpoint before enabling it.** Include disabled entries so the new source is checked:
+
+   ```sh
+   dotnet run --project NewsCollector -- validate-sources data --include-disabled
+   ```
+
+   Find the new source's ID in the report and check its status and dated-entry count. This command also checks other configured endpoints, so another source may cause a nonzero exit code. A parseable empty feed can pass without providing any articles; confirm publication dates are available. Entries without reliable publication dates are excluded, and ingestion retains only the latest 30 days. For GitHub rate limits, supply `GITHUB_TOKEN` through the environment and retry. Validation does not modify published data.
+
+5. **Enable the source and inspect ingestion.** After successful validation, set `enabled` to `true` and `disabledReason` to `null`, then run:
+
+   ```sh
+   dotnet run --project NewsCollector -- ingest data
+   ```
+
+   Check the source's articles in `data/articles.json` for correct links, publication dates, summaries, and categories. Check `data/metadata.json` for failures. If no articles appear, inspect dates, topic filters, and duplicate URLs before assuming the source is broken. The frontend discovers configured sources automatically.
+
+6. **Document and push the change.** Update `docs/SOURCES.md` with the endpoint, verification result, and any limitations. Review the Git diff, commit the intended changes, and push or merge them to `main` through the repository's normal process.
+
+7. **Publish and verify the live site.** In GitHub, open **Actions → Update news and publish → Run workflow**, choose `main`, and run it. Wait for both `update` and `deploy` to succeed, then check the source filter and articles on the [live dashboard](https://soucianceeqdamrashti.github.io/AzureDotnetNewsAggregator/). Alternatively, wait for the next scheduled run at approximately 08:00 or 20:00 Europe/Stockholm. Pushing configuration alone does not trigger publication.
+
+If no reliable endpoint is available, keep the source disabled and record the reason. A new custom API format requires a dedicated adapter and fixture tests following Red → Green → Refactor; do not add fragile HTML scraping. To pause an existing source, set `enabled` to `false` and explain why. Its previously collected articles remain subject to the normal 30-day retention policy.
 
 ## Data and failure policy
 

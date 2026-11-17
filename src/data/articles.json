@@ -1,5 +1,168 @@
 [
   {
+    "id": "d2045c04e3846ac51a9f883b2510533487dd81fe9e2171c4b6df4f7dd86f647c",
+    "title": "Hackers smash \u0027n\u0027 grab AI vendor: Take off with license data of Uber drivers",
+    "url": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
+    "source": "register",
+    "publishedAt": "2026-11-17T16:15:00+00:00",
+    "summary": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver\u0027s license data",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "636abb4fba14b122457b269f32784b23c45e5cb6b1820c91f55ddcc0122560eb",
+    "title": "The risks of device code authentication for AI coding agents",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+    "source": "security",
+    "publishedAt": "2026-11-17T15:00:00+00:00",
+    "summary": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "bbb3bf26ce0422521213bffcfaadc2d44637349999ddb8091863950077810eed",
+    "title": "AI toys are on the naughty list again this year",
+    "url": "https://www.theregister.com/offbeat/2026/11/17/ai-toys-are-on-the-naughty-list-again-this-year/5310261",
+    "source": "register",
+    "publishedAt": "2026-11-17T13:00:00+00:00",
+    "summary": "Last year\u0027s offenders mostly cleaned up their acts, but a new batch is just as ready to talk sex, drugs, and where to find the knives with your kids",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "b31d9fd14c1f09868dba7f6a418406a0cc3964b938b3effc155336c1d92b6145",
+    "title": "REIT move? Blackstone joint venture buys AWS campuses to lease back to the cloud giant",
+    "url": "https://www.theregister.com/on-prem/2026/11/17/reit-move-blackstone-joint-venture-buys-aws-campuses-to-lease-back-to-the-cloud-giant/5310355",
+    "source": "register",
+    "publishedAt": "2026-11-17T12:31:00+00:00",
+    "summary": "Amazon shunts some real estate off its books, a move Omdia analyst says may be about economics, as AI buildout weighs on hyperscaler finances",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "74cee5b20542f4764ea9f57035fdc669196b7d1cc40d104116b93c8a00e798d3",
+    "title": "Finding a deadlock in a .NET dump with an AI agent",
+    "url": "https://www.meziantou.net/finding-a-deadlock-in-a-dotnet-dump-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-17T12:00:00+00:00",
+    "summary": "A hang is the easiest problem to diagnose from a dump and the hardest to diagnose any other way. There is no exception, no log line, and attaching a debugger to a production process is rarely an option. But the state that explains it, which thread holds what and which thread waits for what, is entirely present in a dump. This post takes a deadlocked process and lets an agent find both locks. The sample\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "11b5f42fe5a151d50ecbd8ee73282a9f989a54f7ba80a43f0fea4f95a29de01f",
+    "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
+    "url": "https://www.infoq.com/news/2026/11/dotnet-11-release/",
+    "source": "infoq-dotnet",
+    "publishedAt": "2026-11-17T11:50:00+00:00",
+    "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk",
+    "categories": [
+      "dotnet-csharp",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "21aa266256aa654ba858c4dcbf915591c093c6116eb0ce8a13927538f5462624",
+    "title": "PostgreSQL patches 52 security holes, sends version 14 into retirement",
+    "url": "https://www.theregister.com/databases/2026/11/17/postgresql-patches-52-security-holes-sends-version-14-into-retirement/5310108",
+    "source": "register",
+    "publishedAt": "2026-11-17T09:30:00+00:00",
+    "summary": "Some fixes need more than installation, while the next major release is due November 19",
+    "categories": [
+      "ef-data",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d73d1876821bcf3296bce9efd8021d2d306761713a9154d761e536e5b034c187",
+    "title": "Azure.ResourceManager.ContainerService_1.10.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerService_1.10.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-17T07:15:38+00:00",
+    "summary": "## 1.10.0 (2026-11-17) ### Features Added - Upgraded api-version to 2026-09-01. - Added pagination support for listing private link resources and private endpoint connections.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "00e9eb3e7a4e7910c804c1939b119113002961ca1aef8918cbda535f0b19b292",
+    "title": "Japan\u0027s Fugaku supercomputer has decidedly un-super security",
+    "url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333",
+    "source": "register",
+    "publishedAt": "2026-11-17T05:27:04+00:00",
+    "summary": "Attackers try logging in to Earth\u2019s ninth most powerful machine after status page hack exposed credentials",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "0ac35b9ca776b530429e823c49064845f9d0ba0e65374e441ee6aa850e36d89e",
+    "title": "Azure.ResourceManager.ContainerServiceSafeguards_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerServiceSafeguards_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-17T05:02:41+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-16) ### Features Added This is the first beta release of the Azure Container Service Deployment Safeguards management library, providing management-plane support for the \u0060Microsoft.ContainerService/deploymentSafeguards\u0060 resource type (API version 2025-07-01).",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "3527b2f093d052b94f1c2a98d70def2852706daece2096f51fe04b1c9d3fe60e",
+    "title": "Azure.ResourceManager.ImageBuilder_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ImageBuilder_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-17T05:01:59+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-16) Initial release of the Azure.ResourceManager.ImageBuilder library, generated from the TypeSpec specification. ### Features Added This package follows the [new Azure SDK guidelines](https://azure.github.io/azure-sdk/general_introduction.html), and provides many core capabilities: - Support MSAL.NET, Azure.Identity is out of box for supporting MSAL.NET. - Support [OpenTelemetry](https://opentelemetry.io/) for distributed tracing. - HTTP pipeline with custom policies. - Better error-handling. - Support uniform telemetry across all languages. This package is a Public Preview version, so expect incompatible changes in subsequent releases as we improve the product. To provide feedback, submit an issue in our [Azure SDK for .NET GitHub repo](https://github.com/Azure/azure-sdk-for-net/issues). \u003E NOTE: For more information about unified authentication, please refer to [Microsoft Azure Identity documentation for .NET](https://docs.microsoft.com//dotnet/api/overview/a",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "9fbf22e882caa6e96433e1953da1d74b929f563298077e1e74f8f8b3875dfb6a",
+    "title": "Azure.ResourceManager.KoreAIArtemis_1.0.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.KoreAIArtemis_1.0.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-17T03:47:42+00:00",
+    "summary": "## 1.0.0-beta.1 (2026-11-12) ### Features Added First release for API version 2026-07-01-preview.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "785c1f57fb98f1f854c39d67ad671a54797693e104cf7dfa39e816eec5719f25",
+    "title": "SqlPackage Deployment History and Fast Comparison Preview",
+    "url": "https://devblogs.microsoft.com/azure-sql/sqlpackage-deployment-history-and-fast-comparison-preview/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-17T03:11:04+00:00",
+    "summary": "Database deployments should be repeatable. A SQL database project describes the desired schema, its build produces a .dacpac, and SqlPackage compares that model with a target database to work out the changes to apply. But what happens when a pipeline publishes the same database model again? Even when nothing needs to change, determining that can [\u2026] The post SqlPackage Deployment History and Fast Comparison Preview appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
     "id": "a08614c0debc4239027a2df2e64936a57ad43d8036afead4eb3924a634912222",
     "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",

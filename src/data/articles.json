@@ -1,5 +1,140 @@
 [
   {
+    "id": "a08614c0debc4239027a2df2e64936a57ad43d8036afead4eb3924a634912222",
+    "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+    "source": "security",
+    "publishedAt": "2026-11-17T00:08:41+00:00",
+    "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
+    "id": "124a1dd49463e92ce108741db513c3626defbee6f10a831fb9183e2b539e8db7",
+    "title": "California sues OpenAI for misleading public about AI safety",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/16/california-sues-openai-for-misleading-public-about-ai-safety/5310297",
+    "source": "register",
+    "publishedAt": "2026-11-16T23:43:17+00:00",
+    "summary": "A-G cites Hugging Face incident as example of why industry must be accountable",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9b01ab8a54383409c3a63fd33932dd2368e3624b73d4259f2881b765c7783e5f",
+    "title": "Attackers are using AI agents to automate cybercrime at \u0027industrial scale,\u0027 FBI and AWS warn",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
+    "source": "register",
+    "publishedAt": "2026-11-16T19:52:00+00:00",
+    "summary": "Critical orgs around the globe under seige",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "6b2fe66b5663ccaad2f68efda8447804ceddb52900b4751ae385c14e523ca54b",
+    "title": "China\u2019s grip on Top500 remains uncontested as US chases AI-HPC fusion",
+    "url": "https://www.theregister.com/systems/2026/11/16/chinas-grip-on-top500-remains-uncontested-as-us-chases-ai-hpc-fusion/5310205",
+    "source": "register",
+    "publishedAt": "2026-11-16T19:00:00+00:00",
+    "summary": "In the age of AI, the top spot on the bi-annual ranking is whoever willing to run HPL instead of LLMs",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "e582aa48fb7c45e17d716900a64db0e66f980600d8d1ed50df9c94a9f1434db3",
+    "title": "Ubuntu gets AI-generated security fixes for those feeling brave",
+    "url": "https://www.theregister.com/os-platforms/2026/11/16/ubuntu-gets-ai-generated-security-fixes-for-those-feeling-brave/5310139",
+    "source": "register",
+    "publishedAt": "2026-11-16T18:01:00+00:00",
+    "summary": "Opt-in Edge archive gives Pro subscribers early access before full testing, while normal updates remain human-validated",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "cd40ff6cae9c9a6ae5a199bfb957daf2c9ae163f94d78a36a7c859b3377607ba",
+    "title": "US allies deepen deal to guard AI supply chains against \u0027hostile actors\u0027 (cough, China, cough)",
+    "url": "https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094",
+    "source": "register",
+    "publishedAt": "2026-11-16T16:15:00+00:00",
+    "summary": "Securing supply chains or coercing other nations to help Washington sideline Beijing and its AI ambitions?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "b01665747fbda539a098b8e0e5b80f30558241162a5e321e6781a16650b6eaf8",
+    "title": "Has AI\u2019s \u2018Black October\u2019 changed the way you secure your code?",
+    "url": "https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775",
+    "source": "register",
+    "publishedAt": "2026-11-16T16:00:00+00:00",
+    "summary": "PARTNER CONTENT: AI agents are making security vulnerabilities easier to find and exploit in your code. Software engineering and application security teams need new ways to find and fix them",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "ed1519122a19bc2ec7b15eb4ec56bc71166cf694d807f132b78557486ff60404",
+    "title": "Google: AI agent turned a security patch into a working exploit with no human help",
+    "url": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
+    "source": "register",
+    "publishedAt": "2026-11-16T14:00:00+00:00",
+    "summary": "Look ma, no human in the loop!",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "95a3fba4c130662736d51a6d4745191c184cd6e4774ed0730c68207547b3f4b3",
+    "title": "The Jensen Huang saga could be the beginning of the end of the AI bubble \u2013 or just a boon for competitors",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/16/the-jensen-huang-saga-could-be-the-beginning-of-the-end-of-the-ai-bubble-or-just-a-boon-for-competitors/5309856",
+    "source": "register",
+    "publishedAt": "2026-11-16T13:30:00+00:00",
+    "summary": "There could be no greater irony than if the misdeeds of one of AI\u0027s biggest names brought the whole house of cards crashing down",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9638dd696d0357742ac880a6feff3bee5dcc63513fa78c60c5b43e50bdf52631",
+    "title": "Datacenters\u0027 share of UK planning applications nearly triples in three years",
+    "url": "https://www.theregister.com/on-prem/2026/11/16/datacenters-share-of-uk-planning-applications-nearly-triples-in-three-years/5310029",
+    "source": "register",
+    "publishedAt": "2026-11-16T12:01:00+00:00",
+    "summary": "Councils waving through majority of proposals as government turns on the AI-friendly planning taps",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "eee4ee534f201568de532e51f96eb5c8bcd7a5febaf7a67a443df597efee0fea",
+    "title": "Analyzing a .NET crash dump with an AI agent",
+    "url": "https://www.meziantou.net/analyzing-a-dotnet-crash-dump-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-16T12:00:00+00:00",
+    "summary": "A container restarted during the night, and this is everything the log has: Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object. at Program.\u003C\u003CMain\u003E$\u003Eg__GetCustomerDomain|0_2(Order order) in /work/series/CrashDemo/Program.cs:line 26 at Program.\u003C\u003CMain\u003E$\u003Eg__Process|0_1(Order order) in /work/series/CrashDemo/Program.cs:line 20 at Program.\u003CMain\u003E$(String[]\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
     "id": "ad0515e6b87e3300f7530e336c9fb2889675df86ecab1d668e934f291c708fd0",
     "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
     "url": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/",

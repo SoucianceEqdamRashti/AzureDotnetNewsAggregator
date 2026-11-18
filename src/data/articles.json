@@ -1,5 +1,102 @@
 [
   {
+    "id": "7d3796d0cf4b9146f15cf85f1c9f1ec04cb2ee396e576c4ca13752b227b9da8a",
+    "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
+    "url": "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515",
+    "source": "register",
+    "publishedAt": "2026-11-18T15:00:00+00:00",
+    "summary": "SPONSORED POST: As cyberattacks become more sophisticated, organisations need to look beyond prevention and ensure they can recover critical data quickly and reliably",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "380099c909c2be269261f4b02ecbb3d56c9690fbbe74cfb89911fa351533db34",
+    "title": "Windows Server 2028 won\u0027t be compatible by default",
+    "url": "https://www.theregister.com/os-platforms/2026/11/18/windows-server-2028-wont-be-compatible-by-default/5310766",
+    "source": "register",
+    "publishedAt": "2026-11-18T13:16:00+00:00",
+    "summary": "Testing times ahead for administrators: beefed-up security out of the box means some things might not \u0027just work\u0027",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "1b5d3e2e093f42fba3a3093391c5729c7a980b38cdec9e755e2a4dece71e8016",
+    "title": "Finding an async deadlock caused by a SynchronizationContext with an AI agent",
+    "url": "https://www.meziantou.net/finding-an-async-deadlock-caused-by-a-synchronizationcontext-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-18T12:00:00+00:00",
+    "summary": "The previous post found a deadlock by asking which thread owned which monitor. This one has the same symptom, a process that hangs and uses no CPU, and none of that evidence: no monitor is held, no thread is contended, and the thread pool is idle. It is the classic .Result deadlock, and finding it from a dump means following a completely different trail. The sample contains the application, the collection\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "4ada57bdc00dc5ac92fb630158f5547b05f50e82f72ec91745f3ca4925f5d893",
+    "title": "SAP opens AI to on-prem customers, but cloud commitments could shut smaller firms out",
+    "url": "https://www.theregister.com/applications/2026/11/18/sap-opens-ai-to-on-prem-customers-but-cloud-commitments-could-shut-smaller-firms-out/5310056",
+    "source": "register",
+    "publishedAt": "2026-11-18T10:14:00+00:00",
+    "summary": "User group says access terms favor enterprises that can migrate one ERP system at a time",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "58dfc66aab997ffea2d026b0b1cc865085e241101b174cc092778f64d2e4d880",
+    "title": "UK MPs want AI watchdog with power to pull the plug on dangerous models",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
+    "source": "register",
+    "publishedAt": "2026-11-18T09:30:00+00:00",
+    "summary": "Parliamentary committee says tech giants can\u0027t be left to mark their own homework when it comes to AI safety",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "7fad90d7c09c6795c3a0b3eb30ad54f469c133219b318efbefafbcfd5a2856f9",
+    "title": "Aspire 17 is ready for primetime",
+    "url": "https://devblogs.microsoft.com/aspire/whats-new-aspire-17/",
+    "source": "aspire-blog",
+    "publishedAt": "2026-11-18T07:15:00+00:00",
+    "summary": "Aspire 17 gives you more levers to build real enterprise apps and your own platform on top of Aspire, with shared team defaults, larger-app workflows, and stable Kubernetes deployment packages. The post Aspire 17 is ready for primetime appeared first on Aspire Blog .",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "e06ce8896a1cad79157c70263422a29a08f280b66af84ede2695382566c9a8c4",
+    "title": "Aspire 17.0.0",
+    "url": "https://github.com/microsoft/aspire/releases/tag/v17.0.0",
+    "source": "aspire",
+    "publishedAt": "2026-11-18T06:50:03+00:00",
+    "summary": "# Aspire 17.0.0 Aspire 17.0 brings a resource-first dashboard, Go AppHosts in preview, stable .NET project hosting and Kubernetes deployment packages, and new Microsoft Entra ID and Azure API Management integrations. Shell completion, shared team configuration, environment-specific secrets, richer editor tooling, and a preview tray companion make it easier to build, inspect, and deploy applications across languages. ## Highlights - \uD83D\uDCCA **Resource-first dashboard** \u2014 A resource table home page and shared resource pane keep services in view as you navigate logs, traces, and metrics. Search, filters, multi-selection, grouping, and pinnable metric cards with live sparklines help focus investigations. Interactive terminals get a dedicated page, first-run guidance helps connect telemetry, and the dashboard and \u0060aspire describe --format mermaid\u0060 can export your resource graph. - \uD83D\uDC39 **Go AppHosts in preview** \u2014 Create Go AppHosts with \u0060aspire new\u0060 or \u0060aspire init --language go\u0060, with no experim",
+    "categories": [
+      "azure",
+      "dotnet-csharp",
+      "dotnet-ecosystem",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "f93a920690941fea17791e6a7f911973d7b934ec8a35112a3150ab2abadf6415",
+    "title": "A Chinese bottle-cap manufacturer brilliantly deflated AI hype",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/18/a-chinese-bottle-cap-manufacturer-brilliantly-deflated-ai-hype/5310651",
+    "source": "register",
+    "publishedAt": "2026-11-18T06:32:00+00:00",
+    "summary": "Pre-digital tech can\u0027t be transformed and automated",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
     "id": "bf31e075c541537f249f42e86b807e7500a7535f942bdd11bcfe878c5857726d",
     "title": "New Create and Apply wizards in SSMS (Preview)",
     "url": "https://devblogs.microsoft.com/azure-sql/new-create-and-apply-wizards-in-ssms-preview/",
@@ -1956,7 +2053,7 @@
   },
   {
     "id": "98994749567699b5a74b7adac59a2a7febb58dcc9aeefc86d49523b98c14a05d",
-    "title": "Gemini test proves once again that amoral AI agents will do almost anything if told \u2018NEVER give up\u2019",
+    "title": "Gemini test proves once again that amoral AI agents will do almost anything if told \u0027NEVER give up\u0027",
     "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
     "source": "register",
     "publishedAt": "2026-11-17T19:52:57+00:00",
@@ -2155,7 +2252,7 @@
     "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
     "url": "https://www.infoq.com/news/2026/11/dotnet-11-release/",
     "source": "infoq-dotnet",
-    "publishedAt": "2026-11-17T11:50:00+00:00",
+    "publishedAt": "2026-11-17T10:20:00+00:00",
     "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk",
     "categories": [
       "dotnet-csharp",
@@ -3198,7 +3295,7 @@
     "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
     "source": "github-blog",
     "publishedAt": "2026-11-10T18:00:00+00:00",
-    "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+    "summary": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
     "categories": [
       "devops-iac",
       "security-identity"
@@ -6341,80 +6438,6 @@
     "summary": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile, eliminating the need to create a CNAME record pointing to the traf",
     "categories": [
       "azure"
-    ]
-  },
-  {
-    "id": "1a3bec9bec8c9b107328cbeb5997d9dd85ba41bed48062d9fa517660695dace6",
-    "title": "Get Your .NET MAUI App Ready for Xcode 27",
-    "url": "https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/",
-    "source": "dotnet-blog",
-    "publishedAt": "2026-10-19T16:05:00+00:00",
-    "summary": "Use an agent skill to prepare your existing .NET MAUI app for Xcode 27, with the scene lifecycle changes and manual migration steps explained. The post Get Your .NET MAUI App Ready for Xcode 27 appeared first on .NET Blog .",
-    "categories": [
-      "ai-agents",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "cff774116f19c5c235f889d8a71c3c8df7cd3a521e1e0107eea4bab65dddd0c0",
-    "title": "Browser automation tool in Microsoft Foundry is now GA",
-    "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
-    "source": "foundry",
-    "publishedAt": "2026-10-19T10:32:13+00:00",
-    "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control. The post Browser automation tool in Microsoft Foundry is now GA appeared first on Microsoft Foundry Blog .",
-    "categories": [
-      "ai-agents"
-    ]
-  },
-  {
-    "id": "2ef7eb8911590a5ae11544d6f90340fc8023a67bd4fbcd9cd1248a951c3c3b45",
-    "title": "Azure.Provisioning.ContainerService_1.0.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.ContainerService_1.0.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-19T09:35:22+00:00",
-    "summary": "## 1.0.0 (2026-10-19) ### Features Added - First stable release of Azure.Provisioning.ContainerService for declarative provisioning of Azure Kubernetes Service resources, using API version \u00602026-07-01\u0060 by default.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "93aa1a4a7e5ab21ab29411882915576962fbc9cca619c74ac25920eef01a6bf2",
-    "title": "AI\u2019s epic cash call is matched only by its ability to strangle revenue streams",
-    "url": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
-    "source": "register",
-    "publishedAt": "2026-10-19T08:30:00+00:00",
-    "summary": "The first technology created with a self-disrupt button... But why oh why didn\u0027t they call Claude clone Fauxtoshop?",
-    "categories": [
-      "ai-agents",
-      "general-technology"
-    ]
-  },
-  {
-    "id": "70fbf192556ecf54f412314618bbbbbe999a923a64cc3a58acafb857396ace8c",
-    "title": "Azure.ResourceManager.HybridConnectivity_1.2.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.HybridConnectivity_1.2.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-19T06:25:40+00:00",
-    "summary": "## 1.2.0 (2026-10-20) ### Features Added - Upgraded API version to \u00602027-01-01\u0060. - Added support for Google Cloud Platform (GCP) public cloud connectors: - Added \u0060PublicCloudHostType.Gcp\u0060. - Added \u0060GcpCloudProfile\u0060, \u0060GcpProjectProperties\u0060, and \u0060GcpOrganizationProperties\u0060 models, exposed via \u0060PublicCloudConnectorProperties.GcpCloudProfile\u0060. - Added \u0060SubscriptionResource.PostGenerateGcpTemplate\u0060 and \u0060PostGenerateGcpTemplateAsync\u0060 for retrieving a GCP access control template, along with the \u0060GenerateGcpTemplateContent\u0060, \u0060GenerateGcpTemplateResult\u0060, and \u0060GcpTemplateFormat\u0060 models. - Added \u0060PublicCloudConnectorData.Kind\u0060 identifying which public cloud a connector targets. - Added \u0060HostTypes\u0060 to \u0060PublicCloudConnectorSolutionTypeProperties\u0060 and \u0060PublicCloudConnectorSolutionTypeSettingsProperties\u0060. ### Breaking Changes - \u0060PublicCloudConnectorPatch.AwsCloudExcludedAccounts\u0060 is obsolete in favor of \u0060PublicCloudConnectorPatch.Properties.AwsCloudExcludedAccounts\u0060. The patch payload now carries a \u0060",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "a2e4269edfe1770c05b94084a9564b6026394602ab68e85004cd466d77692263",
-    "title": "Azure.Provisioning.AgriculturePlatform_1.0.0-beta.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.AgriculturePlatform_1.0.0-beta.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-19T02:53:54+00:00",
-    "summary": "## 1.0.0-beta.1 (2026-10-15) ### Features Added - Initial release of Azure.Provisioning.AgriculturePlatform",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
     ]
   }
 ]

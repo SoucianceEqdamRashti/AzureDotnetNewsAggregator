@@ -1,6 +1,8 @@
 {
-  "lastSuccessfulIngestion": "2026-11-17T16:45:58.8403862+00:00",
-  "articleCount": 353,
-  "successfulSources": 28,
-  "failedSources": []
+  "lastSuccessfulIngestion": "2026-11-18T01:31:29.4219573+00:00",
+  "articleCount": 533,
+  "successfulSources": 27,
+  "failedSources": [
+    "agent-framework"
+  ]
 }

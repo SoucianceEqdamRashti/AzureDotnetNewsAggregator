@@ -1,5 +1,180 @@
 [
   {
+    "id": "726e7c626a1bfaf63996dbccc2eb4e1be429d4cd2b5f9d48543c80222d49ea7c",
+    "title": "Azure.AI.Projects.Agents_3.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Projects.Agents_3.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-18T22:46:13+00:00",
+    "summary": "## 3.0.0 (2026-11-12) ### Breaking Changes - \u0060AzureFunctionDefinitionFunction\u0060 was removed, please use the same class from \u0060Azure.AI.Extensions.OpenAI\u0060. - Renamed \u0060GenerateVoiceAgentRequest\u0060 to \u0060GenerateVoiceAgentContent\u0060 and \u0060UpdateToolboxRequest\u0060 to \u0060UpdateToolboxContent\u0060. - Removed the \u0060AgentCard(string, IEnumerable )\u0060 and \u0060VersionSelector(IEnumerable )\u0060 constructors. Use the parameterless constructors and set \u0060Version\u0060/\u0060Skills\u0060 and \u0060VersionSelectionRules\u0060 with initializers. - \u0060TelephonyTransferTarget\u0060 constructor no longer takes \u0060name\u0060; set the \u0060Name\u0060 property instead. - \u0060AgentReference\u0060 class was removed, please use class \u0060AgentReference\u0060 from \u0060Azure.AI.Extensions.OpenAI\u0060 package. - \u0060MCPToolboxTool\u0060 was renamed to \u0060McpToolboxTool\u0060. - \u0060PSTNTelephonyTransferDestination\u0060 was renamed to \u0060PstnTelephonyTransferDestination\u0060. - The order of \u0060GetAgentVersionsAsync\u0060 and \u0060GetAgentVersions\u0060 arguments was changed. Now it is \u0060string agentName, bool? includeDrafts, int? limit = default, AgentLis",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "c94a62290d0da6ba1776cb6a034d50703a83d9e1976216c2c4aa75480a52823c",
+    "title": "Get ready for another critical PHP security release to drop",
+    "url": "https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911",
+    "source": "register",
+    "publishedAt": "2026-11-18T22:38:12+00:00",
+    "summary": "At least one dangerous RCE bug will get a fix on Thursday",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "8f2f3223fd15a65625de9e4b1d5066a9cca00744eac94385b61b03676c46d056",
+    "title": "AI found more critical bugs in another widely used technology running 225M websites",
+    "url": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+    "source": "register",
+    "publishedAt": "2026-11-18T21:11:04+00:00",
+    "summary": "Open source NGINX joins patchapalooza",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "6514dac7b89184f301666017481be258680ee00589b94c26fd1c6e01e05a106d",
+    "title": "To rank the world\u0027s biggest supercomputers, we\u0027re gonna need a bigger bench",
+    "url": "https://www.theregister.com/hpc/2026/11/18/to-rank-the-worlds-biggest-supercomputers-were-gonna-need-a-bigger-bench/5310878",
+    "source": "register",
+    "publishedAt": "2026-11-18T20:15:44+00:00",
+    "summary": "AI has birthed some truly colossal supers, they just aren\u0027t on the Top500",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "e01821427177b2cf4bb480ce6e87d0eb9cd4f0580090145f1e519c85bc39840c",
+    "title": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
+    "url": "https://azure.microsoft.com/updates?id=581604",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-18T18:27:29+00:00",
+    "summary": "Announcing the public preview of the AI bot ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. AI crawlers and agents visit your site for different reasons, and you may want to allow some but not others. Robots.txt only works wh",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "f98c454099838bcb3128e0427555f02ba60ab4f71f0a2789e624a6be610ecc6c",
+    "title": "Announcing: The new Azure Databricks on Azure Government is now in Beta",
+    "url": "https://azure.microsoft.com/updates?id=581645",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-18T18:01:03+00:00",
+    "summary": "A new Azure Databricks environment is now available in Beta on Microsoft Azure Government. It brings the modern data and AI platform from global Azure to U.S. public sector agencies and their partners, delivered as a first-party Azure service. The Beta in",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "be420fdfb5ac1c3cc32102e8cc183e7455cb60f7b7aaffa9c925612b2dbfb777",
+    "title": "[Launched] Generally Available: Cross-subscription backup for Azure Virtual Machines in Azure Backup",
+    "url": "https://azure.microsoft.com/updates?id=581048",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-18T18:00:04+00:00",
+    "summary": "Azure Backup now supports cross-subscription backup for Azure Virtual Machines, enabling customers to protect VMs using a Recovery Services vault located in a different Azure subscription within the same tenant.This capability allows organizations to cent",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "a531e783a5357eddc77176dba1c273d390d0937d183b57b21f7e79d7ccedc7aa",
+    "title": "[In preview] Public Preview: AI-powered application and database modernization with Modernize CLI",
+    "url": "https://azure.microsoft.com/updates?id=579943",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-18T17:58:45+00:00",
+    "summary": "Modernize CLI brings application and database modernization together as one connected, agentic journey. It assesses application architecture, dependencies, and cloud readiness while discovering the databases the application relies on and invoking speciali",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "cd1a6b5bae7fd5bd0e25ef6b32278c4226f462dae8bdf894b7e109c6731ecb14",
+    "title": "Microsoft\u0027s official Python agent framework hijacked to distribute malware",
+    "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+    "source": "register",
+    "publishedAt": "2026-11-18T17:23:37+00:00",
+    "summary": "In today\u0027s how-could-things-get-worse-for-Microsoft news, it seems someone\u0027s GitHub org admin creds have been compromised",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "b16529c64c250181a6c406ac85009997e693dd0b7da2d007684d1f8296930a61",
+    "title": "Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries",
+    "url": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/",
+    "source": "foundry",
+    "publishedAt": "2026-11-18T17:00:54+00:00",
+    "summary": "What is new for hosted agents in Foundry Agent Service at Ignite 2026: shared subnet IPs, private CA trust, network egress controls, deployment to your own AKS clusters, resilient execution, memory snapshots and A2A passthrough. The post Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "19f48b065b5191ee6a5ff9dcebb7f943bdccc606cad7c730a230e63a0f008785",
+    "title": "Browser Automation Tool in Microsoft Foundry : Ignite\u201926 Announcements",
+    "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ignite/",
+    "source": "foundry",
+    "publishedAt": "2026-11-18T17:00:47+00:00",
+    "summary": "Enterprise-ready cloud browsers for every Foundry agent: MCP action batching, Live View and Take control, session recording, VNet injection, browser proxy, profile reuse, secret management, and CAPTCHA handling. The post Browser Automation Tool in Microsoft Foundry : Ignite\u201926 Announcements appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "63e69490abe21c550ffe580e1a5b5f8d2c0fec1229f139a87c22a5d2cbdee597",
+    "title": "The Foundry Dev Pack is here: build Foundry agents your way",
+    "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+    "source": "foundry",
+    "publishedAt": "2026-11-18T17:00:39+00:00",
+    "summary": "Your next agent can start wherever you like to build: in your editor, at the terminal, or with your favorite coding agent. At Microsoft Ignite, we\u2019re making that first step easier: the Foundry Dev Pack (aka.ms/foundrydevpack) is now generally available, bringing the Microsoft Foundry developer tools to your machine in a single install. Move from [\u2026] The post The Foundry Dev Pack is here: build Foundry agents your way appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "5aed11bfb3bc63bb33783e788f7cc7c2891eb519c832c66e9cdfef5b8be0dd8f",
+    "title": "What\u2019s new in Foundry Agent Service at Ignite 2026",
+    "url": "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/",
+    "source": "foundry",
+    "publishedAt": "2026-11-18T17:00:28+00:00",
+    "summary": "Your customers don\u2019t judge agents by how well they demo. They judge them by whether the work gets done: the case resolved, the report delivered, the follow-up sent. That takes more than a model. It takes the right context and tools, a runtime that holds up under real demand, and a way to keep improving [\u2026] The post What\u2019s new in Foundry Agent Service at Ignite 2026 appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "19f28f0c0d925ff47d45545c02fd3be353df89f3ed8edd968af233cd9dcf5e33",
+    "title": "Build once, reuse across your agent fleet: Tools and Toolboxes in Foundry",
+    "url": "https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry/",
+    "source": "foundry",
+    "publishedAt": "2026-11-18T17:00:18+00:00",
+    "summary": "Connecting one tool to one agent is not hard. The challenge is managing a useful set of tools and agentic capabilities across a fleet of production agents at scale. Every new agent shouldn\u2019t require you to build the same integrations, copy the same instructions, and troubleshoot the same dependencies. And adding a useful capability shouldn\u2019t [\u2026] The post Build once, reuse across your agent fleet: Tools and Toolboxes in Foundry appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "4fb75e9223501829ffad23ae488e920b0259b2ef5eb0ba8c2f69ed4400a9e324",
+    "title": "The wrong setting for AI cache can cost you a lot of cash",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/18/the-wrong-setting-for-ai-cache-can-cost-you-a-lot-of-cash/5310831",
+    "source": "register",
+    "publishedAt": "2026-11-18T16:17:00+00:00",
+    "summary": "Beware of the temptation to drop just a few more dollars to get the work done",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
     "id": "7d3796d0cf4b9146f15cf85f1c9f1ec04cb2ee396e576c4ca13752b227b9da8a",
     "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
     "url": "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515",
@@ -114,7 +289,7 @@
     "url": "https://azure.microsoft.com/updates?id=581503",
     "source": "azure-updates",
     "publishedAt": "2026-11-18T00:00:09+00:00",
-    "summary": "Immutable snapshots for Azure Disk Storage are now available in public preview. Immutable snapshots complement Azure Backup immutable vaults. Use vaults for cost-efficient long-term retention, and immutable snapshots for short-term backups that need faste",
+    "summary": "Immutable snapshots for Azure Disk Storage are now available in public preview. You can now apply an immutability policy to snapshots of any Azure disk type to prevent deletion for up to 90 days. While the policy is active, no one can delete the snapshot,",
     "categories": [
       "azure"
     ]
@@ -2053,7 +2228,7 @@
   },
   {
     "id": "98994749567699b5a74b7adac59a2a7febb58dcc9aeefc86d49523b98c14a05d",
-    "title": "Gemini test proves once again that amoral AI agents will do almost anything if told \u0027NEVER give up\u0027",
+    "title": "Gemini test proves once again that amoral AI agents will do almost anything if told \u2018NEVER give up\u2019",
     "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
     "source": "register",
     "publishedAt": "2026-11-17T19:52:57+00:00",
@@ -2126,6 +2301,43 @@
     ]
   },
   {
+    "id": "09e16fd83a224ad85eda9e22c4d09fab6ec36706aaa38c95d8a5c83e2df0e9f8",
+    "title": "Microsoft Ignite 2026: What\u2019s new in Azure, the platform purpose-built for AI",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-17T18:35:00+00:00",
+    "summary": "At Microsoft Ignite, we\u0027re sharing what\u0027s new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all of it yourself. The post Microsoft Ignite 2026: What\u2019s new in Azure, the platform purpose-built for AI appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "3bbf433ec4eecff638e51c28755410ceb1fae164bedd72e9cbcd1a30e16fcd2e",
+    "title": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
+    "url": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-17T18:35:00+00:00",
+    "summary": "At Microsoft Ignite 2026, we\u2019ll showcase what\u2019s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context management, and inference efficiency, we\u2019re fundamentally improving agent speed, security, and unit economics. The post Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "897e27c9acfefedcaae59b900b0410a7f68e1fb43f0ab7c8280becc485873d71",
+    "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-17T18:35:00+00:00",
+    "summary": "Our new integrations let AI agents reason across Oracle\u2019s business-critical data. The post Microsoft and Oracle bring agentic AI into flow of enterprise work appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
     "id": "f1e6e1ef1fdfe12183eb305ee9bb8afecdf1541804a2db08c7fcba8341db7645",
     "title": "What\u2019s new in Azure Cosmos DB at Microsoft Ignite 2026",
     "url": "https://devblogs.microsoft.com/cosmosdb/whats-new-azure-cosmos-db-ignite-2026/",
@@ -2163,6 +2375,30 @@
     ]
   },
   {
+    "id": "77e62298fd221a2bec912322bef84d08aaac8841f1d7c7177d7a1f6d004a888f",
+    "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
+    "url": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-17T18:20:00+00:00",
+    "summary": "Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads. The post Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "776c537f1fb9964d499c3e10bb98fce57769af6bc87675b39cf821df7c68eeb0",
+    "title": "Continuous improvement comes to Microsoft Foundry",
+    "url": "https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-17T18:15:00+00:00",
+    "summary": "Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control. The post Continuous improvement comes to Microsoft Foundry appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
     "id": "c8fc0392b9ea24f8b95ac2cc7e533afe3df1801cf73503c126b365e075111784",
     "title": "Security for the agentic era, powered by Microsoft Perception",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
@@ -2172,6 +2408,18 @@
     "categories": [
       "ai-agents",
       "security-identity"
+    ]
+  },
+  {
+    "id": "0e87b7a4ca335ef8ac153706caf6c20ccc1055779d0a7fd8ac2a9820719f26bb",
+    "title": "Introducing the new Microsoft IQ: Putting your organization\u2019s intelligence to work in every agent",
+    "url": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+    "source": "azure-blog",
+    "publishedAt": "2026-11-17T18:05:00+00:00",
+    "summary": "Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence. The post Introducing the new Microsoft IQ: Putting your organization\u2019s intelligence to work in every agent appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "ai-agents",
+      "azure"
     ]
   },
   {
@@ -5682,8 +5930,7 @@
     "publishedAt": "2026-10-28T16:45:06+00:00",
     "summary": "A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft\u2019s unified harness strategy brings a shared execution foundation across our agent experiences while preserving customer choice. In Microsoft Foundry, that means you can choose a supported [\u2026] The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Foundry Blog .",
     "categories": [
-      "ai-agents",
-      "azure"
+      "ai-agents"
     ]
   },
   {
@@ -6404,40 +6651,6 @@
     "categories": [
       "dotnet-csharp",
       "dotnet-ecosystem"
-    ]
-  },
-  {
-    "id": "0d4ef772f199ea94946e83d29384e2b62ea13b4b9676987cbfd80ed2223634be",
-    "title": "[Launched] Generally Available: Metrics usage insights for Azure Monitor workspace",
-    "url": "https://azure.microsoft.com/updates?id=577165",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-19T20:23:15+00:00",
-    "summary": "Metrics usage insights is now generally available, giving you greater visibility into what\u2019s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "5560f044cfefdcbe1e179759f20d9a897526cfe100bfc6a8b93f3efbeee2c620",
-    "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
-    "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
-    "source": "azure-blog",
-    "publishedAt": "2026-10-19T19:00:00+00:00",
-    "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog .",
-    "categories": [
-      "ai-agents",
-      "azure"
-    ]
-  },
-  {
-    "id": "1433cda12d7670121ffc1f5426d66758d11f8e9d4221095389ae19358527d9c9",
-    "title": "[Launched] Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
-    "url": "https://azure.microsoft.com/updates?id=573917",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-19T17:55:40+00:00",
-    "summary": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile, eliminating the need to create a CNAME record pointing to the traf",
-    "categories": [
-      "azure"
     ]
   }
 ]

@@ -1,5 +1,78 @@
 [
   {
+    "id": "bd6d84a2ddccd371d1ae478a5e6f38c7bfca5348e43fc9304667e4bb5f6e2430",
+    "title": "Serve open models in production with Foundry Managed Compute",
+    "url": "https://devblogs.microsoft.com/foundry/managed-compute-ga/",
+    "source": "foundry",
+    "publishedAt": "2026-11-20T15:00:44+00:00",
+    "summary": "Managed Compute serves open models on dedicated GPUs in Microsoft Foundry, with Global and US or EU Data Zone deployments. The post Serve open models in production with Foundry Managed Compute appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "a0516610c862a3e1a0ea59b33e0e8341851f7eed5dcb8fae9e0a8192b46b87e5",
+    "title": "Microsoft\u0027s last non-security preview of 2026 packs a punch",
+    "url": "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300",
+    "source": "register",
+    "publishedAt": "2026-11-20T14:28:00+00:00",
+    "summary": "Windows Search gets a makeover, while Hello lights up dim rooms",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "750068326b8d4382e272e6e537f9299438a41efb9723d3b48b312e52a6467a61",
+    "title": "AI could open wallets where ERP upgrade pitches can\u0027t, says PwC",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221",
+    "source": "register",
+    "publishedAt": "2026-11-20T12:47:00+00:00",
+    "summary": "Consultancy argues a \u0027clean core\u0027 makes agents easier to deploy \u2013 but Kingfisher is taking a different route",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c5f5960128aa9422b9f49c1dcd620673d62351efdf9e55795a1462633a35fc3a",
+    "title": "UK government can\u0027t keep its encryption-busting order to Apple a secret, tribunal rules",
+    "url": "https://www.theregister.com/security/2026/11/20/uk-government-cant-keep-its-encryption-busting-order-to-apple-a-secret-tribunal-rules/5311292",
+    "source": "register",
+    "publishedAt": "2026-11-20T12:18:19+00:00",
+    "summary": "Notice\u0027s existence can be acknowledged without harming national security, but its precise demands remain under wraps",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "39db948b14934ce3b6522f27e856432d346387244586d21f2f4f6c34ad5afa73",
+    "title": "Finding a memory leak in a .NET dump with an AI agent",
+    "url": "https://www.meziantou.net/finding-a-memory-leak-in-a-dotnet-dump-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-20T12:00:00+00:00",
+    "summary": "A leak investigation has three questions, in this order: what is on the heap, who keeps it alive, and is it actually growing. Each has its own command, and the third one is the one that gets skipped, by humans and models alike, because a single dump always looks like enough evidence. The sample contains the application, the collection script, and the skill. Every command output below comes from it. The\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "7ed1e385f44fc64aef8697a8a007005731622b99e56dc87f42060e44d51d97ec",
+    "title": "Azure.Storage.Common_12.29.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Common_12.29.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T01:26:29+00:00",
+    "summary": "## 12.29.1 (2026-11-19) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values (e.g. \u0060AccountSasBuilder\u0060). Times are now converted to UTC before formatting/signing to prevent unintended validity windows in st/se and related delegation key time fields. - Fixed an issue where conditional \u0060409 *AlreadyExists\u0060 responses on structured-message requests were incorrectly classified as non-errors, which could cause \u0060InvalidDataException\u0060 to be thrown instead of the expected \u0060RequestFailedException\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "dc5aa161cbc9d5de8ffa051954a236d99c1cac6fcba933df217d111500e54ff5",
     "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
     "url": "https://azure.microsoft.com/updates?id=580700",
@@ -49,11 +122,11 @@
   },
   {
     "id": "b1384e7d3f9856b2895abf3656f76a7ef21e9f8006be090f4d56b7bc301282dd",
-    "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers",
+    "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio subscribers",
     "url": "https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/",
     "source": "visualstudio",
     "publishedAt": "2026-11-19T21:30:48+00:00",
-    "summary": "Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these tools effectively takes more than experimenting with a few prompts, and it often requires opportunities to learn that go beyond documentation and tutorials. Some of the best technical skill development takes [\u2026] The post Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers appeared first on Visual Studio Blog .",
+    "summary": "Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these tools effectively takes more than experimenting with a few prompts, and it often requires opportunities to learn that go beyond documentation and tutorials. Some of the best technical skill development takes [\u2026] The post Live technical training, wherever you are: A VSLive! benefit for Visual Studio subscribers appeared first on Visual Studio Blog .",
     "categories": [
       "ai-agents",
       "dotnet-csharp"
@@ -130,6 +203,19 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "a390e7d1fe6f852b55ddc5007945b3c82f25414c82bb96da90c3948d53b3cf5b",
+    "title": "Presentation: AI-Assisted Software Delivery: From Code to Production",
+    "url": "https://www.infoq.com/presentations/ai-assisted-software-delivery/",
+    "source": "infoq-cloud",
+    "publishedAt": "2026-11-19T14:30:00+00:00",
+    "summary": "The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strategies for verifying AI-generated code, solving testing and deployment bottlenecks, maintaining human oversight, and measuring AI\u2019s true impact on software velocity, quality, reliability, and operational cost. By Garima Bajpaj, Martin Reynolds, Patrick Debois, Gunnar Grosch, Renato Losio",
+    "categories": [
+      "ai-agents",
+      "general-technology",
+      "security-identity"
     ]
   },
   {
@@ -237,7 +323,7 @@
     "url": "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
     "source": "register",
     "publishedAt": "2026-11-18T22:38:12+00:00",
-    "summary": "At least one dangerous RCE bug gota fix on Thursday",
+    "summary": "At least one dangerous RCE bug got a fix on Thursday",
     "categories": [
       "general-technology",
       "security-identity"
@@ -6750,57 +6836,6 @@
     "categories": [
       "azure",
       "ef-data"
-    ]
-  },
-  {
-    "id": "874ee53963a6debb37b282c6852814c33d8bef03d0e6c6c6df83f258e0b6e307",
-    "title": "Introducing Agentic Autofix for code and dependencies",
-    "url": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
-    "source": "devops",
-    "publishedAt": "2026-10-21T15:06:27+00:00",
-    "summary": "Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code. Copilot Autofix for GitHub Advanced Security for Azure DevOps now runs on an agentic foundation. It also supports dependency vulnerability fixes and code scanning alerts from third-party tools. [\u2026] The post Introducing Agentic Autofix for code and dependencies appeared first on Azure DevOps Blog .",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "devops-iac",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "52d33fc1cc670b0d67b71ec1d9ccb12ea03b77009d95eab248ecd45386efd04a",
-    "title": "Compare today\u2019s code with an earlier commit",
-    "url": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
-    "source": "visualstudio",
-    "publishedAt": "2026-10-21T14:00:30+00:00",
-    "summary": "Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today\u2019s code with an earlier commit appeared first on Visual Studio Blog .",
-    "categories": [
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "4e43e87f1c93235314b6a2e94303acc1d2215070f2d9652a99bcdffcc37de625",
-    "title": "Announcing GA of Safe Key Rotation in Azure Cosmos DB",
-    "url": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-of-safe-key-rotation-in-azure-cosmos-db/",
-    "source": "cosmosdb",
-    "publishedAt": "2026-10-21T14:00:23+00:00",
-    "summary": "In our previous post, we introduced the private preview of Safe Key Rotation, a feature that helps Azure Cosmos DB customers avoid service disruptions during key rotations. By showing when each account key was last used, it helps teams make informed decisions before rotating keys or moving to Entra ID. This capability addresses a common challenge: keys that appear unused may still support critical applications, which can lead to unexpected outages if they are rotated too [\u2026] The post Announcing GA of Safe Key Rotation in Azure Cosmos DB appeared first on Azure Cosmos DB Blog .",
-    "categories": [
-      "azure",
-      "ef-data",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "a0977233c7e5d1519e5ca16fa98f652cdd2bb7cdbd08f2cced2bd11849c84a70",
-    "title": "Azure.ResourceManager.Maintenance_1.2.0-beta.12",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Maintenance_1.2.0-beta.12",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-21T08:46:56+00:00",
-    "summary": "## 1.2.0-beta.12 (2026-10-20) ### Features Added - Release ScheduledEvents Acknowledge Error Details classes.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
     ]
   }
 ]

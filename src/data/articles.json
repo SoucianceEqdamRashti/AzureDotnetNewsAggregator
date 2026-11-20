@@ -1,5 +1,126 @@
 [
   {
+    "id": "dc5aa161cbc9d5de8ffa051954a236d99c1cac6fcba933df217d111500e54ff5",
+    "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
+    "url": "https://azure.microsoft.com/updates?id=580700",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-20T00:00:14+00:00",
+    "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "5d453f693a6f3eb24236eff96c771f89c84ae587eea0e9e1e6465e45d8a5aaf4",
+    "title": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+    "url": "https://azure.microsoft.com/updates?id=581907",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-19T23:47:55+00:00",
+    "summary": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API version",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "aa79dbc63af6f715b677b2efb255aa971eccb1849d65085f3097c61f2249d643",
+    "title": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+    "url": "https://azure.microsoft.com/updates?id=574587",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-19T23:25:49+00:00",
+    "summary": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL \u2013 Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test major v",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "203f9b982a8219f30c86dfb0fe94ed363c6ae5a9a451cd69c31074a4893bea32",
+    "title": "Microsoft.Azure.WebJobs.Extensions.SignalRService_2.4.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Microsoft.Azure.WebJobs.Extensions.SignalRService_2.4.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-19T22:57:50+00:00",
+    "summary": "## 2.4.0 (2026-11-20) ### Bugs Fixed - SignalR trigger invocation failures now return a generic error message instead of exposing internal exception details to clients. - Fixed SignalR trigger dispatch failures exposing internal exception details or throwing when the exception message contains line breaks.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "b1384e7d3f9856b2895abf3656f76a7ef21e9f8006be090f4d56b7bc301282dd",
+    "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers",
+    "url": "https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-19T21:30:48+00:00",
+    "summary": "Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these tools effectively takes more than experimenting with a few prompts, and it often requires opportunities to learn that go beyond documentation and tutorials. Some of the best technical skill development takes [\u2026] The post Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers appeared first on Visual Studio Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "215d2d20c37c5f4d33a65ec03234c6463813fee45dedab260a44b41fce702289",
+    "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
+    "url": "https://azure.microsoft.com/updates?id=581254",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-19T20:34:19+00:00",
+    "summary": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "e4627094b361c3599e8aa3e00fec4c83350ac8e67ae56726eea21b8ad7b4cdae",
+    "title": "Palo Alto Networks opens wallet for open-weight training biz",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168",
+    "source": "register",
+    "publishedAt": "2026-11-19T20:00:00+00:00",
+    "summary": "Security shop buys the hand that feeds it",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "65d68f6bba50e6beb16c117f9f421764e9ee49663b9d60fcfed5bb1d8867cb38",
+    "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+    "url": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+    "source": "foundry",
+    "publishedAt": "2026-11-19T19:53:30+00:00",
+    "summary": "A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterprises are all-in on AI agents, but the ROI hasn\u2019t followed. What\u2019s holding those agents back isn\u2019t capability. Today\u2019s agents can do remarkable work on their own. They can start [\u2026] The post Build trusted autonomous agents for your team with Microsoft Foundry appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "a52104fdae873a3120119beb3925e719b269d5958e31028dcaebaaaa3a3598c2",
+    "title": "Azure DevOps integration with the GitHub Copilot app (public preview)",
+    "url": "https://devblogs.microsoft.com/devops/azure-devops-integration-with-the-github-copilot-app-public-preview/",
+    "source": "devops",
+    "publishedAt": "2026-11-19T17:39:09+00:00",
+    "summary": "We\u2019re excited to announce the public preview of Azure DevOps integration in the Copilot app. You can now start agent sessions that work directly with your Azure DevOps repositories to create branches, make code changes, commit changes, and open pull requests. This brings GitHub Copilot\u2019s coding agents to teams using Azure DevOps repositories. What is [\u2026] The post Azure DevOps integration with the GitHub Copilot app (public preview) appeared first on Azure DevOps Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "c296d4e91f5d0c07be78262f6f42a100743228d9e59c26140b72c6349d1e6eaf",
+    "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+    "url": "https://azure.microsoft.com/updates?id=579579",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-19T17:25:28+00:00",
+    "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration,",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
     "id": "4818f937ae62cd72f531216e3155fbcf6bd4251fd75a48959c97691417dc76cc",
     "title": "European Commission scrambles to contain AI-assisted cyberattack",
     "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
@@ -6680,87 +6801,6 @@
       "ai-agents",
       "azure",
       "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "f795bcb12c0eec502efd374aee42fa19f390bfedb7d4508db39573ba376ca20a",
-    "title": "Aspire 13.6.2",
-    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.2",
-    "source": "aspire",
-    "publishedAt": "2026-10-20T23:06:59+00:00",
-    "summary": "*Full commit: [af07e33f8d1ef733645138b3f8e36067d073148d](https://github.com/microsoft/aspire/commit/af07e33f8d1ef733645138b3f8e36067d073148d)* ## What\u0027s Changed * [release/13.6] Bump version to 13.6.2 by @danegsta with @Copilot in https://github.com/microsoft/aspire/pull/20877 * [release/13.6] Pin MessagePack to 2.5.307 for security fixes by @eerhardt in https://github.com/microsoft/aspire/pull/21156 **Full Changelog**: https://github.com/microsoft/aspire/compare/v13.6.1...v13.6.2",
-    "categories": [
-      "ai-agents",
-      "dotnet-ecosystem",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "0a95ced20c2dde7d59915e3598b1ec34d7016100484f5cdb7546812a15f8769c",
-    "title": "[In preview] Public Preview: Disable VNet peering route",
-    "url": "https://azure.microsoft.com/updates?id=576242",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-20T18:55:47+00:00",
-    "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "02ab68be675b3bf67984aadc2776a5827ddbd419baae861c23d6f5717069a91a",
-    "title": "Advancing digital sovereignty with greater control and choice",
-    "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
-    "source": "azure-blog",
-    "publishedAt": "2026-10-20T17:34:47+00:00",
-    "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require. The post Advancing digital sovereignty with greater control and choice appeared first on Microsoft Azure Blog .",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "46b2adfbffba54cd772d1605beedade18346dc488d16a1057b9e90865a03fe92",
-    "title": "[Launched] Generally Available: Service tag match condition for Azure Front Door Premium WAF",
-    "url": "https://azure.microsoft.com/updates?id=577156",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-20T16:57:35+00:00",
-    "summary": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address prefixes used by Azure services, and Microsoft updates th",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "25e8e27dcb54bd297c272e81a36cec9436ae51161e1060b539b4dbf9e7bfc76f",
-    "title": "[Launched] Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
-    "url": "https://azure.microsoft.com/updates?id=577130",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-20T16:55:59+00:00",
-    "summary": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and the private key is never exported to the gateway. This",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "f16164887b9346fbb07fc4046ac6ddd4da08daa0dc57284a8cd33f560247ab9c",
-    "title": "[Launched] Generally Available: Advanced platform metrics for Azure Monitor",
-    "url": "https://azure.microsoft.com/updates?id=575329",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-20T16:54:24+00:00",
-    "summary": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and trends within their resources.With this release, customer",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "8e0a7ef446f47a3a17ee4f723cd91ac9ea087c09719f633fcc5b2a62aad229f1",
-    "title": "Azure DevOps available in Microsoft Copilot Cowork",
-    "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
-    "source": "devops",
-    "publishedAt": "2026-10-20T16:48:07+00:00",
-    "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Cowork, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in skills to help with everyday development tasks. You can quickly see [\u2026] The post Azure DevOps available in Microsoft Copilot Cowork appeared first on Azure DevOps Blog .",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "devops-iac"
     ]
   }
 ]

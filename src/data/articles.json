@@ -1,5 +1,331 @@
 [
   {
+    "id": "03f7c9944b8b88bb822209374fe8789dbf0233c7c8c9d2345782191d2b09a550",
+    "title": "Can C# 15 Union Types Replace the Result Pattern?",
+    "url": "https://milanjovanovic.tech/blog/csharp-union-types-vs-result-pattern",
+    "source": "milan",
+    "publishedAt": "2026-11-21T00:00:00+00:00",
+    "summary": "C# 15 union types can replace the Result pattern. A generic union Result (T, Error) works like the Result class, and a generic validation decorator keeps\u2026",
+    "categories": [
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "82a923cd1deb92c44799494a7f8600450a7c8c36b9a1e7c2b29f718a219bb954",
+    "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+    "url": "https://azure.microsoft.com/updates?id=579952",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-20T23:16:31+00:00",
+    "summary": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date. Until you migrate to the appropriate scenario SDK, .NET app",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "7bd6e4568cb471017b3722a4783ddb8244c4e7bbef2eb11b3dce55deb9249964",
+    "title": "Azure.Storage.Blobs.Batch_12.27.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs.Batch_12.27.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T23:13:13+00:00",
+    "summary": "## 12.27.2 (2026-11-19) ### Other Changes - Upgraded \u0060Azure.Storage.Blobs\u0060 package dependency to 12.30.2",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "257c34e8ed93122eba08de7459ce12e75f31c9a878215be252d3e231ec2a51f4",
+    "title": "Azure.Storage.Files.Shares_12.28.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.Shares_12.28.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T23:04:34+00:00",
+    "summary": "## 12.28.1 (2026-11-19) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values. SAS times are now normalized to UTC before formatting/signing, preventing unintended validity windows in st/se (Start Time, Expiry Time) and related delegation key fields. Affected APIs include: - \u0060ShareClient.GenerateSasUri(...)\u0060 - \u0060ShareClient.GenerateUserDelegationSasUri(...)\u0060 - \u0060ShareDirectoryClient.GenerateSasUri(...)\u0060 - \u0060ShareFileClient.GenerateSasUri(...)\u0060 - \u0060ShareFileClient.GenerateUserDelegationSasUri(...)\u0060 - \u0060ShareServiceClient.GenerateAccountSasUri(...)\u0060 - \u0060ShareSasBuilder\u0060 - Fixed SAS builder/client share and path name validation to use ordinal comparisons in \u0060ShareClient\u0060, \u0060ShareDirectoryClient\u0060, and \u0060ShareFileClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs. - Fixed an issue where conditional create/write flows using structured-message upload validation could classify \u0060409 *AlreadyExists\u0060 responses as non-errors,",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "e0fdd3bc769f8598a037535e8a7137f8931bf67531de5074905b558c69840eb7",
+    "title": "Azure.Storage.Blobs_12.30.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs_12.30.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T23:03:19+00:00",
+    "summary": "## 12.30.2 (2026-11-19) ### Bugs Fixed - Fixed SAS builder/client resource-name validation to use ordinal comparisons in \u0060BlobBaseClient\u0060 and \u0060BlobContainerClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs. - Fixed an issue where \u0060BlobClient.Upload(..., overwrite: false)\u0060 with upload checksum validation configured as \u0060StorageChecksumAlgorithm.StorageCrc64\u0060 could throw \u0060InvalidDataException\u0060 when the blob already existed. The operation now surfaces the expected \u0060RequestFailedException\u0060 for \u0060409 *AlreadyExists\u0060. - Fixed client-side encryption v1 decryption of ranged downloads so the 16-byte IV is fully read even when the ciphertext stream returns short reads, and a truncated IV now fails instead of silently corrupting plaintext. - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values. SAS times are now normalized to UTC before formatting/signing, preventing unintended validity windows in st/se (Start Time, Expiry Time) and ",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "9d09865ccb121d9b36c468b2e2ef14f9ab08807e3b7fd50a098b2455f4af86e7",
+    "title": "Azure.Storage.Queues_12.28.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Queues_12.28.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T23:03:17+00:00",
+    "summary": "## 12.28.2 (2026-11-19) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values. SAS times are now normalized to UTC before formatting/signing, preventing unintended validity windows in st/se (Start Time, Expiry Time) and related delegation key fields. Affected APIs include: - \u0060QueueClient.GenerateSasUri(...)\u0060 - \u0060QueueClient.GenerateUserDelegationSasUri(...)\u0060 - \u0060QueueServiceClient.GenerateAccountSasUri(...)\u0060 - \u0060QueueSasBuilder\u0060 - Fixed SAS builder/client queue-name validation to use ordinal comparisons in \u0060QueueClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "71085bb7dbe8b0da648b011e8991c73f47adcb0a18e74914713298f3c03249ab",
+    "title": "[In preview] Public Preview: Programmed Training in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581713",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-20T22:58:28+00:00",
+    "summary": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview sign-up form.Managed training jobs work well when you onl",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "6319052a0aefa469e1e60325350cf2a6c58881312a3d4d904c7c8d40dbd86dd0",
+    "title": "[In preview] Public Preview: Multi-turn evaluation in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581746",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-20T22:56:51+00:00",
+    "summary": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses.A response can look correct on its own and still be part of a conversation that",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "7ed1e385f44fc64aef8697a8a007005731622b99e56dc87f42060e44d51d97ec",
+    "title": "Azure.Storage.Common_12.29.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Common_12.29.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T22:52:53+00:00",
+    "summary": "## 12.29.1 (2026-11-19) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values (e.g. \u0060AccountSasBuilder\u0060). Times are now converted to UTC before formatting/signing to prevent unintended validity windows in st/se and related delegation key time fields. - Fixed an issue where conditional \u0060409 *AlreadyExists\u0060 responses on structured-message requests were incorrectly classified as non-errors, which could cause \u0060InvalidDataException\u0060 to be thrown instead of the expected \u0060RequestFailedException\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "54dba77600cdab09750131cde6ff6be8d618c416c2afc7252fce032076642c11",
+    "title": "How to Chunk Documents in Azure SQL Database for RAG",
+    "url": "https://devblogs.microsoft.com/azure-sql/how-to-chunk-documents-in-azure-sql-database-for-rag/",
+    "source": "azure-sql",
+    "publishedAt": "2026-11-20T22:23:17+00:00",
+    "summary": "Quick answer Azure SQL Database can split text into fixed-size chunks using AI_GENERATE_CHUNKS, with the OVERLAP percentage controlling repeated text between chunks. Store embeddings generated through an external Azure OpenAI endpoint in VECTOR columns, then retrieve passages with VECTOR_DISTANCE or VECTOR_SEARCH. This walkthrough covers both techniques with validated T-SQL; chunking requires compatibility level 170 or [\u2026] The post How to Chunk Documents in Azure SQL Database for RAG appeared first on Azure SQL Dev Corner .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "dda47e0da836ea0323df6ae6624483f800c48357fdd4c3ac2a4822011ce98795",
+    "title": "Signal slams door on prying AI agents to protect privacy",
+    "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466",
+    "source": "register",
+    "publishedAt": "2026-11-20T20:42:04+00:00",
+    "summary": "Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "82024032157df5e148f2ed74d7b0e3030974e8c4792b594d0bb3359f44b0e264",
+    "title": "[In preview] Public Preview: Azure Firewall for Containers",
+    "url": "https://azure.microsoft.com/updates?id=581963",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-20T20:05:17+00:00",
+    "summary": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use Azure Firewall capabilities as part of their container n",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "6c8dc5f11c33d3f6176ff4246cbc986b240d27ee519798e150e417e75811a55d",
+    "title": "Azure.Storage.Files.Shares.ChangeFeed_12.0.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.Shares.ChangeFeed_12.0.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:43:05+00:00",
+    "summary": "## 12.0.0-beta.2 (2026-11-19) ### Other Changes - Upgraded \u0060Azure.Storage.Blobs\u0060 package dependency to 12.31.0-beta.2 - Upgraded \u0060Azure.Storage.Files.Shares\u0060 package dependency to 12.29.0-beta.2",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "c797b99f867136724115c1f78c72e38cd62699a147ae8c7491308f226b4f136f",
+    "title": "Azure.Storage.Files.DataLake_12.29.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.DataLake_12.29.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:41:38+00:00",
+    "summary": "## 12.29.0-beta.2 (2026-11-19) ### Bugs Fixed - Fixed SAS builder/client file system and path name validation to use ordinal comparisons in \u0060DataLakeFileSystemClient\u0060, \u0060DataLakeDirectoryClient\u0060, and \u0060DataLakePathClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "ddb976a48fc4339a981fc0d19a98b3c92ac88d9ee5e0036cc9eeb958d7c9023b",
+    "title": "Azure.Storage.Blobs.Batch_12.28.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs.Batch_12.28.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:41:11+00:00",
+    "summary": "## 12.28.0-beta.2 (2026-11-19) ### Other Changes - Upgraded \u0060Azure.Storage.Blobs\u0060 package dependency to 12.31.0-beta.2",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "fd91f7ab604f996658cfb2296d507adc2066d968b4061d48dc0a078f75215206",
+    "title": "Azure.Storage.Blobs.ChangeFeed_12.0.0-preview.68",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs.ChangeFeed_12.0.0-preview.68",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:40:56+00:00",
+    "summary": "## 12.0.0-preview.68 (2026-11-19) ### Other Changes - Upgraded \u0060Azure.Storage.Blobs\u0060 package dependency to 12.31.0-beta.2",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "6f0809ee836b532c63b1041f8439d8c92d4b13a06b3970f9ae12f19a5a2ade36",
+    "title": "Azure.Storage.Files.Shares_12.29.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.Shares_12.29.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:32:17+00:00",
+    "summary": "## 12.29.0-beta.2 (2026-11-19) ### Bugs Fixed - Fixed SAS builder/client share and path name validation to use ordinal comparisons in \u0060ShareClient\u0060, \u0060ShareDirectoryClient\u0060, and \u0060ShareFileClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs. - Fixed an issue where conditional create/write flows using structured-message upload validation could classify \u0060409 *AlreadyExists\u0060 responses as non-errors, potentially resulting in \u0060InvalidDataException\u0060 instead of the expected \u0060RequestFailedException\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "21320bc4be540a5b358e08631970c25a0418ae711e8b34543c84b53b3e6d1497",
+    "title": "Azure.Storage.Blobs_12.31.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Blobs_12.31.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:31:59+00:00",
+    "summary": "## 12.31.0-beta.2 (2026-11-19) ### Bugs Fixed - Fixed SAS builder/client resource-name validation to use ordinal comparisons in \u0060BlobBaseClient\u0060 and \u0060BlobContainerClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs. - Fixed an issue where \u0060BlobClient.Upload(..., overwrite: false)\u0060 with upload checksum validation configured as \u0060StorageChecksumAlgorithm.StorageCrc64\u0060 could throw \u0060InvalidDataException\u0060 when the blob already existed. The operation now surfaces the expected \u0060RequestFailedException\u0060 for \u0060409 *AlreadyExists\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "e731851018b8e00ba802f79f720c9606826f139b36dc638fdb1ea81235b9dd14",
+    "title": "Azure.Storage.Queues_12.29.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Queues_12.29.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:31:12+00:00",
+    "summary": "## 12.29.0-beta.2 (2026-11-19) ### Bugs Fixed - Fixed SAS builder/client queue-name validation to use ordinal comparisons in \u0060QueueClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "8c3141ccfc1f4f49d65501795ba347dda5a394685c410c7714394d37d4a363dc",
+    "title": "Azure.Storage.Common_12.30.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Common_12.30.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-20T19:18:26+00:00",
+    "summary": "## 12.30.0-beta.2 (2026-11-19) ### Bugs Fixed - Fixed an issue where conditional \u0060409 *AlreadyExists\u0060 responses on structured-message requests were incorrectly classified as non-errors, which could cause \u0060InvalidDataException\u0060 to be thrown instead of the expected \u0060RequestFailedException\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "b33c817b59b1b55983f308cab91c816d90da56acc060cbc7832e92ed2b5d6edd",
+    "title": "Copilot Code Reviews for Azure Repos is generally available",
+    "url": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
+    "source": "devops",
+    "publishedAt": "2026-11-20T18:41:47+00:00",
+    "summary": "Copilot Code Review for Azure Repos is now generally available. Use GitHub Copilot to review pull requests, identify issues, and suggest code changes. The post Copilot Code Reviews for Azure Repos is generally available appeared first on Azure DevOps Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "42209a333e8ba36c34877fff3bedb4558967860b1ae567d2184e970f90cfe54d",
+    "title": "AI is Changing the Cross-Platform Decision Matrix",
+    "url": "https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-20T18:00:00+00:00",
+    "summary": "AI agents rebuilt a .NET MAUI app with platform UI in days. See what that cost to build, what it costs to maintain, and what changed at runtime, so you can weigh the same choice for your app. The post AI is Changing the Cross-Platform Decision Matrix appeared first on .NET Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "2165e5382ec0d52996fbcdcf6a27963db08fb4b91219b984615712bf612325a5",
+    "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+    "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+    "source": "register",
+    "publishedAt": "2026-11-20T17:30:00+00:00",
+    "summary": "\u0027Agents kept adapting for nearly a full day without human direction,\u0027 Amazon CISO said",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "a9a4f49583a18463cec2ea148b8e8186d7dc5e43ca2c998a5309b386322ecc59",
+    "title": "Microsoft named a Leader in the 2026 Gartner\u00AE Magic Quadrant\u2122 for SIEM",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "source": "security",
+    "publishedAt": "2026-11-20T17:00:00+00:00",
+    "summary": "We\u0027re honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner\u00AE Magic Quadrant\u2122 for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner\u00AE Magic Quadrant\u2122 for SIEM appeared first on Microsoft Security Blog .",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
+    "id": "87db964b2b2be050e2a90b5063f277e5fbaa36280a5da7080f8cde8844e615d4",
+    "title": "Dutch data watchdog highlights safety issues with AI glasses",
+    "url": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
+    "source": "register",
+    "publishedAt": "2026-11-20T16:44:00+00:00",
+    "summary": "Devices found to misinterpret medication instructions and other scenarios impacting human safety",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "e621fcd47505f1408e24406145adeaf5fb6494f24105bcb030a7ef6ef598f980",
+    "title": "AI boom threatens circuit board crunch to rival pandemic-era chip shortage",
+    "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
+    "source": "register",
+    "publishedAt": "2026-11-20T16:01:00+00:00",
+    "summary": "Trade body warns automotive, medical, and defense orders are being crowded out, with relief unlikely before mid-2028",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
     "id": "bd6d84a2ddccd371d1ae478a5e6f38c7bfca5348e43fc9304667e4bb5f6e2430",
     "title": "Serve open models in production with Foundry Managed Compute",
     "url": "https://devblogs.microsoft.com/foundry/managed-compute-ga/",
@@ -35,6 +361,18 @@
     ]
   },
   {
+    "id": "99ed10522e00dc53ef23651aca3d31f8bd8d8e0103315d03b7a42aa9fb86b4be",
+    "title": "Spy court blasts UK secrecy, forces government to admit Apple \u2018backdoor\u2019 demand",
+    "url": "https://www.theregister.com/security/2026/11/20/spy-court-blasts-uk-secrecy-forces-government-to-admit-apple-backdoor-demand/5311292",
+    "source": "register",
+    "publishedAt": "2026-11-20T12:18:19+00:00",
+    "summary": "Notice\u0027s existence can be acknowledged without harming national security, but its precise demands remain under wraps",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
     "id": "c5f5960128aa9422b9f49c1dcd620673d62351efdf9e55795a1462633a35fc3a",
     "title": "UK government can\u0027t keep its encryption-busting order to Apple a secret, tribunal rules",
     "url": "https://www.theregister.com/security/2026/11/20/uk-government-cant-keep-its-encryption-busting-order-to-apple-a-secret-tribunal-rules/5311292",
@@ -57,19 +395,6 @@
       "ai-agents",
       "dotnet-csharp",
       "dotnet-ecosystem"
-    ]
-  },
-  {
-    "id": "7ed1e385f44fc64aef8697a8a007005731622b99e56dc87f42060e44d51d97ec",
-    "title": "Azure.Storage.Common_12.29.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Common_12.29.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-11-20T01:26:29+00:00",
-    "summary": "## 12.29.1 (2026-11-19) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values (e.g. \u0060AccountSasBuilder\u0060). Times are now converted to UTC before formatting/signing to prevent unintended validity windows in st/se and related delegation key time fields. - Fixed an issue where conditional \u0060409 *AlreadyExists\u0060 responses on structured-message requests were incorrectly classified as non-errors, which could cause \u0060InvalidDataException\u0060 to be thrown instead of the expected \u0060RequestFailedException\u0060.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
     ]
   },
   {
@@ -1890,18 +2215,6 @@
     ]
   },
   {
-    "id": "8a780e74d928786022419321058483e4c8ee5407fc01839eaa845a815837c38c",
-    "title": "[Launched] Generally Available: Transparent data encryption (TDE) in Azure SQL Database AES keys",
-    "url": "https://azure.microsoft.com/updates?id=579531",
-    "source": "azure-updates",
-    "publishedAt": "2026-11-17T20:00:32+00:00",
-    "summary": "You can now use AES-256 keys stored in Azure Key Vault Premium or Managed HSM as TDE protectors, providing an alternative to RSA keys for protecting data at rest. While RSA may remain secure against today\u2019s classical computing capabilities, advances in qu",
-    "categories": [
-      "azure",
-      "ef-data"
-    ]
-  },
-  {
     "id": "8bfce6737d47bf3552840046f15545e9ffd70b48f55d24a3008c5c9b7ea45c38",
     "title": "[In preview] Public Preview: Encryption at rest with customer-managed keys in Azure HorizonDB",
     "url": "https://azure.microsoft.com/updates?id=579540",
@@ -2518,6 +2831,18 @@
     "summary": "Azure Application Gateway advanced routing rules is now available in public preview. Advanced routing rules enables you to create flexible, condition-based routing logic using HTTP request attributes, extending Application Gateway routing beyond tradition",
     "categories": [
       "azure"
+    ]
+  },
+  {
+    "id": "8a780e74d928786022419321058483e4c8ee5407fc01839eaa845a815837c38c",
+    "title": "[Launched] Generally Available: Transparent data encryption (TDE) in Azure SQL Database AES keys",
+    "url": "https://azure.microsoft.com/updates?id=579531",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-17T20:00:24+00:00",
+    "summary": "You can now use AES-256 keys stored in Azure Key Vault Premium or Managed HSM as TDE protectors, providing an alternative to RSA keys for protecting data at rest. While RSA may remain secure against today\u2019s classical computing capabilities, advances in qu",
+    "categories": [
+      "azure",
+      "ef-data"
     ]
   },
   {
@@ -6786,56 +7111,6 @@
       "ai-agents",
       "azure",
       "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "e921424345495a6540220efc8dfb2db53466195f21987d9e49399974643967a8",
-    "title": "Azure.Extensions.AspNetCore.DataProtection.Blobs_1.5.5",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Blobs_1.5.5",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-21T22:08:29+00:00",
-    "summary": "## 1.5.5 (2026-10-21) ### Other Changes - Updated \u0060Microsoft.AspNetCore.DataProtection\u0060 dependency to \u00608.0.32\u0060 for \u0060net8.0\u0060 and \u006010.0.13\u0060 for all other target frameworks.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "1546770fb74cbb1bd2eb56454a1cbd6e748b01ce5f37818374e24684406719fc",
-    "title": "Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.5",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Extensions.AspNetCore.DataProtection.Keys_1.6.5",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-21T22:08:06+00:00",
-    "summary": "## 1.6.5 (2026-10-21) ### Other Changes - Updated \u0060Microsoft.AspNetCore.DataProtection\u0060 dependency to \u00608.0.32\u0060 for \u0060net8.0\u0060 and \u006010.0.13\u0060 for all other target frameworks.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "bac632ef0b05cc1bd7368e7199e66616246d480664211636e290c16c625d6761",
-    "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
-    "url": "https://azure.microsoft.com/updates?id=577273",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-21T17:38:32+00:00",
-    "summary": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication",
-    "categories": [
-      "azure",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "d5618ca4389022cdd8e90c1d614ae78524e3cc3b51203bf9da20b351f5f7d603",
-    "title": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
-    "url": "https://azure.microsoft.com/updates?id=576716",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-21T17:13:16+00:00",
-    "summary": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the risk o",
-    "categories": [
-      "azure",
-      "ef-data"
     ]
   }
 ]

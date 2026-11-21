@@ -1,5 +1,80 @@
 [
   {
+    "id": "1c8b9a9277a11d2813673bfc1ce0ab72edaf95c11afac3f4bee48842ae8be8cd",
+    "title": "Finding a leak rooted by an event handler or a timer with an AI agent",
+    "url": "https://www.meziantou.net/finding-a-leak-rooted-by-an-event-handler-or-a-timer-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-21T12:00:00+00:00",
+    "summary": "The previous post found a leak whose root was a static cache, which is the case everybody recognises. This one has no cache, no static collection, and nothing that looks like storage. It leaks because objects subscribe to an event and because they schedule a timer. Same three commands, but the gcroot chain looks completely different, and the output is large enough that reading it becomes a problem of its\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "b003bb2324fb1dc4c762eb73e9f9ac954e14cc3b2c210331f6d5a325ae38226c",
+    "title": "Azure.Search.Documents_12.1.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Search.Documents_12.1.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-21T07:59:09+00:00",
+    "summary": "## 12.1.0 (2026-11-13) ### Features Added - Added support for the \u00602026-10-01\u0060 service version, which is now the default. - Added \u0060SearchOptions.MoreLikeThis\u0060 to search for documents similar to an existing document. - Added \u0060querySourceAuthorization\u0060 and \u0060enableElevatedRead\u0060 overloads for document search, \u0060GetDocumentOptions.QuerySourceAuthorization\u0060 and \u0060EnableElevatedRead\u0060 for document retrieval, and \u0060querySourceAuthorization\u0060 on knowledge base retrieval. - Added document-level permission configuration through \u0060SearchField.PermissionFilter\u0060, \u0060OrganizationAccessExpiration\u0060, and \u0060SharepointSiteUrl\u0060; \u0060SearchIndex.PermissionFilterOption\u0060; and \u0060SharePointConnectorAppRegistration\u0060. Permission filters can also be configured through \u0060SimpleField\u0060 and \u0060SimpleFieldAttribute\u0060. - Added \u0060SearchIndexerDataSourceConnection.IndexerPermissionOptions\u0060, \u0060IndexingParametersConfiguration.RefreshAllAcls\u0060, and \u0060SearchIndexerDataUserAssignedIdentity.FederatedIdentityClientId\u0060 for permission ingestion and fe",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "3da247e0dd153e5cf87f24eeaf8b632b5b140b3317878f925a961153858e7d02",
+    "title": "Azure.AI.Projects_3.0.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.AI.Projects_3.0.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-21T02:14:58+00:00",
+    "summary": "## 3.0.0 (2026-11-19) ### Features Added - Uploading of models now can be cancelled. ### Breaking Changes - Added \u0060[Experimental(\u0022AAIP001\u0022)]\u0060 to the following APIs that shipped without the attribute in 2.0.x. Using them now requires suppressing the \u0060AAIP001\u0060 diagnostic. - Types in \u0060Azure.AI.Projects\u0060: \u0060ProjectsScheduleTask\u0060, \u0060TreatmentEffectType\u0060. - Types in \u0060Azure.AI.Projects.Evaluation\u0060: \u0060AgentClusterInsightRequest\u0060, \u0060AgentClusterInsightResult\u0060, \u0060AgentTaxonomyInput\u0060, \u0060AttackStrategy\u0060, \u0060AzureOpenAIModelConfiguration\u0060, \u0060ChartCoordinate\u0060, \u0060ClusterInsightResult\u0060, \u0060ClusterTokenUsage\u0060, \u0060CodeBasedEvaluatorDefinition\u0060, \u0060CronTrigger\u0060, \u0060DailyRecurrenceSchedule\u0060, \u0060EvalResult\u0060, \u0060EvalRunResultCompareItem\u0060, \u0060EvalRunResultComparison\u0060, \u0060EvalRunResultSummary\u0060, \u0060EvaluationComparisonInsightRequest\u0060, \u0060EvaluationComparisonInsightResult\u0060, \u0060EvaluationResultSample\u0060, \u0060EvaluationRunClusterInsightRequest\u0060, \u0060EvaluationRunClusterInsightResult\u0060, \u0060EvaluationScheduleTask\u0060, \u0060EvaluationTaxonomies\u0060, \u0060EvaluationTaxonom",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "1ec9e98479dc06ff55665d5cb6d57eca76ba578563c0a85220a6b4d4a92b960d",
+    "title": "Azure.Storage.Files.DataLake_12.28.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Storage.Files.DataLake_12.28.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-21T01:26:14+00:00",
+    "summary": "## 12.28.1 (2026-11-19) ### Bugs Fixed - Fixed SAS timestamp handling for non-UTC \u0060DateTimeOffset\u0060 values. SAS times are now normalized to UTC before formatting/signing, preventing unintended validity windows in st/se (Start Time, Expiry Time) and related delegation key fields. Affected APIs include: - \u0060DataLakeFileSystemClient.GenerateSasUri(...)\u0060 - \u0060DataLakeFileSystemClient.GenerateUserDelegationSasUri(...)\u0060 - \u0060DataLakePathClient.GenerateSasUri(...)\u0060 - \u0060DataLakePathClient.GenerateUserDelegationSasUri(...)\u0060 - \u0060DataLakeServiceClient.GenerateAccountSasUri(...)\u0060 - \u0060DataLakeSasBuilder\u0060 - Fixed SAS builder/client file system and path name validation to use ordinal comparisons in \u0060DataLakeFileSystemClient\u0060, \u0060DataLakeDirectoryClient\u0060, and \u0060DataLakePathClient\u0060, so culture-equivalent but service-distinct Unicode names are rejected when generating SAS URIs.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "9a9ea28d8ff080569360d2b43a2d56865386d4fb194273e6ff71d53bc80bf74d",
+    "title": "[Launched] Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
+    "url": "https://azure.microsoft.com/updates?id=581463",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-21T00:45:13+00:00",
+    "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, toolboxes, and guardrails, with warnin",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "2ff7bbd27b82daba7646f36fc2dd77e2c19689211cc590f3ab14e78aa09bc2e7",
+    "title": "[In preview] Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
+    "url": "https://azure.microsoft.com/updates?id=581468",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-21T00:43:13+00:00",
+    "summary": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, deploy changes to Foundry, and run d",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
     "id": "03f7c9944b8b88bb822209374fe8789dbf0233c7c8c9d2345782191d2b09a550",
     "title": "Can C# 15 Union Types Replace the Result Pattern?",
     "url": "https://milanjovanovic.tech/blog/csharp-union-types-vs-result-pattern",
@@ -486,7 +561,7 @@
     "url": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
     "source": "foundry",
     "publishedAt": "2026-11-19T19:53:30+00:00",
-    "summary": "A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterprises are all-in on AI agents, but the ROI hasn\u2019t followed. What\u2019s holding those agents back isn\u2019t capability. Today\u2019s agents can do remarkable work on their own. They can start [\u2026] The post Build trusted autonomous agents for your team with Microsoft Foundry appeared first on Microsoft Foundry Blog .",
+    "summary": "Enterprises are all-in on AI agents, but the ROI hasn\u2019t followed. What\u2019s holding those agents back isn\u2019t capability. Today\u2019s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach themselves a new skill by watching you do a task [\u2026] The post Build trusted autonomous agents for your team with Microsoft Foundry appeared first on Microsoft Foundry Blog .",
     "categories": [
       "ai-agents",
       "security-identity"
@@ -7047,70 +7122,6 @@
     "summary": "## [1.23.0] - 2026-10-22 ### Added - **agent-framework-a2a**: Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ([#9193](https://github.com/microsoft/agent-framework/pull/9193)) - **agent-framework-core**, **agent-framework-orchestrations**: Add an opt-in synthetic trailing user turn for providers that return empty text after assistant-ending prompts ([#8779](https://github.com/microsoft/agent-framework/pull/8779)) ### Changed - **agent-framework**, **agent-framework-ag-ui**, **agent-framework-core**, **agent-framework-declarative**, **agent-framework-foundry-hosting**, **agent-framework-hosting-mcp**, **agent-framework-lab**: [BREAKING] Add the MCP 2.x compatibility foundation and migrate MCP transports, errors, schemas, and lifecycle handling ([#9236](https://github.com/microsoft/agent-framework/pull/9236)) - **agent-framework-ag-ui**, **agent-framework-core**: [BREAKING] Require an explicit AG-UI authorization scope or single-user decla",
     "categories": [
       "ai-agents"
-    ]
-  },
-  {
-    "id": "6a75547e584d98c77e17246c2ec3a9079c8f920a5260967c4ac02d799ebf28c9",
-    "title": "Are you getting everything you can from Your Visual Studio Subscription?",
-    "url": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
-    "source": "visualstudio",
-    "publishedAt": "2026-10-22T14:00:56+00:00",
-    "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you\u2019re a Visual Studio subscriber, you may already have benefits that can help you do all three. Here\u2019s [\u2026] The post Are you getting everything you can from Your Visual Studio Subscription? appeared first on Visual Studio Blog .",
-    "categories": [
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "46e855244d2f80f53bfd8388940b271ead13ff9b03e16a3cb5c2773381ccfd39",
-    "title": "Azure.ResourceManager.ContainerService_1.9.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerService_1.9.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-22T13:06:51+00:00",
-    "summary": "## 1.9.0 (2026-10-19) ### Features Added - Upgraded api-version to 2026-08-01. - Added NVIDIA GPU management settings to agent pool GPU profiles.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "e9d5e0f10abd6c0c23ba2bff1653eafdf4d1537e3880630a3f48006fbea52eb6",
-    "title": "Azure.Provisioning.SerialConsole_1.0.0-beta.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.SerialConsole_1.0.0-beta.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-22T10:15:41+00:00",
-    "summary": "## 1.0.0-beta.1 (2026-10-22) ### Features Added - Initial release of Azure.Provisioning.SerialConsole.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "aecaab3be58b555858ca2b31116420bba6c38d6911576c41a7ab6198b52840dc",
-    "title": "Azure.Provisioning.HealthBot_1.0.0-beta.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.HealthBot_1.0.0-beta.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-22T08:54:58+00:00",
-    "summary": "## 1.0.0-beta.1 (2026-10-22) ### Features Added - Initial beta release of Azure.Provisioning.HealthBot.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "86a97800aca93b488b999126da7623a90531e0f35a6b3ff5f177d7e34a8c1eda",
-    "title": "Azure.Provisioning.SiteManager_1.0.0-beta.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning.SiteManager_1.0.0-beta.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-22T07:47:20+00:00",
-    "summary": "## 1.0.0-beta.1 (2026-10-22) ### Features Added - Initial beta release of Azure.Provisioning.SiteManager.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
     ]
   }
 ]

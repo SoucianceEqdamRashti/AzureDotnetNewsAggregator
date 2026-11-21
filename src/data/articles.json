@@ -1,5 +1,16 @@
 [
   {
+    "id": "4725b1eeb6c9340e5cf230f3fec952795f46e115208f3b21985de6e0ac1f2b5f",
+    "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+    "url": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+    "source": "foundry",
+    "publishedAt": "2026-11-21T18:12:21+00:00",
+    "summary": "The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why a subnet stays in use after you delete an account. The post Hosted agents in your own virtual network: five checks when the Agents page times out appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
     "id": "1c8b9a9277a11d2813673bfc1ce0ab72edaf95c11afac3f4bee48842ae8be8cd",
     "title": "Finding a leak rooted by an event handler or a timer with an AI agent",
     "url": "https://www.meziantou.net/finding-a-leak-rooted-by-an-event-handler-or-a-timer-with-an-ai-agent.htm",
@@ -563,8 +574,7 @@
     "publishedAt": "2026-11-19T19:53:30+00:00",
     "summary": "Enterprises are all-in on AI agents, but the ROI hasn\u2019t followed. What\u2019s holding those agents back isn\u2019t capability. Today\u2019s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach themselves a new skill by watching you do a task [\u2026] The post Build trusted autonomous agents for your team with Microsoft Foundry appeared first on Microsoft Foundry Blog .",
     "categories": [
-      "ai-agents",
-      "security-identity"
+      "ai-agents"
     ]
   },
   {
@@ -7088,40 +7098,6 @@
       "azure",
       "dotnet-csharp",
       "security-identity"
-    ]
-  },
-  {
-    "id": "f6217b05d3d150d1cc6bb4beb755691d54a6b746d49d38690dd9a2f2abd52ff3",
-    "title": "Human receives AI-designed virus for the first time",
-    "url": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
-    "source": "register",
-    "publishedAt": "2026-10-22T20:31:39+00:00",
-    "summary": "Not to kill the human, of course \u2013 to kill the antibiotic-resistant bacteria causing their infection",
-    "categories": [
-      "ai-agents",
-      "general-technology"
-    ]
-  },
-  {
-    "id": "a3d9aac967b4dcfd7265b93ea959fa7e287f105e337a41a3dd157f1ad0cb2b16",
-    "title": "[Launched] Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
-    "url": "https://azure.microsoft.com/updates?id=577618",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-22T18:01:00+00:00",
-    "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing reads asynchronously, it can reduce network round trips",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "bb4c860b7668aff045b4edca02fd1f6acbce36988829fa55672259503bcd1426",
-    "title": "python-1.23.0",
-    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0",
-    "source": "agent-framework",
-    "publishedAt": "2026-10-22T17:05:37+00:00",
-    "summary": "## [1.23.0] - 2026-10-22 ### Added - **agent-framework-a2a**: Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ([#9193](https://github.com/microsoft/agent-framework/pull/9193)) - **agent-framework-core**, **agent-framework-orchestrations**: Add an opt-in synthetic trailing user turn for providers that return empty text after assistant-ending prompts ([#8779](https://github.com/microsoft/agent-framework/pull/8779)) ### Changed - **agent-framework**, **agent-framework-ag-ui**, **agent-framework-core**, **agent-framework-declarative**, **agent-framework-foundry-hosting**, **agent-framework-hosting-mcp**, **agent-framework-lab**: [BREAKING] Add the MCP 2.x compatibility foundation and migrate MCP transports, errors, schemas, and lifecycle handling ([#9236](https://github.com/microsoft/agent-framework/pull/9236)) - **agent-framework-ag-ui**, **agent-framework-core**: [BREAKING] Require an explicit AG-UI authorization scope or single-user decla",
-    "categories": [
-      "ai-agents"
     ]
   }
 ]

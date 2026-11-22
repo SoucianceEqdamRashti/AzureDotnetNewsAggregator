@@ -1,5 +1,18 @@
 [
   {
+    "id": "4ab1c2f54f489a15b80a6d748482f44f9a44f4a31bf8858b399b93d74d435fcb",
+    "title": "Debugging a running .NET application with WinDbg and an AI agent",
+    "url": "https://www.meziantou.net/debugging-a-running-dotnet-application-with-windbg-and-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-22T12:00:00+00:00",
+    "summary": "Every post in this series so far started from a file: a dump, a gcdump, a trace. That works as long as the answer is in memory at the moment the file is written. Some answers never are. A dump can show that a value is wrong. It cannot show who wrote it, because by the time the dump is taken, the write is long gone. That question needs a debugger attached to the running process, one that stops the process\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
     "id": "4725b1eeb6c9340e5cf230f3fec952795f46e115208f3b21985de6e0ac1f2b5f",
     "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
     "url": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
@@ -691,7 +704,7 @@
   },
   {
     "id": "2d3539a8571bd06983105eaa97002c256e6b5c4c3fac3f7899675774ccdc7cf4",
-    "title": "NetWasm 0.10 Speeds Up C# on WebAssembly, Now Faster Than Mono AOT",
+    "title": "NetWasm 0.10 Speeds up C# on WebAssembly, Now Faster Than Mono AOT",
     "url": "https://www.infoq.com/news/2026/11/NetWasm-0-10-Faster/",
     "source": "infoq-dotnet",
     "publishedAt": "2026-11-19T09:00:00+00:00",
@@ -7035,69 +7048,6 @@
       "ai-agents",
       "azure",
       "ef-data"
-    ]
-  },
-  {
-    "id": "e00a2c90a81cc397ea2fdcc9a8ec91d93bb128ddc5057e9f91f351fe2c9661a6",
-    "title": "dotnet-1.26.0",
-    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.26.0",
-    "source": "agent-framework",
-    "publishedAt": "2026-10-23T14:32:13+00:00",
-    "summary": "## Changes: * 9c8a3514a15a702f81bfda456d80c7ccaa4d2712 Update package versions for release (#9650) * c3b9f22d64fd86e8133395555a1fa4aa22f745e0 Add ACGS to the Python community projects (#9618) * 71cf48cb4019bc503c7ceb61420cc3d836250790 Python: Honor allow_multiple_tool_calls in AnthropicClient when tool_choice is unset (#8980) * ea32b6db9e9b4b434a86496bacd9cc6dd0422a69 Python: compose Copilot session hooks correctly (#9649) * 678c6616aa4c73ecfc28cc6fc119a3928ba04024 .NET: Fix AG-UI sample prerequisites and troubleshooting paths (#9620) * 8730cb1974857e2264f874a258623db1303cc2ac .NET: Log a warning when an unsupported declarative action is skipped (#8056) [ #8040 ] * 9581926deec6a0473a68797153e98d44da74d09a .NET: Correct endpoint override instructions in Responses samples (#9639) * 9c53b5f44658cc7839d0f1aefe580152edaba970 Python: Refresh coding standards and Copilot review guidance (#9637) * 3b725b3b0ffe09ff00d57b31cc179d20d12a1e49 Python: fix(core): define EdgeGroup\u0027s builtins.type alia",
-    "categories": [
-      "ai-agents",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "483c09277a8e933c959829a023fd193516323bf0e1b26f7a3db496e0d88b78ea",
-    "title": "From Local Development to CI Workflows with the Azure Cosmos DB Emulator",
-    "url": "https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/",
-    "source": "cosmosdb",
-    "publishedAt": "2026-10-23T12:33:30+00:00",
-    "summary": "When you change a database-backed feature, a successful HTTP response isn\u2019t enough. You need to know that the write reached storage, the application retrieved the updated record, and the next answer reflects it. The Azure Cosmos DB Emulator runs locally in Docker and lets us use the SDK we\u2019ll use in production. We\u2019ll develop against [\u2026] The post From Local Development to CI Workflows with the Azure Cosmos DB Emulator appeared first on Azure Cosmos DB Blog .",
-    "categories": [
-      "azure",
-      "ef-data"
-    ]
-  },
-  {
-    "id": "0f512a94bfdcbecd072d481fdd198c4aa8c5865e2861ce576d7f8239ae852200",
-    "title": "Torvalds: AI is fine for competent devs, but spare us the \u0027drive-by\u0027 patches",
-    "url": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
-    "source": "register",
-    "publishedAt": "2026-10-23T11:31:00+00:00",
-    "summary": "Kernel maintainers stop asking who used AI, as long as the code is good",
-    "categories": [
-      "ai-agents",
-      "general-technology"
-    ]
-  },
-  {
-    "id": "765727132dbef2820813fa436442a52d21f767eaa6b28dea04a0741dfcce3209",
-    "title": "Azure.ResourceManager.EdgeActions_1.0.0-beta.4",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.EdgeActions_1.0.0-beta.4",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-23T08:08:14+00:00",
-    "summary": "## 1.0.0-beta.4 (2026-10-22) ### Features Added - Updated the default service API version from \u00602025-12-01-preview\u0060 to \u00602026-10-01\u0060. ### Breaking Changes - \u0060EdgeActionVersionResource.DeployVersionCode\u0060 and \u0060DeployVersionCodeAsync\u0060 now return operations with an \u0060EdgeActionVersionResource\u0060 result instead of \u0060EdgeActionVersionProperties\u0060. Access the deployed version\u0027s properties through \u0060operation.Value.Data.Properties\u0060 instead of \u0060operation.Value\u0060. ### Other Changes - Clarified documentation for PATCH tag replacement and clearing, rejected SKU updates, version deployment-type restrictions, and default-version changes through \u0060SwapDefault\u0060.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "f6ad2d638475c1317244e6a512cf979ca58272d5a0d13463dad531f2d396ebff",
-    "title": "Azure.ResourceManager.Hci_1.4.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Hci_1.4.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-23T07:25:41+00:00",
-    "summary": "## 1.4.0 (2026-10-22) ### Features Added - Upgraded API version to \u00602026-10-01\u0060 (stable). - Added support for cluster jobs and edge-machine management, including deployment settings, disks, network adapters, security settings, volumes, and associated job operations.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp",
-      "security-identity"
     ]
   }
 ]

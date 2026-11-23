@@ -1,5 +1,171 @@
 [
   {
+    "id": "4f4a6f6cc7a2ca85e9c6cbfc871bac87b40d87a5bd8431dd56f0994025bd7198",
+    "title": "[In preview] Public Preview: Azure Policy support for Azure HorizonDB",
+    "url": "https://azure.microsoft.com/updates?id=580115",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T18:21:46+00:00",
+    "summary": "Azure Policy support for Azure HorizonDB is now available in preview, helping you apply governance and observability standards consistently across your HorizonDB deployments.With the new built-in policy, you can automatically deploy diagnostic settings fo",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "d4fd12722a5430e8e76b1f17ba68a4e52c6b13939ad397d1f5d00486141d57d2",
+    "title": "Retirement: Azure AI Content Safety selected features will be retired on April 30, 2027",
+    "url": "https://azure.microsoft.com/updates?id=577474",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T18:11:31+00:00",
+    "summary": "The following Azure AI Content Safety preview capabilities will retire on April 30, 2027:Analyze MultimodalCustom categories (rapid), including text and imageConnected containers for Text, Image, and Prompt ShieldsDisconnected containers for Text, ImageEm",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "e5179b8f4ffb48b950e8c7ae4ec46d3edb6013610351644ca62e9d23677f2da0",
+    "title": "[In preview] Public Preview: Azure Database for PostgreSQL enhanced Burstable tier (Basv2)",
+    "url": "https://azure.microsoft.com/updates?id=574535",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T18:09:39+00:00",
+    "summary": "Enhanced Burstable tier (Basv2) builds on the existing burstable model with improved performance predictability and more efficient burst utilization, delivering a better cost-performance balance. Now you can run steady workloads more economically while au",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "c44ed9b9420c27d7b1a889045454f91cab359b9d9895ec9b219b26797206fe0e",
+    "title": "Run local models in your .NET apps with Llama on Windows",
+    "url": "https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-23T18:05:00+00:00",
+    "summary": "Install Llama on Windows from Hugging Face and the llama.cpp team, download an open model, and call it from a .NET 11 C# file-based app. The post Run local models in your .NET apps with Llama on Windows appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "dfec1af1c30354dbab5e058ac02ecccfef97ef2853029c7ff4c88dad06f205cf",
+    "title": "[Launched] Generally Available: WAF Insights for Azure Application Gateway",
+    "url": "https://azure.microsoft.com/updates?id=579280",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T18:02:38+00:00",
+    "summary": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "cc2ea1b4ea5b58baad97b22a3f8dd61c51116b6040044a91b1c3323c5c2b6691",
+    "title": "[Launched] Generally Available: WAF Insights for Azure Front Door",
+    "url": "https://azure.microsoft.com/updates?id=579285",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T18:01:19+00:00",
+    "summary": "WAF Insights is now generally available for Azure Front Door Web Application Firewall (WAF). WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked reques",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "63c8985227c1a9b139b79293fb1a24d19d838442c4bb89fe4390f1ad35278638",
+    "title": "New guidance to optimize Git performance in Azure Repos",
+    "url": "https://devblogs.microsoft.com/devops/new-guidance-to-optimize-git-performance-in-azure-repos/",
+    "source": "devops",
+    "publishedAt": "2026-11-23T18:00:44+00:00",
+    "summary": "Git works well for most development workflows. But a change that seems harmless can make a repository harder to work with. Here are a few examples of how that can happen. Committing binaries directly to your repository Binaries are more likely than source code files to differ a lot between versions, so delta compression is [\u2026] The post New guidance to optimize Git performance in Azure Repos appeared first on Azure DevOps Blog .",
+    "categories": [
+      "azure",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "5b0964a66b065c23f3925914527aed6e463651421562622fd4c5774a3a4b6821",
+    "title": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
+    "url": "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629",
+    "source": "register",
+    "publishedAt": "2026-11-23T17:01:00+00:00",
+    "summary": "Minister says intruders downloaded more than 130 GB of data as political churn left security neglected",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "0727945aa590acb29717e59b7cffa26d2e73903bd19237f682c3d90db47c0ecd",
+    "title": "Everything going down at once wasn\u0027t evidence of a conspiracy \u2013 but the truth may be scarier",
+    "url": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
+    "source": "register",
+    "publishedAt": "2026-11-23T14:04:00+00:00",
+    "summary": "Rogue AI or nation-state hackers would be preferable to the amount of technical debt the past week of wobbling services laid bare",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "db1a4c1f605027d7898b3b8334e20e863e8cf91dca6306833088b156eeec1381",
+    "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+    "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+    "source": "register",
+    "publishedAt": "2026-11-23T12:29:00+00:00",
+    "summary": "Microsoft says mitigation is in place, but admins must investigate possible compromise and rotate secrets",
+    "categories": [
+      "azure",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "73fc870ce1d023de51ac14d2f2d486b2166006eac5da056508fff814180fc1b7",
+    "title": "Finding slow requests with Aspire and an AI agent",
+    "url": "https://www.meziantou.net/finding-slow-requests-with-aspire-and-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-23T12:00:00+00:00",
+    "summary": "The previous posts in this series answered questions about one process at one moment: why it crashed, what it waits for, what holds its memory. \u0022Which requests are slow?\u0022 is a different kind of question. The answer is spread over time and often over several processes, and no dump contains it. Distributed traces do. If your application runs under Aspire, every service already sends its traces, logs, and\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "3de9508e8833ebd77e27e5dbe417c38097bfb7b369ff3c694df205fff2c6d932",
+    "title": "Azure.ResourceManager.MongoCluster_1.2.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.MongoCluster_1.2.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-23T09:27:24+00:00",
+    "summary": "## 1.2.0 (2026-11-20) ### Features Added - Upgraded API version to \u00602026-09-01\u0060. - Added member \u0060Planned\u0060 to enum \u0060MongoClusterPromoteOption\u0060. ### Breaking Changes - With API version \u00602026-09-01\u0060, creating a cluster without \u0060MongoClusterStorageProperties.Type\u0060 provisions \u0060PremiumSSDv2\u0060 storage (API version \u00602026-06-01\u0060 used \u0060PremiumSSD\u0060). Set \u0060Type\u0060 explicitly to keep the previous storage type. Omitting \u0060Type\u0060 in an update still leaves the storage type unchanged.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "0acad5e990f52e56ca03dca2587cd6fb5e4a703fead91fe6c191f4e21494ced9",
+    "title": "Azure.ResourceManager.ContainerService_1.11.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerService_1.11.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-23T04:07:06+00:00",
+    "summary": "## 1.11.0-beta.1 (2026-11-18) ### Features Added - Upgraded api-version to 2026-09-02-preview.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "82cf2a2e564dc585bbdeded284299b2113a939408a725f3f351a5e73aef3bce3",
+    "title": "$1 of GPT-5.1 tokens finds new ways around China\u2019s Great Firewall",
+    "url": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+    "source": "register",
+    "publishedAt": "2026-11-23T00:23:31+00:00",
+    "summary": "PLUS: Lenovo\u0027s infra group finally makes big profit; Indonesia\u2019s glaciers are gone; Australian bank releases its AI bug-finder; and more!",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
     "id": "4ab1c2f54f489a15b80a6d748482f44f9a44f4a31bf8858b399b93d74d435fcb",
     "title": "Debugging a running .NET application with WinDbg and an AI agent",
     "url": "https://www.meziantou.net/debugging-a-running-dotnet-application-with-windbg-and-an-ai-agent.htm",
@@ -6989,18 +7155,6 @@
     "categories": [
       "azure",
       "ef-data"
-    ]
-  },
-  {
-    "id": "477ccfef244c34f6eba81fed0db6e2abce241d994708ac2d3170c53df600a413",
-    "title": "Aspire 13.6.4",
-    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.4",
-    "source": "aspire",
-    "publishedAt": "2026-10-24T11:45:13+00:00",
-    "summary": "## What\u0027s New in Aspire 13.6.4 Patch release for Aspire 13.6 that improves resource startup reliability, fixes Azure publishing with parameterized enum properties in TypeScript AppHosts, and tightens CLI diagnostic log permissions on Unix. ### \uD83D\uDC1B Fixes - \uD83D\uDDA5\uFE0F **Resources could fail to start after a DCP create request timed out** \u2014 AppHost now checks whether a resource was created before retrying a timed-out or HTTP 504 request, avoiding a premature \u0060FailedToStart\u0060 state when DCP completed the operation. API operations default to a 40-second timeout with an additional 20-second allowance before the first successful operation, and resource creation has a two-minute recovery budget. These limits can be configured through \u0060DcpPublisher:KubernetesApiTimeout\u0060, \u0060DcpPublisher:KubernetesInitializationAdditionalTimeout\u0060, and \u0060DcpPublisher:KubernetesCreateRecoveryTimeout\u0060. Established watch and log streams are not limited by these operation timeouts. Addresses startup timeouts reported in 13.6. Fi",
-    "categories": [
-      "azure",
-      "dotnet-ecosystem"
     ]
   }
 ]

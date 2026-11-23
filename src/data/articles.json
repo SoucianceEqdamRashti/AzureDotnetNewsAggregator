@@ -7002,52 +7002,5 @@
       "azure",
       "dotnet-ecosystem"
     ]
-  },
-  {
-    "id": "f45693d87865b36ce16bb35c0f70f3cd203e795e0f7d553202f621bc48e0ed3b",
-    "title": "How to Revoke a JWT Before It Expires",
-    "url": "https://milanjovanovic.tech/blog/revoke-jwt-before-it-expires-token-version",
-    "source": "milan",
-    "publishedAt": "2026-10-24T00:00:00+00:00",
-    "summary": "ASP.NET Core validates a JWT by its signature and expiry, so a stolen token keeps working after the user changes their password.",
-    "categories": [
-      "dotnet-csharp",
-      "dotnet-ecosystem"
-    ]
-  },
-  {
-    "id": "20cf49de7d8df36537f9687b659d13bdc4aa9437bdf3c6605db4be9829320236",
-    "title": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
-    "url": "https://azure.microsoft.com/updates?id=577963",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-23T19:21:07+00:00",
-    "summary": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "2231366e8909b1d86f8c45b47b8d1820e32f6d51d7920a6902f5825dcaa337a3",
-    "title": "Aspire 13.6.3",
-    "url": "https://github.com/microsoft/aspire/releases/tag/v13.6.3",
-    "source": "aspire",
-    "publishedAt": "2026-10-23T18:17:33+00:00",
-    "summary": "## What\u0027s New in Aspire 13.6.3 Patch release for Aspire 13.6 that improves resource orchestration reliability by preventing unread resource watches from stalling resource updates and operations. ### \uD83D\uDC1B Fixes - \uD83D\uDDA5\uFE0F **Resource operations could stall when a watch stopped being read** \u2014 AppHost now closes abandoned watch connections when setup is canceled and keeps reading resource events even when event handlers are slow. Resource event ordering, lifecycle callback dispatch, and the existing periodic reconnection safeguard are preserved. ([#21002](https://github.com/microsoft/aspire/pull/21002), backport of [#20972](https://github.com/microsoft/aspire/pull/20972), @danegsta) - \uD83D\uDD04 **Slow watchers could block other resource updates or watcher shutdown** \u2014 The bundled Developer Control Plane (DCP) is updated to 0.26.6, which keeps internal lifecycle watches draining and uses bounded, asynchronous watch delivery to prevent unread watches from blocking resource-change publication and unrelated",
-    "categories": [
-      "dotnet-ecosystem"
-    ]
-  },
-  {
-    "id": "aa74943823fa2ddf3b03f604989565effb0ad6d75c41b6bc43cb0c6e16fc28fc",
-    "title": "Code with Cosmos: Build a Production-Ready AI App in Four Episodes",
-    "url": "https://devblogs.microsoft.com/cosmosdb/code-with-cosmos/",
-    "source": "cosmosdb",
-    "publishedAt": "2026-10-23T17:18:03+00:00",
-    "summary": "Follow an AI application from a blank folder to a system built for production AI application development often starts with a promising prototype. A real application has to do more than produce an answer: it needs current operational data, the ability to take actions and complete transactions, memory that carries across sessions, coordination between specialized [\u2026] The post Code with Cosmos: Build a Production-Ready AI App in Four Episodes appeared first on Azure Cosmos DB Blog .",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "ef-data"
-    ]
   }
 ]

@@ -1,5 +1,489 @@
 [
   {
+    "id": "35ed151d37ae4d0073374b9c3ebfa3be919489f369749ff82bf1170263b9bdef",
+    "title": "Introducing DocumentExtractionClient (preview): Extract documents in .NET",
+    "url": "https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview/",
+    "source": "dotnet-blog",
+    "publishedAt": "2026-11-24T18:05:00+00:00",
+    "summary": "Meet DocumentExtractionClient, a preview .NET API that turns PDFs, images, and other documents into structured content, with a set of starter providers to choose from. The post Introducing DocumentExtractionClient (preview): Extract documents in .NET appeared first on .NET Blog .",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "3dc8fac335d4363f65a3e02c9759012ed8ccbca199389531793c23ddb454b5b8",
+    "title": "[Launched] Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+    "url": "https://azure.microsoft.com/updates?id=582171",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T17:48:22+00:00",
+    "summary": "Azure Site Recovery now supports Zone-to-Zone Disaster Recovery (Zonal DR) for Azure Ultra disks. Customers can protect performance-intensive virtual machines across Availability Zones against zonal disruptions by replication and recovering them to anothe",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "c2856147ee310a6791b591a14e26f8336362e913d12e67dba8d14ef1ed9f9fc0",
+    "title": "Azure.ResourceManager.NetApp_1.20.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NetApp_1.20.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-24T17:42:45+00:00",
+    "summary": "## 1.20.0-beta.2 (2026-11-24) ### Features Added - Upgraded the default service API version to \u00602026-09-01\u0060. Subvolume operations continue to use \u00602026-08-01\u0060 by default. ### Breaking Changes - The \u00602026-09-01\u0060 service API no longer exposes the geographic namespace origin, asynchronous directory deletion, or bucket Key Vault user-assigned identity settings from \u00602026-08-15-preview\u0060. - The wire value of \u0060NetAppLdapServerType.OpenLdap\u0060 is now \u0060OpenLdap\u0060 rather than \u0060OpenLDAP\u0060, matching the service specification. ### Other Changes - Marked the legacy subvolume types, operations, volume properties, and model factory overloads as obsolete. They remain callable for existing applications. - Marked the legacy Entra ID configuration models, account properties, and model factory overloads as obsolete. They remain callable with a service API version that supports Entra ID configuration.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "061758f00ce99dcaefe5320e9278acde85cec98c05fb14ac474a61863a851551",
+    "title": "Visual Studio November Update \u2013 Faster Workflows, Better Reviews",
+    "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-24T17:00:00+00:00",
+    "summary": "The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat\u0027s new engine and work controls, helps organize large pull-request reviews, and adds CSS color previews and IntelliSense. The post Visual Studio November Update \u2013 Faster Workflows, Better Reviews appeared first on Visual Studio Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "6fb9c1c37182994b7f25362b2530accb5832cfaf4e451f5d6bf2e70e9b1feac5",
+    "title": "Microsoft refreshes Copilot app search for users without an AI subscription",
+    "url": "https://www.theregister.com/personal-tech/2026/11/24/microsoft-refreshes-copilot-app-search-for-users-without-an-ai-subscription/5311895",
+    "source": "register",
+    "publishedAt": "2026-11-24T17:00:00+00:00",
+    "summary": "Meanwhile, Google\u0027s homepage demo leaves a familiar button out of the picture",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c2606461d816651ddbc8c2f471b0d76b09df8c4aba05d03aee5b964fb0add95e",
+    "title": "An AI coding agent, a browser, and a Mac tool found a financial firm\u0027s access key in under 6 minutes",
+    "url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
+    "source": "register",
+    "publishedAt": "2026-11-24T17:00:00+00:00",
+    "summary": "No sophisticated malware or attack framework required",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "008719ce42e973c82d99e9494699ee9977d71eee9fbaeec07ec7e83f3077eab5",
+    "title": "[In preview] Public Preview: Optimize agents from insights in Foundry Agent Service",
+    "url": "https://azure.microsoft.com/updates?id=581483",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:52:07+00:00",
+    "summary": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent\u0027s instructions and function-calling tool descri",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "7eb91bcd1c8af3a6559ccd25a4b62c4a0ae6b0c44733d97b745376b23727f21a",
+    "title": "[In preview] Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+    "url": "https://azure.microsoft.com/updates?id=581498",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:50:47+00:00",
+    "summary": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway first, then enter the gateway-routed en",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "65dfc87d416b1cf4047866b412372f32b35ef77e64dd645911f21f2023951e7a",
+    "title": "[Launched] Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+    "url": "https://azure.microsoft.com/updates?id=581303",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:49:39+00:00",
+    "summary": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content based on each user\u0027s access. This reduces the need to cre",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "01d4e0260a03c9d0e61c89e0054aabd0cc226020ac3bce19d804f3afabcb73d6",
+    "title": "[In preview] Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+    "url": "https://azure.microsoft.com/updates?id=581313",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:48:25+00:00",
+    "summary": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service forwards native A2A requests directl",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "7a2f3ea950a78fdbc47906b80b0c2e99af01d6d978279966ccbc04508ae4e721",
+    "title": "[In preview] Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in Foundry Tools",
+    "url": "https://azure.microsoft.com/updates?id=581318",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:45:59+00:00",
+    "summary": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save analysis results as Markdown or JSON.You can start with",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "fdee012b42c64d10f1f7a2b5a6545a7ca65c9a18efb265c2091da033ec828cd0",
+    "title": "[In preview] Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581323",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:43:40+00:00",
+    "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new requests.You can apply a budget to",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "bbd0135254c234fbdad98f8be494017a71b1fe59862c04f1ccf97e1d0daa5cbe",
+    "title": "[In preview] Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+    "url": "https://azure.microsoft.com/updates?id=581328",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-24T16:42:20+00:00",
+    "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress policy then controls outbound request",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "e541071035f06a50f0b4bef1bc76c97456f9b5cebc762758cf9e8253b3eec889",
+    "title": "Claude Ship puts AI at the helm of pull request approvals",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
+    "source": "register",
+    "publishedAt": "2026-11-24T14:29:00+00:00",
+    "summary": "Tired of waiting for a meatbag to approve a change? Anthropic has an agent for that",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "3f120622163cd4406a960865554c666ef80ca00aa1c78cd0ff652b3df81e1c08",
+    "title": "Following a slow request across services with Aspire and an AI agent",
+    "url": "https://www.meziantou.net/following-a-slow-request-across-services-with-aspire-and-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-24T12:00:00+00:00",
+    "summary": "In the previous post, the slow code and the slow queries were in the same service. This time, a request goes through a web shop, a Redis cache, and a catalog service. The trace shows where the time goes, the logs say what the code decided, and the agent needs both. It also shows why an agent\u0027s report deserves a second look, even when the fix is right: the agent found the faulty line, and still got the\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "2a07f630263b44a940c83d94b674d93e8755334ac1edd1788b445ecbd472ebfa",
+    "title": "European Commission confirms personal data stolen in AI-assisted cyberattack",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834",
+    "source": "register",
+    "publishedAt": "2026-11-24T11:32:41+00:00",
+    "summary": "EU Academy names and email addresses exposed, with users warned via website notice rather than contacted directly",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c6646733c5c63a09f16c5e41f198df9d774e355501ed63fe4fa7179e8091a25c",
+    "title": "InferNode gives Bell Labs\u0027 Inferno OS a 64-bit second wind",
+    "url": "https://www.theregister.com/os-platforms/2026/11/24/infernode-gives-bell-labs-inferno-os-a-64-bit-second-wind/5311704",
+    "source": "register",
+    "publishedAt": "2026-11-24T10:09:00+00:00",
+    "summary": "Plan 9\u0027s successor finds a new role containing AI agents, though its developer says those features are optional",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "3ca93fb7f7cd1cf4710116708629ee879b73f1234ff2f9804a730f2dc91e6008",
+    "title": "Invariant culture string interpolation with [InterpolatedStringHandler]",
+    "url": "https://andrewlock.net/invariant-culture-string-interpolation-with-interpolatedstringhandler/",
+    "source": "andrewlock",
+    "publishedAt": "2026-11-24T10:00:00+00:00",
+    "summary": "In this post I show how you can use a custom [InterpolatedStringHandler] to ensure string interpolation formats values using the invariant culture",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "d9a2fb190d9ffe44305f6cff2113911083add8d79e400fa27072289872809ebc",
+    "title": "UK gov invests in defense startup making virtual training ground for AI",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+    "source": "register",
+    "publishedAt": "2026-11-24T09:16:00+00:00",
+    "summary": "Britain wants sovereign capability to test whether military AI will work before it gets deployed for real",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9ef48b75aa02b0be79452ed6232f22a71c9f9b1ab03d1d280f6f4e46cc49fc4b",
+    "title": "Azure.ResourceManager.EventHubs_1.4.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.EventHubs_1.4.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-24T06:54:37+00:00",
+    "summary": "## 1.4.0-beta.2 (2026-11-25) ### Features Added - Added long-running namespace update overloads accepting \u0060WaitUntil\u0060 for API version \u00602026-07-01-preview\u0060. Existing \u0060Update\u0060 and \u0060UpdateAsync\u0060 overloads remain supported and wait for completion.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "7fa856727c4f762a3e5e1627e54801278f596c03c413a1834a2b3f4f94e30ff6",
+    "title": "Azure.ResourceManager.KeyVault_1.6.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.KeyVault_1.6.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-24T04:07:10+00:00",
+    "summary": "## 1.6.0-beta.1 (2026-11-17) ### Features Added - Upgraded the API version to \u00602026-10-01-preview\u0060. - Added network security perimeter configuration operations and models. - Added support for managed identities, token binding, cross-tenant access protection, and external protection-key wrapping.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "60874055d807837d196e68c6b324f3241d28f9cece208b3194148fc616ca2785",
+    "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+    "source": "register",
+    "publishedAt": "2026-11-24T00:18:17+00:00",
+    "summary": "If the AI can\u0027t explain what it\u0027s proven, are we actually any closer to understanding?",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "761a690e3d012257c494bc383e91344fed30fc540eb4141ddf00376e42ad9daf",
+    "title": "Amazon scoops up AI accelerator tech to keep chips busy at all times",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
+    "source": "register",
+    "publishedAt": "2026-11-23T21:17:15+00:00",
+    "summary": "Not the whole startup - just its tech and the brains behind it",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "9830699f0983bb25bb4f3b6fea6b9773e8f667aaa89ff41d74a274b35f6dd54a",
+    "title": "[In preview] Public Preview: Enterprise Knowledge Graph in Foundry IQ",
+    "url": "https://azure.microsoft.com/updates?id=581333",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:16:32+00:00",
+    "summary": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content.During indexing, it extracts entities and relationships from unstructured content, guided by an ontology you provide. Agents ca",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "47406a1c991d13109e74d84ccf4a653005603fc8557b51ddfe835787c7639b86",
+    "title": "[In preview] Public Preview: Updated Guardrails experience in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581338",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:15:04+00:00",
+    "summary": "In Microsoft Foundry, Guardrails helps developers configure runtime safety controls for agents, including classifiers, deterministic rules, and LLM-based judges.When an administrator policy requires controls for a project, Guardrails surfaces those requir",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "a065813faa422cba43365af3865f79e2e9f37cc2fd5931bedcbc98eba9bf103c",
+    "title": "[In preview] Public Preview: IQ Retriever Zero in Foundry IQ",
+    "url": "https://azure.microsoft.com/updates?id=581343",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:13:44+00:00",
+    "summary": "Foundry IQ can use an iterative retrieval model to break complex questions into focused searches. The model reviews search results and searches again when needed, within a configured budget, then passes the retrieved evidence to the model that answers the",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "dccaa57191a9147027996db4009603b1b2374455c85fdb5c117fb60f0d60a3af",
+    "title": "[Launched] Public Preview: Style and instruction control for HD V3 voices in Azure Speech in Foundry Tools",
+    "url": "https://azure.microsoft.com/updates?id=581353",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:12:25+00:00",
+    "summary": "Azure Speech in Foundry Tools provides HD V3 voices with style and instruction control in public preview.Use supported controls to shape voice delivery for voice agents, narration, and other speech experiences.Learn more.",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "b2d0286d24fe38502671350bbd8a1bafc63eb07acc01fc39dc3bc32453bb69d9",
+    "title": "[In preview] Public Preview: Human annotation for agent evaluations in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581358",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:11:23+00:00",
+    "summary": "Human annotation for agent evaluations is in public preview in Microsoft Foundry, as announced in the Microsoft IQ launch blog.Reviewers can add ratings, tags, comments, and expected outputs to agent traces. Use annotated conversation traces to build eval",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "51cf70c18b6b06d538809158e1319d9c9a2d29668a82f650ea342a3ec482fc7a",
+    "title": "[Launched] Generally Available: Agent insights in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581363",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:10:07+00:00",
+    "summary": "In Microsoft Foundry, insights analyze agent traces to surface recurring patterns and group related issues.Review an insight and its supporting traces to investigate common failures and decide what to improve first.Use agent optimizer to test potential fi",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "50b28e012aa315703eb0f420c893015a51583c0a3c556fe1a9ace9b206d31537",
+    "title": "[Launched] Generally Available: Files knowledge source for Foundry IQ",
+    "url": "https://azure.microsoft.com/updates?id=581368",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T21:08:46+00:00",
+    "summary": "Upload files directly to a managed knowledge source in Foundry IQ. Foundry IQ processes and indexes the files for retrieval through a knowledge base, so you don\u0027t need to provision a storage account or scheduled indexer.Learn more.",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "a7d0b9585d99cd911e29f30ff823b5c3d278c82827468ef3b7bf164a026efdae",
+    "title": "[In preview] Public Preview: Call model router without a deployment in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581378",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T20:32:57+00:00",
+    "summary": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource.By default, Auto uses the Balanced routing mode acros",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "e04ef3a43c23732eba264f401c5212c948ec37d8217e6f55b219dc1fb1058c9b",
+    "title": "[In preview] Public Preview: Use the Messages API with model router in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581383",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T20:31:40+00:00",
+    "summary": "Model router in Microsoft Foundry supports the Messages API in public preview. Messages-based applications and coding tools can use automatic model selection while keeping the Anthropic request and response format.Messages requests route only to supported",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "4b6c84541c738b8745dce1f1fadee6fb2b9fb76636b5f4086fcb84e5e08b961e",
+    "title": "[In preview] Public Preview: Use your model deployments with model router in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581388",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T20:29:36+00:00",
+    "summary": "Model router in Microsoft Foundry can use your existing model deployments to serve routed requests, in public preview. This helps you use capacity you already have while model router selects a model for each request.After selecting a model, model router f",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "1dad8aaa322db89bf46be93c316d0c03fc16ad2e0f537efeb6a66069e206622a",
+    "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/updates?id=581393",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T20:28:24+00:00",
+    "summary": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and a",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "c1c3c9c221503ee0ef664176cbc832fa23bf8ff22c6fec1013519d5332e5f3c0",
+    "title": "Azure.ResourceManager.CognitiveServices_1.7.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CognitiveServices_1.7.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-23T20:23:19+00:00",
+    "summary": "## 1.7.0 (2026-11-13) ### Features Added - Upgraded API version to 2026-11-01. - Added \u0060CognitiveServicesAccountProperties.TrustedCertificateSources\u0060 to trust private CA certificate bundles stored in Azure Key Vault. - Added RAI policy egress configuration through \u0060RaiPolicyProperties.EgressPolicy\u0060. - Added \u0060GetCognitiveServicesManagedComputeCapacities\u0060 to list managed compute capacity for a subscription, with \u0060deploymentId\u0060 typed as \u0060Azure.Core.ResourceIdentifier\u0060 and \u0060location\u0060 typed as \u0060Azure.Core.AzureLocation?\u0060 for both synchronous and asynchronous calls. - Added the extensible \u0060CognitiveServicesManagedComputeCapacityOfferScope\u0060 type for \u0060CognitiveServicesManagedComputeCapacityProperties.OfferScope\u0060, with known values \u0060Global\u0060 and \u0060DataZone\u0060 and support for unknown values. - Added \u0060CognitiveServicesAccountDeploymentProperties.ContextCacheContainerId\u0060 typed as \u0060Azure.Core.ResourceIdentifier\u0060, \u0060CognitiveServicesAccountProperties.IsA365LoggingEnabled\u0060, and \u0060ServiceAccountUsage.Id\u0060 an",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "a4d2adba754921883fd3582ec0701a0e109dad511aabab5873425e14a27293a5",
+    "title": "Agentic Autofix for GitHub Advanced Security for Azure DevOps is in public preview",
+    "url": "https://devblogs.microsoft.com/devops/agentic-autofix-for-advanced-security-for-azure-devops-public-preview/",
+    "source": "devops",
+    "publishedAt": "2026-11-23T20:21:42+00:00",
+    "summary": "Today, we\u2019re announcing the public preview of Agentic Autofix for GitHub Advanced Security for Azure DevOps. Thank you to everyone who participated in our June private preview and our October limited preview. Your feedback helped us expand alert coverage, improve failure handling, and prepare the experience for broader rollout. With Agentic Autofix, cut time to [\u2026] The post Agentic Autofix for GitHub Advanced Security for Azure DevOps is in public preview appeared first on Azure DevOps Blog .",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "devops-iac",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d113a713fe135861abfc4be55da59553a907d1b26a1a2dcf910913526320047b",
+    "title": "[In preview] Public Preview: Use model router with AI Gateway",
+    "url": "https://azure.microsoft.com/updates?id=581398",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T20:15:53+00:00",
+    "summary": "Automatic model selection in AI Gateway uses model router from Microsoft Foundry to rank the models behind a model alias for each request. The gateway combines that ranking with the alias\u0027s priorities and weights to select a backend, while its access cont",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "705c7e7b27336fbf19af1a02c36465466e8b2524e917f809524b4e3471e41a7a",
+    "title": "[Launched] Generally Available: Deploy hosted agents from your own container registry in Foundry Toolkit for VS Code",
+    "url": "https://azure.microsoft.com/updates?id=581478",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T20:13:42+00:00",
+    "summary": "Foundry Toolkit for Visual Studio Code now deploys hosted agents from prebuilt images in customer-managed container registries, including registries other than Azure Container Registry. Choose the matching registry connection in your Foundry project; the",
+    "categories": [
+      "ai-agents",
+      "azure"
+    ]
+  },
+  {
+    "id": "fc370184ad215a4e9b8c34a70d545e10559324fdb3ba25889b840840a771133a",
+    "title": "Bluetooth brakes are broken as researchers find anyone can control them",
+    "url": "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748",
+    "source": "register",
+    "publishedAt": "2026-11-23T19:29:59+00:00",
+    "summary": "Security fixes are available for two Elecbrakes models, but an older controller remains vulnerable and unpatched",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "32c345a6b7325790dc81270c98a49048dc4b10f9c99b98573bbbb6acd0106ee9",
+    "title": "[Launched] Generally Available: Wildcard domain support in Azure Firewall network rules",
+    "url": "https://azure.microsoft.com/updates?id=582030",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-23T18:51:31+00:00",
+    "summary": "Wildcard domain support in Azure Firewall network rules is now generally available. This capability enables customers to use wildcard patterns, such as *.contoso.com, when defining FQDN-based network rules. Wildcard support makes it easier to secure desti",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
     "id": "4f4a6f6cc7a2ca85e9c6cbfc871bac87b40d87a5bd8431dd56f0994025bd7198",
     "title": "[In preview] Public Preview: Azure Policy support for Azure HorizonDB",
     "url": "https://azure.microsoft.com/updates?id=580115",
@@ -7143,18 +7627,6 @@
     "categories": [
       "dotnet-csharp",
       "security-identity"
-    ]
-  },
-  {
-    "id": "12552c39e46847ec243091a586aa5f447e26e15df3d04f09b35a74db4243778e",
-    "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
-    "url": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/",
-    "source": "azure-sql",
-    "publishedAt": "2026-10-25T11:23:29+00:00",
-    "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored, investigated, tested, and researched. Our engineering team partners closely with MSR (Microsoft Research) on some of these efforts. The team [\u2026] The post The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates appeared first on Azure SQL Dev Corner .",
-    "categories": [
-      "azure",
-      "ef-data"
     ]
   }
 ]

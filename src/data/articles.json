@@ -1,5 +1,65 @@
 [
   {
+    "id": "12634c4f9dea4859df5adacaefe7921e0ff78c16678b6cdc00a4d071be2bf8a7",
+    "title": "Microsoft\u0027s NTLM security changes trip up third-party logins",
+    "url": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
+    "source": "register",
+    "publishedAt": "2026-11-25T17:01:00+00:00",
+    "summary": "It\u0027s not our fault if you\u0027ve implemented it wrong",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "50173c66833bf9804af8089f95166b93aa34eb613ff82ca38be4e69803f30f0f",
+    "title": "HP sees premium-priced AI PCs as its meal ticket in a shrinking market",
+    "url": "https://www.theregister.com/personal-tech/2026/11/25/hp-sees-premium-priced-ai-pcs-as-its-meal-ticket-in-a-shrinking-market/5312174",
+    "source": "register",
+    "publishedAt": "2026-11-25T17:00:00+00:00",
+    "summary": "PC shipments set to fall further thanks to the memory shortage, but high-margin models for AI at the edge keep profits up",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "0ef8b273cccd0c03cc875fbe74046389ceedc2d9f21b7b8795e9ad901d53a9a7",
+    "title": "Art of play in the age of AI",
+    "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+    "source": "github-blog",
+    "publishedAt": "2026-11-25T16:00:00+00:00",
+    "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here\u0027s what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+    "categories": [
+      "ai-agents",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "c794454219d04c09f4a9e89de8935702440f4a17366fec5223711d24147321d0",
+    "title": "JetBrains finds agents may cheat with open source",
+    "url": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+    "source": "register",
+    "publishedAt": "2026-11-25T14:07:00+00:00",
+    "summary": "AI coding agents caught peeking at GitHub answers, stumble when JetBrains hides the crib sheet",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "0d992f4d557427361a5aeb055cc8b2f07d30db060a248f7949d1e9d149604b9b",
+    "title": "Diagnosing latency under load from Aspire metrics with an AI agent",
+    "url": "https://www.meziantou.net/diagnosing-latency-under-load-from-aspire-metrics-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-25T12:00:00+00:00",
+    "summary": "In the first post about Aspire, the slow request had 203 spans. In the second one, it called another service once per line of a cart. In both cases, the trace of the slow request contained the explanation. This time it does not. The slow endpoint runs a single query, which takes less than a millisecond, and the request takes 170 ms. The trace shows a gap, and a gap has no attributes. The explanation is in\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
     "id": "52bf9893455b27ae6b39fd5549746c5feb8f7482c76745ce451ac403ecaafa9a",
     "title": "Dell and HPE both say they\u2019ve become \u2018different companies\u2019",
     "url": "https://www.theregister.com/systems/2026/11/25/dell-and-hpe-both-say-theyve-become-different-companies/5312003",
@@ -7605,76 +7665,6 @@
       "azure",
       "dotnet-csharp",
       "security-identity"
-    ]
-  },
-  {
-    "id": "88b66ab4804ec5f0fa2668d9fe363a129344804c5f0ab9c24ca01e8d4393ac63",
-    "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
-    "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
-    "source": "foundry",
-    "publishedAt": "2026-10-26T17:10:00+00:00",
-    "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency. The post Announcing Azure AI Speech LLM 09-2026: Broader locale support appeared first on Microsoft Foundry Blog .",
-    "categories": [
-      "ai-agents",
-      "azure"
-    ]
-  },
-  {
-    "id": "43182a4ecd387bdd4746ad072cce6ea5047fe01d2b74d28586e1fd85e17a9111",
-    "title": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
-    "url": "https://azure.microsoft.com/updates?id=577782",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-26T16:02:05+00:00",
-    "summary": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic directio",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "a9dcb410f7163a89c7350c7358707fb1869f37cd22bd781f15669bc6ff2866c7",
-    "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
-    "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
-    "source": "azure-blog",
-    "publishedAt": "2026-10-26T16:00:00+00:00",
-    "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog .",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "11ea1e0baf08758dbfc46f5b400bc60ba162e312bafc2b9f4b60bc273471c58d",
-    "title": "Azure.ResourceManager.CognitiveServices_1.7.0-beta.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CognitiveServices_1.7.0-beta.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-26T15:54:40+00:00",
-    "summary": "## 1.7.0-beta.1 (2026-10-26) ### Features Added - Upgraded api-version to 2026-09-15-preview. ### Breaking Changes - Compared to \u00601.6.0-beta.4\u0060, renamed \u0060CapabilitySettings\u0060 to \u0060CognitiveServicesAgentCapabilitySettings\u0060, including references in account/project properties and model-factory methods. - Compared to \u00601.6.0-beta.4\u0060, changed \u0060CognitiveServicesClusterComputeProperties.SubnetArmId\u0060 from \u0060string\u0060 to \u0060Azure.Core.ResourceIdentifier\u0060. - Compared to \u00601.6.0-beta.4\u0060, changed \u0060CognitiveServicesManagedComputeDeploymentInfo.DeploymentId\u0060 and \u0060ProjectId\u0060 from \u0060string\u0060 to \u0060Azure.Core.ResourceIdentifier\u0060.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "edb48ab63656c709aae32915caa35864d5d5c52aca72ffc8bfabef59c2585cea",
-    "title": "PHP2Shell and Azure DevOps: what to check",
-    "url": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
-    "source": "devops",
-    "publishedAt": "2026-10-26T13:00:38+00:00",
-    "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and deployed applications have their own patching requirements. Deployment scope: cloud and on-premises Azure [\u2026] The post PHP2Shell and Azure DevOps: what to check appeared first on Azure DevOps Blog .",
-    "categories": [
-      "azure",
-      "devops-iac"
-    ]
-  },
-  {
-    "id": "e3ae9a1156d8f09940e11e42765d26fe6069d2759973f3e11acc0190f238aca3",
-    "title": "Keep your investigation between sessions",
-    "url": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
-    "source": "visualstudio",
-    "publishedAt": "2026-10-26T12:00:10+00:00",
-    "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog .",
-    "categories": [
-      "dotnet-csharp"
     ]
   }
 ]

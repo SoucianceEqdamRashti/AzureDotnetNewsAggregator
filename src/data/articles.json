@@ -1,5 +1,41 @@
 [
   {
+    "id": "52bf9893455b27ae6b39fd5549746c5feb8f7482c76745ce451ac403ecaafa9a",
+    "title": "Dell and HPE both say they\u2019ve become \u2018different companies\u2019",
+    "url": "https://www.theregister.com/systems/2026/11/25/dell-and-hpe-both-say-theyve-become-different-companies/5312003",
+    "source": "register",
+    "publishedAt": "2026-11-25T01:17:30+00:00",
+    "summary": "Still slinging hardware \u2013 now with added AI and attendant risks or opportunities",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "3967748883b326e172fed73f3602fdce198bd71f278db596f85d24c3cc4e8f69",
+    "title": "All or nothing: distributed transactions in Azure Cosmos DB",
+    "url": "https://devblogs.microsoft.com/cosmosdb/all-or-nothing-distributed-transactions-in-azure-cosmos-db/",
+    "source": "cosmosdb",
+    "publishedAt": "2026-11-24T21:39:03+00:00",
+    "summary": "Azure Cosmos DB for NoSQL can now commit writes across partition keys, containers, and databases as one atomic unit. Distributed transactions are currently in public preview. Every operation commits, or none of them do. Previously, applications that needed atomic operations across multiple logical partitions often relied on application-managed patterns such as sagas and compensating transactions. [\u2026] The post All or nothing: distributed transactions in Azure Cosmos DB appeared first on Azure Cosmos DB Blog .",
+    "categories": [
+      "azure",
+      "ef-data"
+    ]
+  },
+  {
+    "id": "4c3d351b51c9ef135c2d301c1a16a6aac55f01370e34b14d9a9f0da6802842d4",
+    "title": "AI godfather Yann LeCun torches Anthropic CEO over AI gatekeeping",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986",
+    "source": "register",
+    "publishedAt": "2026-11-24T20:57:08+00:00",
+    "summary": "\u2018It\u2019s like the Ottoman Empire banning the printing press for Arabic so they would keep in control of the dogma,\u2019 he says",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
     "id": "35ed151d37ae4d0073374b9c3ebfa3be919489f369749ff82bf1170263b9bdef",
     "title": "Introducing DocumentExtractionClient (preview): Extract documents in .NET",
     "url": "https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview/",
@@ -156,6 +192,17 @@
     ]
   },
   {
+    "id": "f40c9f6c3ab2262e4218707775844545c71c40ff51a21612dedfbac0c6a01ac2",
+    "title": "What\u2019s new in Microsoft Foundry | Ignite 2026",
+    "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+    "source": "foundry",
+    "publishedAt": "2026-11-24T16:00:51+00:00",
+    "summary": "Microsoft Foundry Ignite 2026 updates for agents, developer tools, models, training, enterprise context, and governance, with continuous improvement. The post What\u2019s new in Microsoft Foundry | Ignite 2026 appeared first on Microsoft Foundry Blog .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
     "id": "e541071035f06a50f0b4bef1bc76c97456f9b5cebc762758cf9e8253b3eec889",
     "title": "Claude Ship puts AI at the helm of pull request approvals",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
@@ -189,6 +236,19 @@
     "categories": [
       "ai-agents",
       "general-technology"
+    ]
+  },
+  {
+    "id": "ceb59830c4fe83e58ee1f1c2d4c98e16c37c97d273292e8ecd8b8366fecd40cd",
+    "title": "Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription",
+    "url": "https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/",
+    "source": "visualstudio",
+    "publishedAt": "2026-11-24T11:00:58+00:00",
+    "summary": "AI is changing the speed at which developers can produce code. And with this change, a different challenge emerges: how do we ensure that what we\u2019re building is secure, reliable, and maintainable? Not just an immediate answer AI-generated code can look convincing, compile successfully, and even pass critical tests without necessarily meeting an application\u2019s security, [\u2026] The post Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription appeared first on Visual Studio Blog .",
+    "categories": [
+      "ai-agents",
+      "dotnet-csharp",
+      "security-identity"
     ]
   },
   {
@@ -7615,18 +7675,6 @@
     "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog .",
     "categories": [
       "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "cb95867bcc2cfdad33017270b0cb5bc71665095a3fd16033253cd46b2e5b5e5b",
-    "title": ".NET October 2026 Out-of-Band Security Updates",
-    "url": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/",
-    "source": "dotnet-blog",
-    "publishedAt": "2026-10-25T18:45:00+00:00",
-    "summary": "Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability. The post .NET October 2026 Out-of-Band Security Updates appeared first on .NET Blog .",
-    "categories": [
-      "dotnet-csharp",
-      "security-identity"
     ]
   }
 ]

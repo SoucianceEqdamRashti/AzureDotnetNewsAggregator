@@ -1,5 +1,112 @@
 [
   {
+    "id": "87d74a250df48a4d7de3b4b2031af9c8f84b4bdd0fdc25db16174759ec23f42d",
+    "title": "Beating the Edge AI Power Wall with Low Voltage Foundation IP",
+    "url": "https://intelligence.theregister.com/paper/view/21381",
+    "source": "register",
+    "publishedAt": "2026-11-26T00:00:00+00:00",
+    "summary": "Edge\u2011AI systems are moving intelligence closer to where the data originates",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "25a3ea87da70d31a9144c93373264c24a5e2f04fc8da5361c32ee7e2aa4d7735",
+    "title": "Azure.ResourceManager.RecoveryServices_1.5.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.RecoveryServices_1.5.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-25T23:28:53+00:00",
+    "summary": "## 1.5.0 (2026-11-10) ### Other Changes - Upgraded the service API version to 2026-11-01.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "b9d14016def30df0e3755b08bc69267e69e2c8d35a010c577017cfe2a1047449",
+    "title": "Azure.ResourceManager.RecoveryServicesSiteRecovery_1.4.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.RecoveryServicesSiteRecovery_1.4.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-25T23:27:04+00:00",
+    "summary": "## 1.4.0 (2026-11-10) ### Features Added - Upgraded the service API version to 2026-11-01.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "5fc03924c4947cbfa0d9f0f212cdb62979c8f7a23f83496d0040b3b71f64b0dd",
+    "title": "[In preview] Public Preview: ECMP Nexthop",
+    "url": "https://azure.microsoft.com/updates?id=582326",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-25T23:14:20+00:00",
+    "summary": "Equal-Cost Multi-Path (ECMP) routing for Azure Virtual Network is now available in public preview, enabling customers to distribute traffic across multiple network appliances using a single user-defined route (UDR). Customers can configure 2 to 16 next-h",
+    "categories": [
+      "azure"
+    ]
+  },
+  {
+    "id": "b58c81932391fd5eaea5f2039908399715e9aa189af67569fbb94115e7dfef45",
+    "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+    "url": "https://azure.microsoft.com/updates?id=568586",
+    "source": "azure-updates",
+    "publishedAt": "2026-11-25T21:53:30+00:00",
+    "summary": "Support for Java 8, 11 and 17 on Azure Functions is ending on September 1, 2027. Your apps that are hosted on Azure Functions will continue to run, but security updates will no longer be available, and we\u2019ll no longer provide customer service for Java 8,",
+    "categories": [
+      "azure",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "7648ea4a6ce1b748590945fc361344c5b847f963e72bc08859b912aa5de518d2",
+    "title": "Microsoft Agent Framework repository update",
+    "url": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-repository-update/",
+    "source": "agent-framework-blog",
+    "publishedAt": "2026-11-25T20:14:50+00:00",
+    "summary": "We apologize for the disruption caused by the Microsoft Agent Framework repository\u2019s temporary unavailability. This is a necessary precaution. We\u2019re working to restore access as soon as possible, but don\u2019t yet have a confirmed timeline. The repository will remain unavailable until we can confidently determine it is safe to re-enable. On November 17, 2026, two [\u2026] The post Microsoft Agent Framework repository update appeared first on Microsoft Agent Framework .",
+    "categories": [
+      "ai-agents"
+    ]
+  },
+  {
+    "id": "3b84acad3afe82d2b9200896e14afc21bbd9555534cdec700143fdbfecf60097",
+    "title": "The security of US water systems is even leakier than we thought",
+    "url": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
+    "source": "register",
+    "publishedAt": "2026-11-25T19:40:17+00:00",
+    "summary": "And intruders don\u0027t always need to exploit bugs to break in",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "318243fd3323f274fb5f8e3db10877a718d71a1a78847d63d2e231386562943e",
+    "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+    "source": "security",
+    "publishedAt": "2026-11-25T18:09:06+00:00",
+    "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation. The post What defenders need to know about ARTEX, the agentic AI framework threat actors abuse appeared first on Microsoft Security Blog .",
+    "categories": [
+      "ai-agents",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "72e89dfc8fbdb5c55e9f53a0ac224c9282ece75aaebb2cf1151995aa97aaa5a9",
+    "title": "Microsoft named a Leader in the 2026 Gartner\u00AE Magic Quadrant\u2122 for Email Security",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+    "source": "security",
+    "publishedAt": "2026-11-25T17:15:00+00:00",
+    "summary": "We\u0027re honored to share that Microsoft has been named a Leader in the 2026 Gartner\u00AE Magic Quadrant\u2122 for Email Security, for the second consecutive year. The post Microsoft named a Leader in the 2026 Gartner\u00AE Magic Quadrant\u2122 for Email Security appeared first on Microsoft Security Blog .",
+    "categories": [
+      "security-identity"
+    ]
+  },
+  {
     "id": "12634c4f9dea4859df5adacaefe7921e0ff78c16678b6cdc00a4d071be2bf8a7",
     "title": "Microsoft\u0027s NTLM security changes trip up third-party logins",
     "url": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
@@ -30,6 +137,18 @@
     "source": "github-blog",
     "publishedAt": "2026-11-25T16:00:00+00:00",
     "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here\u0027s what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+    "categories": [
+      "ai-agents",
+      "devops-iac"
+    ]
+  },
+  {
+    "id": "7d5c43e3274406d0b1265bd5696df3bfdff4f6c60ae1e02b29450a61dda2fc85",
+    "title": "How to choose the next safe step in application modernization",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "source": "github-blog",
+    "publishedAt": "2026-11-25T15:00:00+00:00",
+    "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
     "categories": [
       "ai-agents",
       "devops-iac"
@@ -7651,20 +7770,6 @@
       "ai-agents",
       "azure",
       "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "4b7a54a006f426b26a7a3d89b1b221d1b3fd73ce28e77113142d677bce6bf70c",
-    "title": "Azure.Core_1.64.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Core_1.64.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-26T22:46:45+00:00",
-    "summary": "## 1.64.0 (2026-10-26) ### Features Added - Promoted AKS identity binding support in \u0060WorkloadIdentityCredential\u0060 to general availability. \u0060WorkloadIdentityCredentialOptions.IsAzureProxyEnabled\u0060 no longer requires suppressing experimental diagnostic \u0060AZID0002\u0060. Identity binding remains opt-in and isn\u0027t supported by \u0060DefaultAzureCredential\u0060 or \u0060ManagedIdentityCredential\u0060. ### Bugs Fixed - Fixed CA certificate reloads for an already-used Kubernetes token proxy in \u0060WorkloadIdentityCredential\u0060, so subsequent requests use the new CA without throwing or retaining the old trust configuration.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp",
-      "security-identity"
     ]
   }
 ]

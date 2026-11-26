@@ -1,5 +1,93 @@
 [
   {
+    "id": "44662ce1cbb4e8952b0e2677f9099ad9aa0b5944ad110a428c0993183c17046c",
+    "title": "Rackspace pulls plug on Spot cloud service after security breach",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+    "source": "register",
+    "publishedAt": "2026-11-26T14:45:00+00:00",
+    "summary": "Customers face frantic scramble to migrate workloads and rotate compromised credentials",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "0b9c6caca5d231251849b6150d9244e0bf6631f8333d80dd75fc3f497da7f862",
+    "title": "Adding custom OpenTelemetry spans so an AI agent can see inside a request",
+    "url": "https://www.meziantou.net/adding-custom-opentelemetry-spans-so-an-ai-agent-can-see-inside-a-request.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-26T12:00:00+00:00",
+    "summary": "The three Aspire posts of this series read telemetry that was already there. The first one counted the spans of a slow request, the second one needed the logs that went with them, the third one needed the metrics of the process. The answer was in the data every time. This time it is not. The slow endpoint runs one query, the query takes 2 ms, and the request takes 371 ms. Its trace has three spans, and\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "4e4feb91bcc05a863661f43043ee8ac05653867d2ff350c5a0d839a41dcd78a1",
+    "title": "Azure.ResourceManager.NetApp_1.20.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NetApp_1.20.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-26T09:07:57+00:00",
+    "summary": "## 1.20.0 (2026-11-24) ### Features Added - Upgraded the default service API version to \u00602026-09-01\u0060. Subvolume operations continue to use \u00602026-08-01\u0060 by default. ### Breaking Changes - The \u00602026-09-01\u0060 service API no longer exposes the geographic namespace origin, asynchronous directory deletion, or bucket Key Vault user-assigned identity settings from \u00602026-08-15-preview\u0060. - The wire value of \u0060NetAppLdapServerType.OpenLdap\u0060 is now \u0060OpenLdap\u0060 rather than \u0060OpenLDAP\u0060, matching the service specification. ### Other Changes - Marked the legacy subvolume types, operations, volume properties, and model factory overloads as obsolete. They remain callable for existing applications. - Marked the legacy Entra ID configuration models, account properties, and model factory overloads as obsolete. They remain callable with a service API version that supports Entra ID configuration.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "d8fb63542e87bcfd3cdb0c1702de7ec4287ce73e904c5b177ebf35d8a51b6837",
+    "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
+    "url": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/",
+    "source": "infoq-dotnet",
+    "publishedAt": "2026-11-26T08:00:00+00:00",
+    "summary": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and raises the minimum Android and Apple platform versions. By Edin Kapi\u0107",
+    "categories": [
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "34ca672e85e146a076ace92eb8b7bc6002449a0c9a594e5d6c4353f7f4e465f1",
+    "title": "Azure.Messaging.WebPubSub.Chat_1.0.0-beta.2",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Messaging.WebPubSub.Chat_1.0.0-beta.2",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-26T04:34:50+00:00",
+    "summary": "## 1.0.0-beta.2 (2026-11-25) ### Features Added - Regenerated the client from service API version \u00602026-08-01-preview\u0060, now the default. - Added pageable listing of rooms, users, topics, and rooms associated with a user. - Added topic creation, retrieval, merge-patch updates, and conditional soft deletion, with topic lifecycle states and conversation metadata. - Added \u0060UpdateTopicOptions\u0060 and typed topic update methods returning the updated topic. - Added \u0060UpdateMessageOptions\u0060 for partial message updates, including explicit null assignments to clear the creator or content. ### Breaking Changes - Renamed \u0060WebPubSubChatConversation.ParentRoom\u0060 to \u0060RoomId\u0060, including the model factory parameter; the wire property remains \u0060parentRoom\u0060. - Renamed typed create-or-replace request parameters from \u0060resource\u0060 to \u0060role\u0060, \u0060room\u0060, \u0060member\u0060, \u0060user\u0060, and \u0060topic\u0060. - The typed \u0060UpdateMessage\u0060 and \u0060UpdateMessageAsync\u0060 overloads now accept \u0060UpdateMessageOptions\u0060 instead of \u0060WebPubSubChatMessage\u0060. The \u0060R",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "6b2f64a6617d03b681cd0e533f624388d122a005db9e4479091c089014f1d144",
+    "title": "India\u2019s government ponders cradle to grave AI oversight",
+    "url": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
+    "source": "register",
+    "publishedAt": "2026-11-26T03:42:56+00:00",
+    "summary": "Machines of loving grace to turn social media grumps into services, finger painting into career advice",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "4985acf807a2750c8c018426937f1d3abc064e1b27101859f8e80111a27a9107",
+    "title": "Azure.ResourceManager.ContainerServiceFleet_1.4.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.ContainerServiceFleet_1.4.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-26T03:21:56+00:00",
+    "summary": "## 1.4.0-beta.1 (2026-11-16) ### Features Added - Upgraded the service API version to \u00602026-11-02-preview\u0060. - Added identity binding profile management and an Apply operation to apply identity bindings to fleet members selected by label. - Added configurable allowed-failure thresholds for update stages and groups, and failure counts in update run, stage, and group status.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
     "id": "87d74a250df48a4d7de3b4b2031af9c8f84b4bdd0fdc25db16174759ec23f42d",
     "title": "Beating the Edge AI Power Wall with Low Voltage Foundation IP",
     "url": "https://intelligence.theregister.com/paper/view/21381",
@@ -7685,91 +7773,6 @@
       "azure",
       "devops-iac",
       "security-identity"
-    ]
-  },
-  {
-    "id": "e57d2c76db7a7abab5b3f424fa4c29968c70c7cdb73aaf3e4b3e187d5085ed5a",
-    "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
-    "url": "https://azure.microsoft.com/updates?id=577260",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-27T17:19:43+00:00",
-    "summary": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo",
-    "categories": [
-      "ai-agents",
-      "azure"
-    ]
-  },
-  {
-    "id": "2250b3fdd76d8894dda36d846ac8b10008a30989709e2591ca1a0198620edfed",
-    "title": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
-    "url": "https://azure.microsoft.com/updates?id=578153",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-27T16:58:04+00:00",
-    "summary": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains: you can now apply broad baseline protection across an e",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "4e6d8ffcff46e58aa21192e370e0e5c4e0a9215233605b3b94612318ff9e5767",
-    "title": "Visual Studio October Update \u2013 Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
-    "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
-    "source": "visualstudio",
-    "publishedAt": "2026-10-27T16:00:00+00:00",
-    "summary": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors. The post Visual Studio October Update \u2013 Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on Visual Studio Blog .",
-    "categories": [
-      "ai-agents",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "4d877d80b4b04069dc3391c613c4265e094618567ac0fb3f7bd24ac7ce21f288",
-    "title": "Blazor Welcomes Open-Source Contributions from Infragistics",
-    "url": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/",
-    "source": "dotnet-blog",
-    "publishedAt": "2026-10-27T15:00:00+00:00",
-    "summary": "Microsoft and Infragistics are collaborating on Blazor through free, open-source components, new .NET 11 analyzers, and developer tooling. The post Blazor Welcomes Open-Source Contributions from Infragistics appeared first on .NET Blog .",
-    "categories": [
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "f4b61600fc1929c73ca3e903aec8b56c6343b536b24a839700de3c5a53909b94",
-    "title": "Inspecting Local Data with Azure Cosmos DB Shell",
-    "url": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
-    "source": "cosmosdb",
-    "publishedAt": "2026-10-27T13:31:06+00:00",
-    "summary": "Explore local data from the terminal with Azure Cosmos DB Shell. Connect to the emulator, inspect FleetCharge documents, run queries, and point-read depot partitions. The post Inspecting Local Data with Azure Cosmos DB Shell appeared first on Azure Cosmos DB Blog .",
-    "categories": [
-      "azure",
-      "ef-data"
-    ]
-  },
-  {
-    "id": "3296d4bd45ca70cacda66f5451c9a0dad19882ceb8b90fe32e2dc7ae0ddd6582",
-    "title": "Azure.Provisioning_1.7.0-beta.1",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Provisioning_1.7.0-beta.1",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-27T08:48:13+00:00",
-    "summary": "## 1.7.0-beta.1 (2026-10-27) ### Features Added - Added JSON serialization and deserialization for \u0060Infrastructure\u0060 and Bicep syntax nodes through \u0060ModelReaderWriter\u0060, including schema-compatible decorators, 64-bit integers, type annotations, and reverse indexing. - Added \u0060OfResourceType \u0060 to upgrade deserialized resources to generated resource types while preserving properties, metadata, conditions, and resource dependencies. - Added validation that rejects Bicep constructs without a JSON schema representation, including nested resource access, null suppression, and standalone decorators.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "devops-iac",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "777830901670b0be6ebba1e2a51088a0a6655eb78113e4686a6bc0446a7ea6eb",
-    "title": "Azure.ResourceManager.CloudHealth_1.0.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CloudHealth_1.0.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-27T07:47:37+00:00",
-    "summary": "## 1.0.0 (2026-10-27) This is the first stable release of this library. ### Features Added - Upgraded API version from \u00602026-10-01-preview\u0060 to the stable \u00602026-11-01\u0060 version.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
     ]
   }
 ]

@@ -1,5 +1,105 @@
 [
   {
+    "id": "782db2f1aaec1b87a6903da9273cd167431d7677b4107439534fdb0b093b121e",
+    "title": "UK government rejects national consultation on AI datacenters",
+    "url": "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
+    "source": "register",
+    "publishedAt": "2026-11-27T12:38:00+00:00",
+    "summary": "Ministers point to project-level environmental checks as petition passes 39,000 signatures",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "1e207a668f14dcfc8aaf95018d59a33fc88c59c5e5a4c361e78a87c1c3613d87",
+    "title": "Running tests on a Windows machine over SSH with an AI agent",
+    "url": "https://www.meziantou.net/running-tests-on-a-windows-machine-over-ssh-with-an-ai-agent.htm",
+    "source": "meziantou",
+    "publishedAt": "2026-11-27T12:00:00+00:00",
+    "summary": "The previous posts of this series gave the agent a dump, a debugger, or the telemetry of a running application. This one gives it something more basic: another machine. The situation is common. You work on a Mac or on Linux, every test passes, you push, and the Windows job of the CI fails. The usual loop is to read the log, guess a fix, push again, and wait ten minutes for the next result. An agent does\u2026",
+    "categories": [
+      "ai-agents",
+      "dotnet-ecosystem"
+    ]
+  },
+  {
+    "id": "ab8d260b0d52b9bd7deb5dd7359b085e069d0c759acfa8f683f06073cb6a7715",
+    "title": "Europe\u0027s AI sovereignty push: Lots of cloud, not much silver lining",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+    "source": "register",
+    "publishedAt": "2026-11-27T11:32:00+00:00",
+    "summary": "Datacenter spending is booming but the models, the chips, and the clout all live in US and Asia",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "be4571cd100874439dd5e14029fc0a73a89196599d56455593e61589470ffb90",
+    "title": "AI boom leaves network operators waiting up to 18 months for kit",
+    "url": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+    "source": "register",
+    "publishedAt": "2026-11-27T10:45:00+00:00",
+    "summary": "Optical equipment prices up around 50% this year as telcos compete with datacenters for components, says RETN",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "177be2c68cd380fc7c266cb4bd1f2268173cd0c729d050124d26c3e0db1b8b8b",
+    "title": "British social security system techies yank services offline following \u0027cyber incident\u0027",
+    "url": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
+    "source": "register",
+    "publishedAt": "2026-11-27T10:01:00+00:00",
+    "summary": "Pensioners assured their funds will arrive as normal",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "3dce68a33aabfc857c5aad63d1447212865789ec47222c0010a177d2140a9561",
+    "title": "Azure.ResourceManager.CognitiveServices_1.8.0-beta.1",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.CognitiveServices_1.8.0-beta.1",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-27T08:01:14+00:00",
+    "summary": "## 1.8.0-beta.1 (2026-11-25) ### Features Added - Upgraded API version to \u00602026-11-15-preview\u0060. - Added management of attached AKS clusters through \u0060CognitiveServicesAccountResource.GetAttachedAksClusters\u0060, \u0060AttachedAksClusterResource\u0060, and related status and configuration models. - Added \u0060CognitiveServicesProjectCostControlResource\u0060 for project-level cost controls and budget settings for cost or token usage, filters, grouping, notifications, and enforcement actions. - Added \u0060CognitiveServicesProjectProperties.ToolControls\u0060 to configure the default tool access policy and explicitly allowed tools. - Added RAI ACS intervention points for agent startup and shutdown and before and after model calls, along with new policy targets. - Added \u0060CognitiveServicesManagedComputeUsage.ScopeId\u0060. - Added \u0060ArcDeploymentModel.AssetId\u0060 and read-only \u0060Version\u0060, and a \u0060force\u0060 option for deleting an Arc deployment when its extension is disconnected. ### Breaking Changes - Changed \u0060TargetClusterId\u0060 from \u0060str",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
+    "id": "96cd5da7df5e708a2d5e961d8f52fc851ff66174d25b33f83d24a01a2441d9e0",
+    "title": "Azure.ResourceManager.Network_1.18.0",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.18.0",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-27T05:43:51+00:00",
+    "summary": "## 1.18.0 (2026-11-24) This release ensures no breaking API changes compared with version 1.15.0 only. Versions 1.16.x and 1.17.x have been retracted; compatibility with those versions or previous preview releases is not guaranteed. ### Features Added - Upgraded the default Network API version from 2026-03-01 to 2026-05-01. - Added Application Gateway deployment tiers and confidential compute settings. - Added configurable TCP idle timeouts for Azure Firewall. - Added network adapter indices for network interfaces. - Added load-balancer configuration for network virtual appliances and their inbound security rules, including load distribution and idle timeout settings. ### Other Changes - Regenerated the library from the updated Network specification. - Updated the preview capability API: removed \u0060VirtualNetworkApplianceCapabilityBaseData\u0060. \u0060VirtualNetworkApplianceCapabilityData\u0060 now derives directly from \u0060ResourceData\u0060 and declares \u0060Properties\u0060 itself. - Updated the preview Interconnec",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp",
+      "security-identity"
+    ]
+  },
+  {
+    "id": "194db27227208d54f4a38036e8ea4b42f7e04c2a623c343bcf6d94befffa06d4",
+    "title": "Azure.ResourceManager.Chaos_1.2.0-beta.4",
+    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Chaos_1.2.0-beta.4",
+    "source": "azure-sdk-net",
+    "publishedAt": "2026-11-27T04:07:24+00:00",
+    "summary": "## 1.2.0-beta.4 (2026-11-20) ### Features Added - Updated the default API version to \u00602026-11-01\u0060.",
+    "categories": [
+      "ai-agents",
+      "azure",
+      "dotnet-csharp"
+    ]
+  },
+  {
     "id": "b7b6751c3c5a711d0d1cc5939bc9010f32ade6a323d3aef70956557cb95d2cee",
     "title": "The token factory never sleeps",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/27/sponsored-the-token-factory-never-sleeps/5311612",
@@ -7674,117 +7774,6 @@
     "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
     "categories": [
       "azure"
-    ]
-  },
-  {
-    "id": "5460fd001793b05e5561dbec5933710fe438619f6be3db96bd6f2be586f30d2f",
-    "title": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
-    "url": "https://azure.microsoft.com/updates?id=577117",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-28T17:09:30+00:00",
-    "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "5dbadd761c8e8714b233db16fa803cf638074590ea9a6c089249341b39f1ee22",
-    "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
-    "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-    "source": "foundry",
-    "publishedAt": "2026-10-28T16:45:06+00:00",
-    "summary": "A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft\u2019s unified harness strategy brings a shared execution foundation across our agent experiences while preserving customer choice. In Microsoft Foundry, that means you can choose a supported [\u2026] The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Foundry Blog .",
-    "categories": [
-      "ai-agents"
-    ]
-  },
-  {
-    "id": "9ba5d66494f921515f20729d52dc2c9ee14729d172dac6d05a54fcb4ce34b141",
-    "title": "[Launched] Generally Available: Marketplace private offer enhancements",
-    "url": "https://azure.microsoft.com/updates?id=576547",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-28T16:23:43+00:00",
-    "summary": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization\u2019s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "34902b30f790e3e602033043e182c2baa61200563305eac6df4447ebb1ba0753",
-    "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-    "source": "github-blog",
-    "publishedAt": "2026-10-28T16:07:40+00:00",
-    "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
-    "categories": [
-      "ai-agents",
-      "devops-iac"
-    ]
-  },
-  {
-    "id": "ded8547d3c8439f74e0b91870b4fee600c8998f3bb5ce450fb914ca512ed364d",
-    "title": "Azure SDK Release (October 2026)",
-    "url": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2026/",
-    "source": "azure-sdk",
-    "publishedAt": "2026-10-28T15:00:44+00:00",
-    "summary": "October\u0027s Azure SDK highlights include Azure Core authentication updates, managed identity improvements for Python and Java, and the first stable Cosmos DB libraries for Rust. The post Azure SDK Release (October 2026) appeared first on Azure SDK Blog .",
-    "categories": [
-      "azure",
-      "ef-data",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "5d756d10cb0ad87bf9acce63e0b29788e4ef69d9416bd9c22f526c2946ec583a",
-    "title": "Azure.ResourceManager.Network_1.18.0-beta.2",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.Network_1.18.0-beta.2",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-28T15:00:27+00:00",
-    "summary": "## 1.18.0-beta.2 (2026-10-28) The changes below are described relative to version 1.15.0. Previously published releases after 1.15.0, including 1.16.1 and 1.17.0, are planned for retraction. ### Features Added - Upgraded API version from 2025-05-01 to 2026-01-01. - Added resource APIs for address prefix sets, connection analyzers, connection policies, ExpressRoute LAGs, firewall policy Kubernetes selector groups, identity integration authentication policies, interconnect groups, and network manager configuration commits. - Added models for Application Gateway advanced routing conditions, maps, and rules. - Added strongly typed \u0060BastionHostPatch\u0060 overloads to \u0060BastionHostResource.Update\u0060 and \u0060UpdateAsync\u0060. ### Breaking Changes - This release contains breaking changes compared with versions 1.16.1 and 1.17.0. ### Other Changes - Migrated code generation from AutoRest to TypeSpec. - Deprecated \u0060PolicySettings.CaptchaCookieExpirationInMins\u0060 in favor of \u0060CaptchaExpirationInMins\u0060 and hid the",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "3741478ac0e3de4871f841dad1566c298b4f7249b3ab5a99ab1c083acef8a587",
-    "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
-    "url": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
-    "source": "cosmosdb",
-    "publishedAt": "2026-10-28T11:00:02+00:00",
-    "summary": "Give each coding task its own disposable database environment, then merge the reviewed changes \u2013 not the test database. When parallel coding agents share a database In From Local Development to CI Workflows with the Azure Cosmos DB Emulator, we used FleetCharge to make local development and CI repeatable. Start the emulator, seed known data, [\u2026] The post Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents appeared first on Azure Cosmos DB Blog .",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "ef-data"
-    ]
-  },
-  {
-    "id": "2cdeee5a3120c7ceaad5512f1b9997bbea5acfc6d3c2eb898fd96896699c958c",
-    "title": "Azure.ResourceManager.OracleDatabase_1.3.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.OracleDatabase_1.3.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-28T05:59:21+00:00",
-    "summary": "## 1.3.0 (2026-10-16) ### Features Added - Upgraded API version to 2026-06-01. ### Bugs Fixed - Fixed hostname deserialization for cloud VM clusters. - Fixed base database model factories to return concrete mock instances while preserving discriminator values.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "682843aad2cd8f22a30097488d3676eade477a45b6a370b28d92c28d95e66612",
-    "title": "Azure.ResourceManager.NetApp_1.19.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.ResourceManager.NetApp_1.19.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-28T04:50:41+00:00",
-    "summary": "## 1.19.0 (2026-10-20) ### Features Added - Upgraded api-version to \u00602026-08-01\u0060. - Expanded \u0060LdapConfiguration\u0060 and \u0060LdapConfigurationPatch\u0060 with bind authentication, DNS servers, distinguished names, LDAP port, and Key Vault-backed bind password settings. - Added \u0060BindPasswordKeyVaultConfig\u0060 and \u0060BindPasswordKeyVaultConfigPatch\u0060 models. - Added \u0060BindAuthenticationLevel\u0060 and \u0060SecureLdapType\u0060 enums for LDAP authentication and secure LDAP configuration. - Added the \u0060Canceled\u0060 member to \u0060NetAppProvisioningState\u0060. - Added \u0060RefreshLdapBindPassword\u0060 and \u0060RefreshLdapBindPasswordAsync\u0060 operations to \u0060NetAppAccountResource\u0060. ### Bugs Fixed - Preserved the existing \u0060NetAppAccountPatch.Encryption\u0060 and \u0060NetAppAccountPatch.ActiveDirectories\u0060 property types and \u0060NfsV4IdDomain\u0060 property name when generating from TypeSpec. - Preserved explicit-null NFSv4 ID domain updates and their serialization round-trips. - Restored mutable empty tags when Elastic resource model factories receive omitted or null t",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp"
     ]
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "id": "b7b6751c3c5a711d0d1cc5939bc9010f32ade6a323d3aef70956557cb95d2cee",
+    "title": "The token factory never sleeps",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/27/sponsored-the-token-factory-never-sleeps/5311612",
+    "source": "register",
+    "publishedAt": "2026-11-27T01:00:00+00:00",
+    "summary": "SPONSORED FEATURE: Agentic AI turns inference into a round-the-clock production job. Here\u0027s what it takes to keep the tokens flowing in the datacenter you already have.",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "abacbee203a24ba31bbd0fc9b182d54f3fe2be45e4ac6e1b183c736be76a4875",
+    "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+    "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+    "source": "register",
+    "publishedAt": "2026-11-26T19:04:00+00:00",
+    "summary": "Agentic offensive framework automates familiar attack techniques, with weak defenses potentially breached in minutes",
+    "categories": [
+      "ai-agents",
+      "general-technology"
+    ]
+  },
+  {
+    "id": "c1f75257c9da6ff77fe1a308554ef7ff16cd42b9bb7104f27a070632289f2254",
+    "title": "Indie web browser Ladybird enters alpha testing",
+    "url": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+    "source": "register",
+    "publishedAt": "2026-11-26T18:15:00+00:00",
+    "summary": "Upstart engine gets downloadable macOS and Linux builds, but no security guarantees",
+    "categories": [
+      "general-technology",
+      "security-identity"
+    ]
+  },
+  {
     "id": "44662ce1cbb4e8952b0e2677f9099ad9aa0b5944ad110a428c0993183c17046c",
     "title": "Rackspace pulls plug on Spot cloud service after security breach",
     "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
@@ -1607,7 +1643,7 @@
   },
   {
     "id": "a390e7d1fe6f852b55ddc5007945b3c82f25414c82bb96da90c3948d53b3cf5b",
-    "title": "Presentation: AI-Assisted Software Delivery: From Code to Production",
+    "title": "Presentation: AI-Assisted Software Delivery: from Code to Production",
     "url": "https://www.infoq.com/presentations/ai-assisted-software-delivery/",
     "source": "infoq-cloud",
     "publishedAt": "2026-11-19T14:30:00+00:00",
@@ -7749,30 +7785,6 @@
       "ai-agents",
       "azure",
       "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "6a4e5f2f045d504baf94410b024acfe3d034cd9b2d5a3b43bd5b6c71fe6dfc14",
-    "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
-    "url": "https://azure.microsoft.com/updates?id=578358",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-27T21:16:52+00:00",
-    "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
-    "categories": [
-      "azure"
-    ]
-  },
-  {
-    "id": "9f18dd98129993b00e7d1205c628a47993f885e34956520e5c63b083aa3df422",
-    "title": "Azure DevOps Server RC (26H2) Is Now Available",
-    "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
-    "source": "devops",
-    "publishedAt": "2026-10-27T20:31:59+00:00",
-    "summary": "Today we\u2019re releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can download Azure DevOps Server RC (26H2) today. A direct upgrade to Azure DevOps Server RC is supported from any version of Team Foundation [\u2026] The post Azure DevOps Server RC (26H2) Is Now Available appeared first on Azure DevOps Blog .",
-    "categories": [
-      "azure",
-      "devops-iac",
-      "security-identity"
     ]
   }
 ]

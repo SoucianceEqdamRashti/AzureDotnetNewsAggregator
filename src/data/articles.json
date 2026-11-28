@@ -1,5 +1,16 @@
 [
   {
+    "id": "02bd962bea984fa6535ae3b7055cecbd8139a833a92076e6d228709e4efa8ce4",
+    "title": "I Gave Claude Code Its Own VPS and Locked It in a Sandbox",
+    "url": "https://milanjovanovic.tech/blog/claude-code-sandbox-vps",
+    "source": "milan",
+    "publishedAt": "2026-11-28T00:00:00+00:00",
+    "summary": "Claude Code can work unattended on a VPS if it runs in a sandbox. I set it up in a Docker dev container on an Ubuntu VPS, with a firewall that only allows the\u2026",
+    "categories": [
+      "dotnet-ecosystem"
+    ]
+  },
+  {
     "id": "782db2f1aaec1b87a6903da9273cd167431d7677b4107439534fdb0b093b121e",
     "title": "UK government rejects national consultation on AI datacenters",
     "url": "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
@@ -7701,79 +7712,6 @@
       "ai-agents",
       "azure",
       "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "de45343c4a16df7026cfc18b55a92a836cf623693e56e30675262ae91b3fa2eb",
-    "title": "Azure.Security.KeyVault.Secrets_4.12.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Secrets_4.12.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-29T01:25:55+00:00",
-    "summary": "## 4.12.0 (2026-10-27) ### Other Changes - Regenerated the library for stable Key Vault API version \u00602026-04-01\u0060.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "2c78e161f04ecd43157844148ab7e953cbc3b15781d0987c05128c3737268b69",
-    "title": "Azure.Security.KeyVault.Certificates_4.10.0",
-    "url": "https://github.com/Azure/azure-sdk-for-net/releases/tag/Azure.Security.KeyVault.Certificates_4.10.0",
-    "source": "azure-sdk-net",
-    "publishedAt": "2026-10-29T01:25:42+00:00",
-    "summary": "## 4.10.0 (2026-10-27) ### Other Changes - Regenerated the library for stable Key Vault API version \u00602026-04-01\u0060.",
-    "categories": [
-      "ai-agents",
-      "azure",
-      "dotnet-csharp",
-      "security-identity"
-    ]
-  },
-  {
-    "id": "e3b1dc3f7a15969960e7ea3082bd2277ecef498d942f771c48255f1a7c4d94ad",
-    "title": "v10.4.1",
-    "url": "https://github.com/dotnet/orleans/releases/tag/v10.4.1",
-    "source": "orleans",
-    "publishedAt": "2026-10-28T23:42:33+00:00",
-    "summary": "# Orleans 10.4.1 Orleans 10.4.1 improves cluster membership, grain scheduling, graceful shutdown, client startup, serialization, and provider reliability. It also restores standalone serializer code generation, fixes ADO.NET streaming message loss, and improves dashboard statistics and navigation. ## Compatibility and upgrade notes \u003E [!IMPORTANT] \u003E **Public API compatibility:** \u0060SiloAddress.GetUniformHashCodes(int)\u0060 now returns \u0060ImmutableArray \u0060 instead of \u0060uint[]\u0060. This is a source- and binary-breaking change for code which calls this method. Rebuild affected applications and libraries against 10.4.1. Use \u0060ToArray()\u0060 when a mutable array is required, or \u0060Sort()\u0060 for an immutable sorted result. See [#11425](https://github.com/dotnet/orleans/pull/11425). - **Distributed grain directory:** Preserve the cluster\u0027s existing partition count and ordered partition boundaries throughout an upgrade. The new \u0060GrainDirectoryOptions.GetPartitionBoundaries\u0060 callback supports configuring the mapping ",
-    "categories": [
-      "dotnet-ecosystem"
-    ]
-  },
-  {
-    "id": "6aad1fe3f427bb313200725290bbbdcb96aa19e6b2309807bf7649c66b7c16dd",
-    "title": "Preparing for your next certification could start with your Visual Studio Subscription",
-    "url": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
-    "source": "visualstudio",
-    "publishedAt": "2026-10-28T22:30:00+00:00",
-    "summary": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work? If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to find the right resources, [\u2026] The post Preparing for your next certification could start with your Visual Studio Subscription appeared first on Visual Studio Blog .",
-    "categories": [
-      "dotnet-csharp"
-    ]
-  },
-  {
-    "id": "5c9fc345ec084a43f09b0cae0d872138af7e39af1cae1a48082315249921d0c0",
-    "title": "Anthropic engineer declares the coding interview dead",
-    "url": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115",
-    "source": "register",
-    "publishedAt": "2026-10-28T20:22:56+00:00",
-    "summary": "Why give people tests that AI aces?",
-    "categories": [
-      "ai-agents",
-      "general-technology"
-    ]
-  },
-  {
-    "id": "1e26b650dd8e125d43a1f7f96face39691345de6440603e99525b24858546ed2",
-    "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
-    "url": "https://azure.microsoft.com/updates?id=577689",
-    "source": "azure-updates",
-    "publishedAt": "2026-10-28T17:52:51+00:00",
-    "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
-    "categories": [
-      "azure"
     ]
   }
 ]
